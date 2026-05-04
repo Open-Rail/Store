@@ -1,0 +1,1143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Deployment Confirmed — OpenRail</title>
+  <meta name="robots" content="noindex"/>
+  <meta name="description" content="Your OpenRail infrastructure deployment is confirmed."/>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet"/>
+
+  <style>
+    /* ============================================================
+       DESIGN SYSTEM
+    ============================================================ */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin:     0;
+      padding:    0;
+    }
+
+    :root {
+      --void:        #080808;
+      --void-soft:   #0e0e0e;
+      --void-card:   #141414;
+      --void-border: #242424;
+      --void-border2:#2e2e2e;
+      --silver:      #C0C0C0;
+      --silver-dim:  #888888;
+      --silver-faint:#444444;
+      --silver-bright:#e8e8e8;
+      --voltage:     #00D1FF;
+      --voltage-dim: #00a3c4;
+      --voltage-glow:rgba(0,209,255,0.12);
+      --voltage-glow2:rgba(0,209,255,0.06);
+      --green:       #00ff88;
+      --green-glow:  rgba(0,255,136,0.1);
+      --amber:       #ffaa00;
+      --red:         #ff4444;
+      --font-head:   'Space Grotesk', sans-serif;
+      --font-mono:   'IBM Plex Mono', monospace;
+      --radius:      14px;
+      --radius-sm:   8px;
+      --radius-lg:   20px;
+    }
+
+    html, body {
+      background:  var(--void);
+      color:       var(--silver);
+      font-family: var(--font-head);
+      min-height:  100vh;
+      line-height: 1.6;
+      overflow-x:  hidden;
+    }
+
+    ::-webkit-scrollbar { width: 5px; }
+    ::-webkit-scrollbar-track { background: var(--void); }
+    ::-webkit-scrollbar-thumb {
+      background:    var(--void-border);
+      border-radius: 3px;
+    }
+
+    a {
+      color:           var(--voltage);
+      text-decoration: none;
+    }
+    a:hover { opacity: 0.8; }
+
+    /* ============================================================
+       NAV
+    ============================================================ */
+    .nav {
+      position:        fixed;
+      top:             0;
+      left:            0;
+      right:           0;
+      z-index:         100;
+      height:          60px;
+      background:      rgba(8,8,8,0.95);
+      backdrop-filter: blur(20px);
+      border-bottom:   1px solid var(--void-border);
+      display:         flex;
+      align-items:     center;
+      padding:         0 28px;
+    }
+
+    .nav-inner {
+      max-width:      1200px;
+      margin:         0 auto;
+      width:          100%;
+      display:        flex;
+      align-items:    center;
+      justify-content:space-between;
+    }
+
+    .nav-logo {
+      font-family:   var(--font-mono);
+      font-size:     15px;
+      font-weight:   600;
+      color:         var(--silver);
+      display:       flex;
+      align-items:   center;
+      gap:           8px;
+      text-decoration:none;
+    }
+
+    .nav-logo .mark {
+      color:         var(--voltage);
+      font-size:     17px;
+    }
+
+    .nav-logo .sub {
+      font-size:     8px;
+      color:         var(--silver-faint);
+      letter-spacing:2px;
+      display:       block;
+      line-height:   1;
+      margin-top:    2px;
+    }
+
+    .nav-status {
+      display:     flex;
+      align-items: center;
+      gap:         8px;
+      font-family: var(--font-mono);
+      font-size:   11px;
+      color:       var(--green);
+      letter-spacing:1px;
+    }
+
+    .status-dot {
+      width:         7px;
+      height:        7px;
+      background:    var(--green);
+      border-radius: 50%;
+      animation:     pulse 1.5s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50%       { opacity: 0.3; }
+    }
+
+    /* ============================================================
+       MAIN LAYOUT
+    ============================================================ */
+    .page {
+      min-height:     100vh;
+      display:        flex;
+      flex-direction: column;
+      align-items:    center;
+      justify-content:center;
+      padding:        100px 24px 80px;
+      position:       relative;
+      overflow:       hidden;
+    }
+
+    /* Grid background */
+    .page::before {
+      content:    '';
+      position:   absolute;
+      inset:      0;
+      background-image:
+        linear-gradient(rgba(0,209,255,0.025) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0,209,255,0.025) 1px, transparent 1px);
+      background-size: 60px 60px;
+      z-index:    0;
+      pointer-events:none;
+    }
+
+    /* Green success glow */
+    .page::after {
+      content:       '';
+      position:      absolute;
+      top:           30%;
+      left:          50%;
+      transform:     translateX(-50%);
+      width:         700px;
+      height:        500px;
+      background:    radial-gradient(
+        circle,
+        rgba(0,255,136,0.05) 0%,
+        transparent 70%
+      );
+      pointer-events:none;
+      z-index:       0;
+    }
+
+    /* ============================================================
+       SUCCESS CARD
+    ============================================================ */
+    .success-wrap {
+      position:  relative;
+      z-index:   1;
+      width:     100%;
+      max-width: 680px;
+    }
+
+    .success-card {
+      background:    var(--void-card);
+      border:        1px solid rgba(0,255,136,0.25);
+      border-radius: var(--radius-lg);
+      padding:       56px 48px;
+      text-align:    center;
+      position:      relative;
+      overflow:      hidden;
+    }
+
+    /* Top glow line */
+    .success-card::before {
+      content:    '';
+      position:   absolute;
+      top:        -1px;
+      left:       15%;
+      right:      15%;
+      height:     2px;
+      background: linear-gradient(
+        90deg,
+        transparent,
+        var(--green),
+        transparent
+      );
+    }
+
+    /* ── Checkmark animation ── */
+    .check-wrap {
+      width:         80px;
+      height:        80px;
+      background:    var(--green-glow);
+      border:        1px solid rgba(0,255,136,0.3);
+      border-radius: 50%;
+      display:       flex;
+      align-items:   center;
+      justify-content:center;
+      margin:        0 auto 28px;
+      position:      relative;
+      animation:     checkIn 0.6s cubic-bezier(0.175,0.885,0.32,1.275) both;
+    }
+
+    @keyframes checkIn {
+      from {
+        opacity:   0;
+        transform: scale(0.5);
+      }
+      to {
+        opacity:   1;
+        transform: scale(1);
+      }
+    }
+
+    .check-wrap::after {
+      content:       '';
+      position:      absolute;
+      inset:         -8px;
+      border:        1px solid rgba(0,255,136,0.1);
+      border-radius: 50%;
+      animation:     ring 2s ease infinite;
+    }
+
+    @keyframes ring {
+      0%   { transform: scale(1);   opacity: 0.5; }
+      100% { transform: scale(1.4); opacity: 0; }
+    }
+
+    .check-icon {
+      font-size: 36px;
+      line-height:1;
+    }
+
+    /* ── Eyebrow ── */
+    .success-eyebrow {
+      font-family:   var(--font-mono);
+      font-size:     10px;
+      color:         var(--green);
+      text-transform:uppercase;
+      letter-spacing:3px;
+      margin-bottom: 14px;
+      display:       flex;
+      align-items:   center;
+      justify-content:center;
+      gap:           8px;
+    }
+
+    /* ── Title ── */
+    .success-title {
+      font-size:     clamp(28px, 5vw, 42px);
+      font-weight:   800;
+      color:         #ffffff;
+      line-height:   1.1;
+      margin-bottom: 14px;
+      letter-spacing:-0.5px;
+    }
+
+    .success-title .accent { color: var(--green); }
+
+    /* ── Sub ── */
+    .success-sub {
+      font-size:     16px;
+      color:         var(--silver-dim);
+      line-height:   1.7;
+      max-width:     480px;
+      margin:        0 auto 36px;
+    }
+
+    .success-sub strong { color: var(--silver); }
+
+    /* ── TX reference ── */
+    .tx-box {
+      background:    var(--void-soft);
+      border:        1px solid var(--void-border2);
+      border-radius: var(--radius-sm);
+      padding:       14px 18px;
+      margin-bottom: 32px;
+      display:       flex;
+      align-items:   center;
+      justify-content:space-between;
+      gap:           12px;
+    }
+
+    .tx-label {
+      font-family:   var(--font-mono);
+      font-size:     10px;
+      color:         var(--silver-faint);
+      text-transform:uppercase;
+      letter-spacing:1px;
+      white-space:   nowrap;
+    }
+
+    .tx-id {
+      font-family:  var(--font-mono);
+      font-size:    12px;
+      color:        var(--voltage);
+      word-break:   break-all;
+      text-align:   right;
+      flex:         1;
+    }
+
+    /* ── Divider ── */
+    .divider {
+      height:       1px;
+      background:   var(--void-border);
+      margin:       32px 0;
+    }
+
+    /* ── Steps ── */
+    .steps-title {
+      font-family:   var(--font-mono);
+      font-size:     10px;
+      color:         var(--silver-dim);
+      text-transform:uppercase;
+      letter-spacing:2px;
+      margin-bottom: 20px;
+      text-align:    left;
+    }
+
+    .steps-list {
+      display:       flex;
+      flex-direction:column;
+      gap:           14px;
+      margin-bottom: 32px;
+      text-align:    left;
+    }
+
+    .step-row {
+      display:     flex;
+      align-items: flex-start;
+      gap:         14px;
+    }
+
+    .step-num {
+      width:          28px;
+      height:         28px;
+      background:     var(--voltage-glow);
+      border:         1px solid rgba(0,209,255,0.3);
+      border-radius:  50%;
+      display:        flex;
+      align-items:    center;
+      justify-content:center;
+      font-family:    var(--font-mono);
+      font-size:      11px;
+      font-weight:    700;
+      color:          var(--voltage);
+      flex-shrink:    0;
+    }
+
+    .step-text {
+      font-size:  14px;
+      color:      var(--silver);
+      line-height:1.5;
+      padding-top:4px;
+    }
+
+    .step-text strong {
+      color:   #ffffff;
+      display: block;
+    }
+
+    /* ── Action buttons ── */
+    .actions {
+      display:        flex;
+      gap:            12px;
+      justify-content:center;
+      flex-wrap:      wrap;
+      margin-bottom:  24px;
+    }
+
+    .btn-primary {
+      background:     var(--voltage);
+      color:          var(--void);
+      border:         none;
+      border-radius:  var(--radius-sm);
+      padding:        14px 28px;
+      font-family:    var(--font-head);
+      font-size:      14px;
+      font-weight:    700;
+      cursor:         pointer;
+      transition:     all 0.2s ease;
+      text-decoration:none;
+      display:        inline-flex;
+      align-items:    center;
+      gap:            7px;
+      letter-spacing: 0.5px;
+    }
+    .btn-primary:hover {
+      background: var(--voltage-dim);
+      transform:  translateY(-1px);
+      box-shadow: 0 8px 24px rgba(0,209,255,0.25);
+    }
+
+    .btn-secondary {
+      background:     transparent;
+      color:          var(--silver);
+      border:         1px solid var(--void-border2);
+      border-radius:  var(--radius-sm);
+      padding:        14px 24px;
+      font-family:    var(--font-head);
+      font-size:      14px;
+      font-weight:    600;
+      cursor:         pointer;
+      transition:     all 0.2s ease;
+      text-decoration:none;
+      display:        inline-flex;
+      align-items:    center;
+      gap:            7px;
+    }
+    .btn-secondary:hover {
+      border-color: var(--voltage);
+      color:        var(--voltage);
+      transform:    translateY(-1px);
+    }
+
+    /* ── Support note ── */
+    .support-note {
+      font-family: var(--font-mono);
+      font-size:   12px;
+      color:       var(--silver-faint);
+      line-height: 1.7;
+    }
+
+    .support-note a {
+      color: var(--voltage);
+    }
+
+    /* ============================================================
+       INFO CARDS BELOW SUCCESS CARD
+    ============================================================ */
+    .info-grid {
+      display:               grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap:                   14px;
+      margin-top:            20px;
+    }
+
+    .info-card {
+      background:    var(--void-card);
+      border:        1px solid var(--void-border);
+      border-radius: var(--radius);
+      padding:       20px;
+      text-align:    center;
+      transition:    border-color 0.2s ease;
+    }
+
+    .info-card:hover {
+      border-color: var(--void-border2);
+    }
+
+    .info-card-icon {
+      font-size:     24px;
+      margin-bottom: 8px;
+      display:       block;
+    }
+
+    .info-card-title {
+      font-family:   var(--font-mono);
+      font-size:     11px;
+      font-weight:   600;
+      color:         var(--silver);
+      margin-bottom: 4px;
+      letter-spacing:0.5px;
+    }
+
+    .info-card-desc {
+      font-family: var(--font-mono);
+      font-size:   10px;
+      color:       var(--silver-faint);
+      line-height: 1.5;
+    }
+
+    /* ============================================================
+       EMAIL CHECK PROMPT
+    ============================================================ */
+    .email-prompt {
+      background:    rgba(0,209,255,0.05);
+      border:        1px solid rgba(0,209,255,0.2);
+      border-radius: var(--radius);
+      padding:       20px 24px;
+      margin-top:    20px;
+      display:       flex;
+      align-items:   center;
+      gap:           16px;
+      text-align:    left;
+    }
+
+    .email-prompt-icon {
+      font-size:  32px;
+      flex-shrink:0;
+    }
+
+    .email-prompt-title {
+      font-family:   var(--font-mono);
+      font-size:     12px;
+      font-weight:   600;
+      color:         var(--voltage);
+      letter-spacing:0.5px;
+      margin-bottom: 4px;
+    }
+
+    .email-prompt-desc {
+      font-family: var(--font-mono);
+      font-size:   11px;
+      color:       var(--silver-dim);
+      line-height: 1.6;
+    }
+
+    /* ============================================================
+       COUNTDOWN REDIRECT
+    ============================================================ */
+    .redirect-bar {
+      margin-top:    16px;
+      text-align:    center;
+      font-family:   var(--font-mono);
+      font-size:     11px;
+      color:         var(--silver-faint);
+      display:       none;
+    }
+
+    .redirect-bar span {
+      color: var(--voltage);
+    }
+
+    /* ============================================================
+       CONFETTI CANVAS
+    ============================================================ */
+    #confetti-canvas {
+      position:      fixed;
+      top:           0;
+      left:          0;
+      width:         100%;
+      height:        100%;
+      pointer-events:none;
+      z-index:       50;
+    }
+
+    /* ============================================================
+       FOOTER
+    ============================================================ */
+    .footer {
+      border-top: 1px solid var(--void-border);
+      padding:    24px;
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .footer-inner {
+      max-width:      1200px;
+      margin:         0 auto;
+      display:        flex;
+      align-items:    center;
+      justify-content:space-between;
+      flex-wrap:      wrap;
+      gap:            12px;
+    }
+
+    .footer-logo {
+      font-family:   var(--font-mono);
+      font-size:     12px;
+      color:         var(--silver-faint);
+      display:       flex;
+      align-items:   center;
+      gap:           7px;
+    }
+
+    .footer-logo .mark { color: var(--voltage); }
+
+    .footer-copy {
+      font-family: var(--font-mono);
+      font-size:   11px;
+      color:       var(--silver-faint);
+    }
+
+    /* ============================================================
+       RESPONSIVE
+    ============================================================ */
+    @media (max-width: 640px) {
+      .success-card {
+        padding: 36px 24px;
+      }
+
+      .info-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .tx-box {
+        flex-direction: column;
+        text-align:     left;
+      }
+
+      .tx-id { text-align: left; }
+
+      .email-prompt {
+        flex-direction: column;
+        text-align:     center;
+      }
+
+      .footer-inner {
+        flex-direction: column;
+        text-align:     center;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .actions {
+        flex-direction: column;
+      }
+
+      .btn-primary,
+      .btn-secondary {
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Confetti canvas -->
+<canvas id="confetti-canvas"></canvas>
+
+<!-- ============================================================
+     NAV
+============================================================ -->
+<nav class="nav" role="navigation">
+  <div class="nav-inner">
+    <a class="nav-logo" href="index.html">
+      <span class="mark">=/=</span>
+      <span>
+        OpenRail
+        <span class="sub">SOVEREIGN INFRASTRUCTURE</span>
+      </span>
+    </a>
+    <div class="nav-status">
+      <div class="status-dot"></div>
+      DEPLOYMENT CONFIRMED
+    </div>
+  </div>
+</nav>
+
+<!-- ============================================================
+     MAIN PAGE
+============================================================ -->
+<main class="page" role="main">
+  <div class="success-wrap">
+
+    <!-- ── Success Card ── -->
+    <div class="success-card">
+
+      <!-- Checkmark -->
+      <div class="check-wrap" aria-hidden="true">
+        <span class="check-icon">✅</span>
+      </div>
+
+      <!-- Eyebrow -->
+      <div class="success-eyebrow">
+        Payment Verified On-Chain
+      </div>
+
+      <!-- Title -->
+      <h1 class="success-title">
+        Your Rail is<br/>
+        <span class="accent">Live.</span>
+      </h1>
+
+      <!-- Sub -->
+      <p class="success-sub">
+        Your payment has been confirmed and your
+        <strong id="product-display">
+          OpenRail Infrastructure
+        </strong>
+        is being prepared for delivery.
+        <strong>Check your email inbox now.</strong>
+      </p>
+
+      <!-- TX Box -->
+      <div class="tx-box" id="tx-box" style="display:none;">
+        <span class="tx-label">Order Ref</span>
+        <span class="tx-id" id="tx-ref">—</span>
+      </div>
+
+      <!-- Divider -->
+      <div class="divider"></div>
+
+      <!-- What happens next -->
+      <div class="steps-title">What happens next</div>
+
+      <div class="steps-list">
+        <div class="step-row">
+          <div class="step-num">1</div>
+          <div class="step-text">
+            <strong>Check your inbox</strong>
+            Your ZIP file and Deployment Report are
+            being sent automatically. Arrives within
+            60 seconds of blockchain confirmation.
+          </div>
+        </div>
+        <div class="step-row">
+          <div class="step-num">2</div>
+          <div class="step-text">
+            <strong>Download your files</strong>
+            Open the ZIP. Read the Deployment Report
+            first — it contains your transaction record
+            and all deployment details.
+          </div>
+        </div>
+        <div class="step-row">
+          <div class="step-num">3</div>
+          <div class="step-text">
+            <strong>Follow the install guide</strong>
+            Step-by-step instructions are inside the ZIP.
+            Your store will be live on GitHub Pages
+            within 2–4 hours.
+          </div>
+        </div>
+        <div class="step-row">
+          <div class="step-num">4</div>
+          <div class="step-text">
+            <strong>Start earning</strong>
+            Share your store link. When customers buy,
+            crypto hits your wallet automatically.
+            Convert to local cash via Binance P2P.
+          </div>
+        </div>
+      </div>
+
+      <!-- Actions -->
+      <div class="actions">
+        <a class="btn-primary" href="index.html">
+          ← Back to Store
+        </a>
+        <a class="btn-secondary"
+           href="mailto:support@open-rail.io">
+          📧 Contact Support
+        </a>
+      </div>
+
+      <!-- Support note -->
+      <p class="support-note">
+        Email not received within 5 minutes?<br/>
+        Check your spam folder first. Still nothing?<br/>
+        Email your transaction ID to
+        <a href="mailto:support@open-rail.io">
+          support@open-rail.io
+        </a>
+        and we'll deliver manually within 1 hour.
+      </p>
+
+      <!-- Redirect bar -->
+      <div class="redirect-bar" id="redirect-bar">
+        Returning to store in
+        <span id="redirect-count">10</span>s —
+        <a href="index.html">go now</a>
+      </div>
+
+    </div><!-- /success-card -->
+
+    <!-- ── Email prompt ── -->
+    <div class="email-prompt">
+      <div class="email-prompt-icon">📬</div>
+      <div>
+        <div class="email-prompt-title">
+          Check Your Email Now
+        </div>
+        <div class="email-prompt-desc">
+          Your ZIP and Deployment Report are sent
+          automatically on blockchain confirmation.
+          Check spam / junk if not in inbox.
+          Sender: <strong
+          style="color:var(--silver);">
+          OpenRail Infrastructure
+          </strong>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── Info cards ── -->
+    <div class="info-grid">
+
+      <div class="info-card">
+        <span class="info-card-icon">🔐</span>
+        <div class="info-card-title">Payment Verified</div>
+        <div class="info-card-desc">
+          5-layer security check passed.
+          Amount and asset confirmed on-chain.
+        </div>
+      </div>
+
+      <div class="info-card">
+        <span class="info-card-icon">📦</span>
+        <div class="info-card-title">Auto-Delivered</div>
+        <div class="info-card-desc">
+          ZIP file and PDF receipt sent
+          to your email automatically.
+        </div>
+      </div>
+
+      <div class="info-card">
+        <span class="info-card-icon">🛡️</span>
+        <div class="info-card-title">7-Day Guarantee</div>
+        <div class="info-card-desc">
+          Not live within 7 days?
+          We fix it or refund completely.
+        </div>
+      </div>
+
+    </div><!-- /info-grid -->
+
+  </div><!-- /success-wrap -->
+</main>
+
+<!-- ============================================================
+     FOOTER
+============================================================ -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-logo">
+      <span class="mark">=/=</span>
+      OpenRail — Sovereign Digital Infrastructure
+    </div>
+    <div class="footer-copy">
+      The Path is Open · © 2026 OpenRail
+    </div>
+  </div>
+</footer>
+
+<!-- ============================================================
+     JAVASCRIPT
+============================================================ -->
+<script>
+"use strict";
+
+// ── Read URL params ──────────────────────────────────────────
+(function() {
+  var params  = new URLSearchParams(window.location.search);
+  var product = params.get("product") || "";
+  var txRef   = params.get("ref")     ||
+                params.get("tx")      ||
+                params.get("order")   || "";
+
+  // Update product display
+  if (product) {
+    var NAMES = {
+      "diy":     "OpenRail DIY Infrastructure Package",
+      "managed": "OpenRail Managed Service Package"
+    };
+    var el = document.getElementById("product-display");
+    if (el && NAMES[product]) {
+      el.textContent = NAMES[product];
+    }
+  }
+
+  // Show TX reference if available
+  if (txRef) {
+    var box   = document.getElementById("tx-box");
+    var refEl = document.getElementById("tx-ref");
+    if (box && refEl) {
+      refEl.textContent = txRef.toUpperCase();
+      box.style.display = "flex";
+    }
+  }
+
+  // Update page title
+  if (product) {
+    var titleMap = {
+      "diy":     "DIY Package Confirmed",
+      "managed": "Managed Service Confirmed"
+    };
+    document.title = (titleMap[product] || "Confirmed") +
+                     " — OpenRail";
+  }
+})();
+
+// ── Confetti ─────────────────────────────────────────────────
+(function() {
+  var canvas = document.getElementById("confetti-canvas");
+  var ctx    = canvas.getContext("2d");
+
+  canvas.width  = window.innerWidth;
+  canvas.height = window.innerHeight;
+
+  window.addEventListener("resize", function() {
+    canvas.width  = window.innerWidth;
+    canvas.height = window.innerHeight;
+  });
+
+  var COLORS = [
+    "#00D1FF", "#00ff88", "#ffffff",
+    "#ffaa00", "#C0C0C0", "#00a3c4"
+  ];
+
+  var particles = [];
+  var PARTICLE_COUNT = 120;
+
+  function Particle() {
+    this.x     = Math.random() * canvas.width;
+    this.y     = -10;
+    this.size  = Math.random() * 6 + 3;
+    this.speedX= (Math.random() - 0.5) * 3;
+    this.speedY= Math.random() * 3 + 1.5;
+    this.color = COLORS[Math.floor(Math.random() * COLORS.length)];
+    this.rot   = Math.random() * 360;
+    this.rotSpeed = (Math.random() - 0.5) * 6;
+    this.opacity  = 1;
+    this.shape = Math.random() > 0.5 ? "rect" : "circle";
+  }
+
+  Particle.prototype.update = function() {
+    this.x       += this.speedX;
+    this.y       += this.speedY;
+    this.rot     += this.rotSpeed;
+    this.speedY  += 0.05; // gravity
+    this.opacity  = Math.max(0,
+      1 - (this.y / canvas.height) * 1.2);
+  };
+
+  Particle.prototype.draw = function() {
+    ctx.save();
+    ctx.globalAlpha = this.opacity;
+    ctx.fillStyle   = this.color;
+    ctx.translate(this.x, this.y);
+    ctx.rotate(this.rot * Math.PI / 180);
+
+    if (this.shape === "rect") {
+      ctx.fillRect(
+        -this.size / 2,
+        -this.size / 4,
+        this.size,
+        this.size / 2
+      );
+    } else {
+      ctx.beginPath();
+      ctx.arc(0, 0, this.size / 2, 0, Math.PI * 2);
+      ctx.fill();
+    }
+
+    ctx.restore();
+  };
+
+  // Create particles
+  for (var i = 0; i < PARTICLE_COUNT; i++) {
+    setTimeout(function() {
+      particles.push(new Particle());
+    }, Math.random() * 1500);
+  }
+
+  // Animation loop
+  var animating = true;
+  function animate() {
+    if (!animating) return;
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    particles = particles.filter(function(p) {
+      return p.y < canvas.height + 20 && p.opacity > 0;
+    });
+
+    particles.forEach(function(p) {
+      p.update();
+      p.draw();
+    });
+
+    if (particles.length > 0) {
+      requestAnimationFrame(animate);
+    } else {
+      // Clear canvas when done
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      animating = false;
+    }
+  }
+
+  // Start after short delay
+  setTimeout(animate, 300);
+})();
+
+// ── Redirect countdown ────────────────────────────────────────
+// Only show redirect bar if arrived from checkout
+// (i.e. has a product param) — not from direct URL visit
+(function() {
+  var params  = new URLSearchParams(window.location.search);
+  var product = params.get("product");
+
+  // Don't auto-redirect — user may need to read this page
+  // But show a soft prompt after 30 seconds
+  if (product) {
+    setTimeout(function() {
+      var bar = document.getElementById("redirect-bar");
+      if (bar) bar.style.display = "block";
+
+      var count    = 10;
+      var countEl  = document.getElementById("redirect-count");
+
+      var interval = setInterval(function() {
+        count--;
+        if (countEl) countEl.textContent = count;
+        if (count <= 0) {
+          clearInterval(interval);
+          // Don't auto-redirect — let user stay on page
+          // They may be reading important instructions
+          var bar2 = document.getElementById("redirect-bar");
+          if (bar2) bar2.style.display = "none";
+        }
+      }, 1000);
+
+    }, 30000); // Show after 30 seconds
+  }
+})();
+
+// ── Page entrance animation ────────────────────────────────
+document.addEventListener("DOMContentLoaded", function() {
+  var card = document.querySelector(".success-card");
+  if (card) {
+    card.style.opacity   = "0";
+    card.style.transform = "translateY(24px)";
+    card.style.transition= "opacity 0.6s ease, transform 0.6s ease";
+    setTimeout(function() {
+      card.style.opacity   = "1";
+      card.style.transform = "translateY(0)";
+    }, 100);
+  }
+
+  var infoCards = document.querySelectorAll(
+    ".info-card, .email-prompt");
+  infoCards.forEach(function(el, i) {
+    el.style.opacity   = "0";
+    el.style.transform = "translateY(16px)";
+    el.style.transition= "opacity 0.5s ease, transform 0.5s ease";
+    setTimeout(function() {
+      el.style.opacity   = "1";
+      el.style.transform = "translateY(0)";
+    }, 400 + (i * 100));
+  });
+});
+
+// ── Step animation ────────────────────────────────────────
+var stepObserver = new IntersectionObserver(function(entries) {
+  entries.forEach(function(entry) {
+    if (entry.isIntersecting) {
+      entry.target.style.opacity   = "1";
+      entry.target.style.transform = "translateX(0)";
+      stepObserver.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.2 });
+
+document.querySelectorAll(".step-row").forEach(function(row, i) {
+  row.style.opacity   = "0";
+  row.style.transform = "translateX(-16px)";
+  row.style.transition=
+    "opacity 0.4s ease " + (i * 0.1) + "s, " +
+    "transform 0.4s ease " + (i * 0.1) + "s";
+  stepObserver.observe(row);
+});
+
+// ── Copy TX ref on click ──────────────────────────────────
+var txEl = document.getElementById("tx-ref");
+if (txEl) {
+  txEl.style.cursor = "pointer";
+  txEl.title        = "Click to copy";
+  txEl.addEventListener("click", function() {
+    var text = txEl.textContent;
+    if (!text || text === "—") return;
+
+    if (navigator.clipboard && window.isSecureContext) {
+      navigator.clipboard.writeText(text).then(function() {
+        txEl.textContent = "Copied!";
+        setTimeout(function() {
+          txEl.textContent = text;
+        }, 2000);
+      });
+    } else {
+      var ta = document.createElement("textarea");
+      ta.value = text;
+      ta.style.cssText =
+        "position:fixed;opacity:0;pointer-events:none;";
+      document.body.appendChild(ta);
+      ta.focus();
+      ta.select();
+      try {
+        document.execCommand("copy");
+        txEl.textContent = "Copied!";
+        setTimeout(function() { txEl.textContent = text; }, 2000);
+      } catch(e) {}
+      document.body.removeChild(ta);
+    }
+  });
+}
+
+// ── Log success event ─────────────────────────────────────
+// Clean analytics ping (no personal data)
+(function() {
+  var params  = new URLSearchParams(window.location.search);
+  var product = params.get("product") || "unknown";
+  var ref     = sessionStorage.getItem("openrail_ref") || "";
+
+  // Could send to GAS for analytics — omitted for privacy
+  console.log(
+    "OpenRail Success | Product: " + product +
+    (ref ? " | Ref: " + ref : "")
+  );
+})();
+</script>
+
+</body>
+</html>
