@@ -1,0 +1,2328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>OpenRail — Sovereign Digital Infrastructure</title>
+  <meta name="description" content="Deploy your sovereign digital store. Accept crypto payments from anywhere. No PayPal. No Gumroad. No permission required."/>
+  <meta name="robots" content="index, follow"/>
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="OpenRail — Sovereign Digital Infrastructure"/>
+  <meta property="og:description" content="Deploy your sovereign digital store. Accept crypto. Keep 100% of every sale."/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="https://open-rail.github.io/Store/"/>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet"/>
+
+  <style>
+    /* ============================================================
+       DESIGN SYSTEM — Void Black / Cyber Silver / Voltage Blue
+    ============================================================ */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --void:          #080808;
+      --void-soft:     #0e0e0e;
+      --void-card:     #141414;
+      --void-card2:    #1a1a1a;
+      --void-border:   #242424;
+      --void-border2:  #2e2e2e;
+      --silver:        #C0C0C0;
+      --silver-dim:    #888888;
+      --silver-faint:  #444444;
+      --silver-bright: #e8e8e8;
+      --voltage:       #00D1FF;
+      --voltage-dim:   #00a3c4;
+      --voltage-dark:  #007a94;
+      --voltage-glow:  rgba(0, 209, 255, 0.12);
+      --voltage-glow2: rgba(0, 209, 255, 0.06);
+      --green:         #00ff88;
+      --green-dim:     rgba(0, 255, 136, 0.1);
+      --amber:         #ffaa00;
+      --red:           #ff4444;
+      --font-head:     'Space Grotesk', sans-serif;
+      --font-mono:     'IBM Plex Mono', monospace;
+      --radius:        14px;
+      --radius-sm:     8px;
+      --radius-lg:     20px;
+      --transition:    0.2s ease;
+      --shadow:        0 24px 64px rgba(0,0,0,0.6);
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background:  var(--void);
+      color:       var(--silver);
+      font-family: var(--font-head);
+      line-height: 1.6;
+      overflow-x:  hidden;
+    }
+
+    ::-webkit-scrollbar { width: 5px; }
+    ::-webkit-scrollbar-track { background: var(--void); }
+    ::-webkit-scrollbar-thumb {
+      background:    var(--void-border);
+      border-radius: 3px;
+    }
+
+    /* ── Selection ── */
+    ::selection {
+      background: var(--voltage);
+      color:      var(--void);
+    }
+
+    /* ── Links ── */
+    a {
+      color:           var(--voltage);
+      text-decoration: none;
+      transition:      opacity var(--transition);
+    }
+    a:hover { opacity: 0.8; }
+
+    /* ============================================================
+       NAV
+    ============================================================ */
+    .nav {
+      position:        fixed;
+      top:             0;
+      left:            0;
+      right:           0;
+      z-index:         100;
+      height:          64px;
+      background:      rgba(8,8,8,0.92);
+      backdrop-filter: blur(20px);
+      border-bottom:   1px solid var(--void-border);
+      display:         flex;
+      align-items:     center;
+      padding:         0 32px;
+    }
+
+    .nav-inner {
+      max-width:      1200px;
+      margin:         0 auto;
+      width:          100%;
+      display:        flex;
+      align-items:    center;
+      justify-content:space-between;
+    }
+
+    .nav-logo {
+      display:     flex;
+      align-items: center;
+      gap:         10px;
+      cursor:      pointer;
+    }
+
+    .logo-mark {
+      font-family:   var(--font-mono);
+      font-size:     18px;
+      font-weight:   600;
+      color:         var(--voltage);
+      letter-spacing:2px;
+    }
+
+    .logo-text {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .logo-name {
+      font-family:   var(--font-mono);
+      font-size:     15px;
+      font-weight:   600;
+      color:         var(--silver-bright);
+      letter-spacing:1px;
+      line-height:   1;
+    }
+
+    .logo-tag {
+      font-family:   var(--font-mono);
+      font-size:     8px;
+      color:         var(--silver-faint);
+      letter-spacing:2.5px;
+      text-transform:uppercase;
+      margin-top:    2px;
+    }
+
+    .nav-links {
+      display:     flex;
+      align-items: center;
+      gap:         32px;
+    }
+
+    .nav-link {
+      font-family:   var(--font-mono);
+      font-size:     12px;
+      color:         var(--silver-dim);
+      text-decoration:none;
+      letter-spacing:0.5px;
+      transition:    color var(--transition);
+    }
+    .nav-link:hover { color: var(--voltage); }
+
+    .nav-cta {
+      background:    var(--voltage);
+      color:         var(--void);
+      border:        none;
+      border-radius: var(--radius-sm);
+      padding:       9px 20px;
+      font-family:   var(--font-head);
+      font-size:     13px;
+      font-weight:   700;
+      cursor:        pointer;
+      transition:    all var(--transition);
+      text-decoration:none;
+      letter-spacing:0.5px;
+    }
+    .nav-cta:hover {
+      background: var(--voltage-dim);
+      transform:  translateY(-1px);
+    }
+
+    .nav-mobile {
+      display: none;
+    }
+
+    /* ============================================================
+       HERO
+    ============================================================ */
+    .hero {
+      min-height:     100vh;
+      display:        flex;
+      flex-direction: column;
+      align-items:    center;
+      justify-content:center;
+      text-align:     center;
+      padding:        120px 24px 80px;
+      position:       relative;
+      overflow:       hidden;
+    }
+
+    /* Grid background */
+    .hero::before {
+      content:    '';
+      position:   absolute;
+      inset:      0;
+      background-image:
+        linear-gradient(rgba(0,209,255,0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0,209,255,0.03) 1px, transparent 1px);
+      background-size: 60px 60px;
+      z-index:    0;
+    }
+
+    /* Glow orb */
+    .hero::after {
+      content:       '';
+      position:      absolute;
+      top:           20%;
+      left:          50%;
+      transform:     translateX(-50%);
+      width:         600px;
+      height:        600px;
+      background:    radial-gradient(
+        circle,
+        rgba(0,209,255,0.06) 0%,
+        transparent 70%
+      );
+      pointer-events:none;
+      z-index:       0;
+    }
+
+    .hero-content {
+      position:  relative;
+      z-index:   1;
+      max-width: 820px;
+    }
+
+    .hero-eyebrow {
+      display:       inline-flex;
+      align-items:   center;
+      gap:           8px;
+      background:    var(--voltage-glow2);
+      border:        1px solid rgba(0,209,255,0.2);
+      border-radius: 30px;
+      padding:       6px 16px;
+      font-family:   var(--font-mono);
+      font-size:     11px;
+      color:         var(--voltage);
+      letter-spacing:1.5px;
+      text-transform:uppercase;
+      margin-bottom: 28px;
+    }
+
+    .hero-eyebrow::before {
+      content:       '';
+      width:         6px;
+      height:        6px;
+      background:    var(--voltage);
+      border-radius: 50%;
+      animation:     pulse 1.5s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50%       { opacity: 0.3; }
+    }
+
+    .hero-h1 {
+      font-size:    clamp(40px, 7vw, 76px);
+      font-weight:  800;
+      line-height:  1.05;
+      color:        #ffffff;
+      margin-bottom:24px;
+      letter-spacing:-1px;
+    }
+
+    .hero-h1 .accent {
+      color: var(--voltage);
+    }
+
+    .hero-h1 .strike {
+      position: relative;
+      color:    var(--silver-faint);
+    }
+
+    .hero-h1 .strike::after {
+      content:    '';
+      position:   absolute;
+      left:       0;
+      right:      0;
+      top:        50%;
+      height:     3px;
+      background: var(--red);
+      transform:  rotate(-2deg);
+    }
+
+    .hero-sub {
+      font-size:     clamp(16px, 2.5vw, 20px);
+      color:         var(--silver-dim);
+      max-width:     580px;
+      margin:        0 auto 40px;
+      line-height:   1.7;
+    }
+
+    .hero-sub strong {
+      color: var(--silver);
+    }
+
+    .hero-actions {
+      display:     flex;
+      gap:         16px;
+      justify-content:center;
+      flex-wrap:   wrap;
+      margin-bottom:60px;
+    }
+
+    .btn-primary {
+      background:    var(--voltage);
+      color:         var(--void);
+      border:        none;
+      border-radius: var(--radius-sm);
+      padding:       16px 36px;
+      font-family:   var(--font-head);
+      font-size:     16px;
+      font-weight:   700;
+      cursor:        pointer;
+      transition:    all var(--transition);
+      text-decoration:none;
+      display:       inline-flex;
+      align-items:   center;
+      gap:           8px;
+      letter-spacing:0.5px;
+    }
+    .btn-primary:hover {
+      background: var(--voltage-dim);
+      transform:  translateY(-2px);
+      box-shadow: 0 12px 32px rgba(0,209,255,0.25);
+    }
+
+    .btn-secondary {
+      background:    transparent;
+      color:         var(--silver);
+      border:        1px solid var(--void-border2);
+      border-radius: var(--radius-sm);
+      padding:       16px 32px;
+      font-family:   var(--font-head);
+      font-size:     16px;
+      font-weight:   600;
+      cursor:        pointer;
+      transition:    all var(--transition);
+      text-decoration:none;
+      display:       inline-flex;
+      align-items:   center;
+      gap:           8px;
+    }
+    .btn-secondary:hover {
+      border-color: var(--voltage);
+      color:        var(--voltage);
+      transform:    translateY(-2px);
+    }
+
+    /* Hero stats bar */
+    .hero-stats {
+      display:        flex;
+      gap:            48px;
+      justify-content:center;
+      flex-wrap:      wrap;
+      padding-top:    40px;
+      border-top:     1px solid var(--void-border);
+    }
+
+    .hero-stat {
+      text-align: center;
+    }
+
+    .hero-stat-value {
+      font-family:   var(--font-mono);
+      font-size:     28px;
+      font-weight:   700;
+      color:         #ffffff;
+      display:       block;
+      line-height:   1;
+      margin-bottom: 4px;
+    }
+
+    .hero-stat-label {
+      font-family: var(--font-mono);
+      font-size:   11px;
+      color:       var(--silver-dim);
+      letter-spacing:1px;
+      text-transform:uppercase;
+    }
+
+    /* ============================================================
+       PROBLEM / SOLUTION SECTION
+    ============================================================ */
+    .section {
+      padding:  100px 24px;
+      position: relative;
+    }
+
+    .section-inner {
+      max-width: 1200px;
+      margin:    0 auto;
+    }
+
+    .section-label {
+      font-family:    var(--font-mono);
+      font-size:      10px;
+      font-weight:    600;
+      color:          var(--voltage);
+      text-transform: uppercase;
+      letter-spacing: 2.5px;
+      margin-bottom:  16px;
+      display:        flex;
+      align-items:    center;
+      gap:            8px;
+    }
+
+    .section-label::before {
+      content:       '';
+      width:         4px;
+      height:        4px;
+      background:    var(--voltage);
+      border-radius: 50%;
+    }
+
+    .section-h2 {
+      font-size:     clamp(28px, 4vw, 48px);
+      font-weight:   800;
+      color:         #ffffff;
+      line-height:   1.15;
+      margin-bottom: 16px;
+      letter-spacing:-0.5px;
+    }
+
+    .section-sub {
+      font-size:     18px;
+      color:         var(--silver-dim);
+      max-width:     540px;
+      line-height:   1.7;
+      margin-bottom: 60px;
+    }
+
+    /* Problem grid */
+    .problem-grid {
+      display:               grid;
+      grid-template-columns: 1fr 1fr;
+      gap:                   2px;
+      border-radius:         var(--radius);
+      overflow:              hidden;
+      margin-bottom:         80px;
+    }
+
+    .problem-col {
+      padding: 40px;
+    }
+
+    .problem-col.old {
+      background: rgba(255,68,68,0.05);
+      border:     1px solid rgba(255,68,68,0.15);
+    }
+
+    .problem-col.new {
+      background: rgba(0,209,255,0.05);
+      border:     1px solid rgba(0,209,255,0.15);
+    }
+
+    .problem-col-head {
+      font-family:   var(--font-mono);
+      font-size:     11px;
+      font-weight:   700;
+      letter-spacing:2px;
+      text-transform:uppercase;
+      margin-bottom: 28px;
+      display:       flex;
+      align-items:   center;
+      gap:           8px;
+    }
+
+    .problem-col.old .problem-col-head { color: var(--red); }
+    .problem-col.new .problem-col-head { color: var(--voltage); }
+
+    .problem-item {
+      display:       flex;
+      align-items:   flex-start;
+      gap:           12px;
+      margin-bottom: 20px;
+      font-size:     15px;
+      line-height:   1.5;
+    }
+
+    .problem-icon {
+      font-size:  16px;
+      flex-shrink:0;
+      margin-top: 2px;
+    }
+
+    .problem-text strong {
+      color:   var(--silver-bright);
+      display: block;
+    }
+
+    .problem-text span {
+      font-size: 13px;
+      color:     var(--silver-faint);
+    }
+
+    /* ============================================================
+       HOW IT WORKS
+    ============================================================ */
+    .how-grid {
+      display:               grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap:                   20px;
+    }
+
+    .how-card {
+      background:    var(--void-card);
+      border:        1px solid var(--void-border);
+      border-radius: var(--radius);
+      padding:       28px 24px;
+      position:      relative;
+      overflow:      hidden;
+      transition:    border-color var(--transition);
+    }
+
+    .how-card:hover {
+      border-color: var(--voltage);
+    }
+
+    .how-card::before {
+      content:   '';
+      position:  absolute;
+      top:       0;
+      left:      0;
+      right:     0;
+      height:    2px;
+      background:var(--voltage);
+      opacity:   0;
+      transition:opacity var(--transition);
+    }
+
+    .how-card:hover::before { opacity: 1; }
+
+    .how-number {
+      font-family:   var(--font-mono);
+      font-size:     11px;
+      color:         var(--voltage);
+      letter-spacing:2px;
+      margin-bottom: 16px;
+      opacity:       0.6;
+    }
+
+    .how-icon {
+      font-size:     28px;
+      margin-bottom: 14px;
+      display:       block;
+    }
+
+    .how-title {
+      font-size:     16px;
+      font-weight:   700;
+      color:         #ffffff;
+      margin-bottom: 8px;
+    }
+
+    .how-desc {
+      font-size:  13px;
+      color:      var(--silver-dim);
+      line-height:1.6;
+    }
+
+    /* ============================================================
+       PRODUCTS
+    ============================================================ */
+    .products-section {
+      background: var(--void-soft);
+      border-top: 1px solid var(--void-border);
+      border-bottom:1px solid var(--void-border);
+    }
+
+    .products-grid {
+      display:               grid;
+      grid-template-columns: 1fr 1fr;
+      gap:                   24px;
+      max-width:             960px;
+      margin:                0 auto;
+    }
+
+    .product-card {
+      background:    var(--void-card);
+      border:        1px solid var(--void-border);
+      border-radius: var(--radius-lg);
+      padding:       40px 36px;
+      position:      relative;
+      overflow:      hidden;
+      transition:    all 0.3s ease;
+      display:       flex;
+      flex-direction:column;
+    }
+
+    .product-card:hover {
+      border-color: var(--voltage);
+      transform:    translateY(-4px);
+      box-shadow:   0 32px 64px rgba(0,0,0,0.4);
+    }
+
+    .product-card.featured {
+      border-color: var(--voltage);
+      background:   linear-gradient(
+        135deg,
+        var(--void-card) 0%,
+        rgba(0,209,255,0.04) 100%
+      );
+    }
+
+    /* Featured glow */
+    .product-card.featured::before {
+      content:       '';
+      position:      absolute;
+      top:           -1px;
+      left:          20%;
+      right:         20%;
+      height:        2px;
+      background:    linear-gradient(
+        90deg,
+        transparent, var(--voltage), transparent
+      );
+    }
+
+    .product-badge {
+      position:      absolute;
+      top:           20px;
+      right:         20px;
+      background:    var(--voltage);
+      color:         var(--void);
+      font-family:   var(--font-mono);
+      font-size:     9px;
+      font-weight:   700;
+      letter-spacing:1px;
+      text-transform:uppercase;
+      padding:       4px 10px;
+      border-radius: 20px;
+    }
+
+    .product-icon {
+      font-family:    var(--font-mono);
+      font-size:      32px;
+      color:          var(--voltage);
+      margin-bottom:  20px;
+      display:        block;
+    }
+
+    .product-name {
+      font-size:     22px;
+      font-weight:   800;
+      color:         #ffffff;
+      margin-bottom: 6px;
+      line-height:   1.2;
+    }
+
+    .product-tagline {
+      font-family:   var(--font-mono);
+      font-size:     11px;
+      color:         var(--silver-dim);
+      letter-spacing:0.5px;
+      margin-bottom: 24px;
+    }
+
+    .product-price {
+      display:       flex;
+      align-items:   baseline;
+      gap:           8px;
+      margin-bottom: 8px;
+    }
+
+    .price-amount {
+      font-family:   var(--font-mono);
+      font-size:     48px;
+      font-weight:   700;
+      color:         #ffffff;
+      line-height:   1;
+    }
+
+    .price-currency {
+      font-family: var(--font-mono);
+      font-size:   18px;
+      color:       var(--silver-dim);
+    }
+
+    .price-note {
+      font-family:   var(--font-mono);
+      font-size:     11px;
+      color:         var(--green);
+      margin-bottom: 28px;
+    }
+
+    .product-divider {
+      height:       1px;
+      background:   var(--void-border);
+      margin:       24px 0;
+    }
+
+    .product-features {
+      list-style:    none;
+      margin-bottom: 32px;
+      flex:          1;
+    }
+
+    .product-features li {
+      display:       flex;
+      align-items:   flex-start;
+      gap:           10px;
+      font-size:     14px;
+      color:         var(--silver);
+      margin-bottom: 12px;
+      line-height:   1.4;
+    }
+
+    .feature-check {
+      width:          18px;
+      height:         18px;
+      background:     var(--voltage-glow);
+      border:         1px solid rgba(0,209,255,0.3);
+      border-radius:  50%;
+      display:        flex;
+      align-items:    center;
+      justify-content:center;
+      font-size:      9px;
+      color:          var(--voltage);
+      font-weight:    700;
+      flex-shrink:    0;
+      margin-top:     2px;
+    }
+
+    .product-cta {
+      display:        flex;
+      align-items:    center;
+      justify-content:center;
+      gap:            8px;
+      width:          100%;
+      padding:        16px;
+      border-radius:  var(--radius-sm);
+      font-family:    var(--font-head);
+      font-size:      15px;
+      font-weight:    700;
+      cursor:         pointer;
+      transition:     all var(--transition);
+      text-decoration:none;
+      letter-spacing: 0.5px;
+    }
+
+    .product-cta.primary {
+      background: var(--voltage);
+      color:      var(--void);
+      border:     none;
+    }
+    .product-cta.primary:hover {
+      background: var(--voltage-dim);
+      transform:  translateY(-1px);
+      box-shadow: 0 8px 24px rgba(0,209,255,0.3);
+    }
+
+    .product-cta.secondary {
+      background: transparent;
+      color:      var(--silver);
+      border:     1px solid var(--void-border2);
+    }
+    .product-cta.secondary:hover {
+      border-color: var(--voltage);
+      color:        var(--voltage);
+      transform:    translateY(-1px);
+    }
+
+    /* ============================================================
+       TRUST / FEATURES SECTION
+    ============================================================ */
+    .features-grid {
+      display:               grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap:                   20px;
+    }
+
+    .feature-card {
+      background:    var(--void-card);
+      border:        1px solid var(--void-border);
+      border-radius: var(--radius);
+      padding:       28px;
+      transition:    border-color var(--transition);
+    }
+
+    .feature-card:hover {
+      border-color: var(--void-border2);
+    }
+
+    .feature-card-icon {
+      font-size:     28px;
+      margin-bottom: 14px;
+      display:       block;
+    }
+
+    .feature-card-title {
+      font-size:     16px;
+      font-weight:   700;
+      color:         #ffffff;
+      margin-bottom: 8px;
+    }
+
+    .feature-card-desc {
+      font-size:  13px;
+      color:      var(--silver-dim);
+      line-height:1.7;
+    }
+
+    /* ============================================================
+       COUNTRIES SECTION
+    ============================================================ */
+    .countries-section {
+      background:  var(--void-soft);
+      border-top:  1px solid var(--void-border);
+      border-bottom:1px solid var(--void-border);
+    }
+
+    .countries-grid {
+      display:               grid;
+      grid-template-columns: 1fr 1fr;
+      gap:                   48px;
+      align-items:           center;
+    }
+
+    .countries-text .section-sub {
+      margin-bottom: 32px;
+    }
+
+    .country-tags {
+      display:   flex;
+      flex-wrap: wrap;
+      gap:       8px;
+    }
+
+    .country-tag {
+      background:    var(--void-card);
+      border:        1px solid var(--void-border);
+      border-radius: 20px;
+      padding:       6px 14px;
+      font-family:   var(--font-mono);
+      font-size:     12px;
+      color:         var(--silver-dim);
+      display:       flex;
+      align-items:   center;
+      gap:           6px;
+      transition:    all var(--transition);
+    }
+
+    .country-tag:hover {
+      border-color: var(--voltage);
+      color:        var(--voltage);
+    }
+
+    .country-tag .flag { font-size: 14px; }
+
+    .blocked-platforms {
+      background:    var(--void-card);
+      border:        1px solid rgba(255,68,68,0.2);
+      border-radius: var(--radius);
+      padding:       28px;
+    }
+
+    .blocked-title {
+      font-family:   var(--font-mono);
+      font-size:     10px;
+      color:         var(--red);
+      text-transform:uppercase;
+      letter-spacing:2px;
+      margin-bottom: 16px;
+    }
+
+    .blocked-list {
+      display:   flex;
+      flex-wrap: wrap;
+      gap:       10px;
+    }
+
+    .blocked-item {
+      background:    rgba(255,68,68,0.08);
+      border:        1px solid rgba(255,68,68,0.2);
+      border-radius: var(--radius-sm);
+      padding:       8px 14px;
+      font-family:   var(--font-mono);
+      font-size:     12px;
+      color:         var(--red);
+      display:       flex;
+      align-items:   center;
+      gap:           6px;
+      text-decoration:line-through;
+      text-decoration-color:rgba(255,68,68,0.5);
+    }
+
+    .openrail-replace {
+      margin-top:    16px;
+      text-align:    center;
+      font-family:   var(--font-mono);
+      font-size:     12px;
+      color:         var(--voltage);
+      letter-spacing:1px;
+    }
+
+    /* ============================================================
+       TECH STACK
+    ============================================================ */
+    .tech-grid {
+      display:               grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap:                   16px;
+    }
+
+    .tech-card {
+      background:    var(--void-card);
+      border:        1px solid var(--void-border);
+      border-radius: var(--radius);
+      padding:       20px;
+      text-align:    center;
+      transition:    all var(--transition);
+    }
+
+    .tech-card:hover {
+      border-color: var(--voltage);
+      background:   var(--voltage-glow2);
+    }
+
+    .tech-icon { font-size: 28px; margin-bottom: 10px; display: block; }
+
+    .tech-name {
+      font-family:   var(--font-mono);
+      font-size:     12px;
+      font-weight:   600;
+      color:         var(--silver);
+      margin-bottom: 4px;
+    }
+
+    .tech-desc {
+      font-family: var(--font-mono);
+      font-size:   10px;
+      color:       var(--silver-faint);
+    }
+
+    /* ============================================================
+       FAQ
+    ============================================================ */
+    .faq-list {
+      max-width:880px;
+      margin:   0 auto;
+    }
+
+    .faq-item {
+      border-bottom:1px solid var(--void-border);
+      overflow:     hidden;
+    }
+
+    .faq-q {
+      width:           100%;
+      background:      none;
+      border:          none;
+      text-align:      left;
+      padding:         22px 0;
+      font-family:     var(--font-head);
+      font-size:       16px;
+      font-weight:     600;
+      color:           var(--silver-bright);
+      cursor:          pointer;
+      display:         flex;
+      align-items:     center;
+      justify-content: space-between;
+      gap:             16px;
+      transition:      color var(--transition);
+    }
+
+    .faq-q:hover { color: var(--voltage); }
+
+    .faq-arrow {
+      font-size:  18px;
+      color:      var(--silver-dim);
+      transition: transform 0.3s ease;
+      flex-shrink:0;
+    }
+
+    .faq-item.open .faq-arrow {
+      transform: rotate(45deg);
+      color:     var(--voltage);
+    }
+
+    .faq-a {
+      max-height: 0;
+      overflow:   hidden;
+      transition: max-height 0.4s ease, padding 0.3s ease;
+    }
+
+    .faq-item.open .faq-a {
+      max-height: 400px;
+      padding-bottom: 20px;
+    }
+
+    .faq-a-inner {
+      font-size:  15px;
+      color:      var(--silver-dim);
+      line-height:1.8;
+    }
+
+    .faq-a-inner strong { color: var(--silver); }
+
+    /* ============================================================
+       GUARANTEE BANNER
+    ============================================================ */
+    .guarantee-banner {
+      background:    linear-gradient(
+        135deg,
+        rgba(0,209,255,0.06) 0%,
+        rgba(0,255,136,0.04) 100%
+      );
+      border:        1px solid rgba(0,209,255,0.2);
+      border-radius: var(--radius-lg);
+      padding:       48px;
+      text-align:    center;
+      margin:        0 auto;
+      max-width:     700px;
+    }
+
+    .guarantee-icon {
+      font-size:     48px;
+      margin-bottom: 16px;
+      display:       block;
+    }
+
+    .guarantee-title {
+      font-size:     28px;
+      font-weight:   800;
+      color:         #ffffff;
+      margin-bottom: 12px;
+    }
+
+    .guarantee-desc {
+      font-size:     16px;
+      color:         var(--silver-dim);
+      line-height:   1.7;
+      margin-bottom: 28px;
+    }
+
+    /* ============================================================
+       CTA SECTION
+    ============================================================ */
+    .cta-section {
+      text-align: center;
+      padding:    100px 24px;
+      position:   relative;
+      overflow:   hidden;
+    }
+
+    .cta-section::before {
+      content:     '';
+      position:    absolute;
+      top:         50%;
+      left:        50%;
+      transform:   translate(-50%, -50%);
+      width:       800px;
+      height:      400px;
+      background:  radial-gradient(
+        ellipse,
+        rgba(0,209,255,0.06) 0%,
+        transparent 70%
+      );
+      pointer-events:none;
+    }
+
+    .cta-section .section-inner {
+      position: relative;
+      z-index:  1;
+    }
+
+    .cta-h2 {
+      font-size:     clamp(32px, 5vw, 60px);
+      font-weight:   800;
+      color:         #ffffff;
+      line-height:   1.1;
+      margin-bottom: 20px;
+      letter-spacing:-0.5px;
+    }
+
+    .cta-sub {
+      font-size:     18px;
+      color:         var(--silver-dim);
+      margin-bottom: 40px;
+      max-width:     500px;
+      margin-left:   auto;
+      margin-right:  auto;
+      line-height:   1.7;
+    }
+
+    /* ============================================================
+       FOOTER
+    ============================================================ */
+    .footer {
+      border-top: 1px solid var(--void-border);
+      padding:    40px 24px;
+    }
+
+    .footer-inner {
+      max-width:      1200px;
+      margin:         0 auto;
+      display:        flex;
+      align-items:    center;
+      justify-content:space-between;
+      flex-wrap:      wrap;
+      gap:            20px;
+    }
+
+    .footer-logo {
+      font-family:   var(--font-mono);
+      font-size:     13px;
+      color:         var(--silver-dim);
+      display:       flex;
+      align-items:   center;
+      gap:           8px;
+    }
+
+    .footer-logo .mark { color: var(--voltage); }
+
+    .footer-links {
+      display:     flex;
+      gap:         24px;
+      flex-wrap:   wrap;
+    }
+
+    .footer-link {
+      font-family:   var(--font-mono);
+      font-size:     12px;
+      color:         var(--silver-faint);
+      text-decoration:none;
+      transition:    color var(--transition);
+    }
+    .footer-link:hover { color: var(--voltage); }
+
+    .footer-copy {
+      font-family: var(--font-mono);
+      font-size:   11px;
+      color:       var(--silver-faint);
+    }
+
+    /* ============================================================
+       TOAST
+    ============================================================ */
+    .toast {
+      position:      fixed;
+      bottom:        24px;
+      left:          50%;
+      transform:     translateX(-50%);
+      background:    var(--void-card);
+      border:        1px solid var(--void-border);
+      border-radius: 30px;
+      padding:       10px 20px;
+      font-family:   var(--font-mono);
+      font-size:     13px;
+      color:         var(--silver);
+      z-index:       999;
+      display:       none;
+      white-space:   nowrap;
+      box-shadow:    0 8px 32px rgba(0,0,0,0.5);
+    }
+
+    /* ============================================================
+       RESPONSIVE
+    ============================================================ */
+    @media (max-width: 960px) {
+      .nav-links { display: none; }
+      .nav-mobile { display: block; }
+
+      .products-grid {
+        grid-template-columns: 1fr;
+        max-width: 520px;
+        margin: 0 auto;
+      }
+
+      .countries-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .problem-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .how-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .features-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .tech-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .nav { padding: 0 16px; }
+
+      .hero { padding: 100px 20px 60px; }
+
+      .hero-stats {
+        gap: 24px;
+      }
+
+      .section { padding: 70px 20px; }
+
+      .how-grid { grid-template-columns: 1fr; }
+
+      .features-grid { grid-template-columns: 1fr; }
+
+      .tech-grid { grid-template-columns: 1fr 1fr; }
+
+      .product-card { padding: 28px 24px; }
+
+      .guarantee-banner { padding: 32px 24px; }
+
+      .footer-inner {
+        flex-direction: column;
+        text-align:     center;
+      }
+
+      .footer-links { justify-content: center; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ============================================================
+     NAV
+============================================================ -->
+<nav class="nav" role="navigation" aria-label="Main navigation">
+  <div class="nav-inner">
+    <div class="nav-logo" onclick="scrollTo(0,0)">
+      <span class="logo-mark">=/=</span>
+      <div class="logo-text">
+        <span class="logo-name">OpenRail</span>
+        <span class="logo-tag">Sovereign Infrastructure</span>
+      </div>
+    </div>
+
+    <div class="nav-links">
+      <a class="nav-link" href="#how">How It Works</a>
+      <a class="nav-link" href="#products">Packages</a>
+      <a class="nav-link" href="#countries">Who It's For</a>
+      <a class="nav-link" href="#faq">FAQ</a>
+      <a class="nav-link"
+         href="mailto:support@open-rail.io">Support</a>
+    </div>
+
+    <a class="nav-cta" href="#products">Deploy Now →</a>
+
+    <!-- Mobile menu placeholder -->
+    <button class="nav-mobile"
+            onclick="document.getElementById('products').scrollIntoView({behavior:'smooth'})"
+            style="background:var(--voltage);color:var(--void);border:none;border-radius:6px;padding:8px 16px;font-family:var(--font-mono);font-size:12px;font-weight:700;cursor:pointer;">
+      Deploy →
+    </button>
+  </div>
+</nav>
+
+<!-- ============================================================
+     HERO
+============================================================ -->
+<section class="hero" role="banner">
+  <div class="hero-content">
+
+    <div class="hero-eyebrow">
+      Sovereign Digital Infrastructure
+    </div>
+
+    <h1 class="hero-h1">
+      Sell Digital Products<br/>
+      From <span class="accent">Anywhere</span><br/>
+      <span class="strike">Permission</span> Not Required
+    </h1>
+
+    <p class="hero-sub">
+      <strong>PayPal banned your country. Gumroad blocked you.
+      Stripe rejected your application.</strong>
+      OpenRail deploys your own sovereign sales
+      infrastructure — crypto-native, auto-delivered,
+      and 100% yours.
+    </p>
+
+    <div class="hero-actions">
+      <a class="btn-primary" href="#products">
+        ⚡ Deploy My Store
+      </a>
+      <a class="btn-secondary" href="#how">
+        See How It Works
+      </a>
+    </div>
+
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <span class="hero-stat-value">13</span>
+        <span class="hero-stat-label">Crypto Currencies</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-value">0%</span>
+        <span class="hero-stat-label">Platform Fee</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-value">100%</span>
+        <span class="hero-stat-label">Ownership</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-value">Auto</span>
+        <span class="hero-stat-label">Delivery</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============================================================
+     PROBLEM / SOLUTION
+============================================================ -->
+<section class="section" id="problem">
+  <div class="section-inner">
+
+    <div class="section-label">The Problem</div>
+    <h2 class="section-h2">
+      The old rails are<br/>broken for you
+    </h2>
+    <p class="section-sub">
+      If you live in Pakistan, Nigeria, Bangladesh,
+      or dozens of other countries — the world's biggest
+      platforms have already decided you don't deserve
+      to participate.
+    </p>
+
+    <div class="problem-grid">
+      <div class="problem-col old">
+        <div class="problem-col-head">❌ Old Rails</div>
+
+        <div class="problem-item">
+          <span class="problem-icon">🚫</span>
+          <div class="problem-text">
+            <strong>Geo-blocked at signup</strong>
+            <span>PayPal, Stripe, Gumroad reject
+            your country before you earn a dollar</span>
+          </div>
+        </div>
+
+        <div class="problem-item">
+          <span class="problem-icon">🏦</span>
+          <div class="problem-text">
+            <strong>Funds seized without warning</strong>
+            <span>Account frozen with $0 notice.
+            Your money, their permission.</span>
+          </div>
+        </div>
+
+        <div class="problem-item">
+          <span class="problem-icon">💸</span>
+          <div class="problem-text">
+            <strong>10–30% taken per sale</strong>
+            <span>Platform fees, payment fees,
+            conversion fees — on top of each other</span>
+          </div>
+        </div>
+
+        <div class="problem-item">
+          <span class="problem-icon">📋</span>
+          <div class="problem-text">
+            <strong>Endless verification loops</strong>
+            <span>KYC documents, business registration,
+            proof of address — rejected anyway</span>
+          </div>
+        </div>
+
+        <div class="problem-item">
+          <span class="problem-icon">📦</span>
+          <div class="problem-text">
+            <strong>Rented land, not owned</strong>
+            <span>One policy update and your store,
+            your customers, your income — gone</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="problem-col new">
+        <div class="problem-col-head">✅ OpenRail</div>
+
+        <div class="problem-item">
+          <span class="problem-icon">🌍</span>
+          <div class="problem-text">
+            <strong>No geo-restrictions</strong>
+            <span>Crypto is permissionless.
+            No one can block your wallet address.</span>
+          </div>
+        </div>
+
+        <div class="problem-item">
+          <span class="problem-icon">🔐</span>
+          <div class="problem-text">
+            <strong>Non-custodial settlement</strong>
+            <span>Funds go direct to your wallet.
+            No platform holds your money.</span>
+          </div>
+        </div>
+
+        <div class="problem-item">
+          <span class="problem-icon">💰</span>
+          <div class="problem-text">
+            <strong>0% platform fee</strong>
+            <span>You keep every dollar your
+            customers send. Zero taken by OpenRail.</span>
+          </div>
+        </div>
+
+        <div class="problem-item">
+          <span class="problem-icon">⚡</span>
+          <div class="problem-text">
+            <strong>Auto-delivery on payment</strong>
+            <span>Product sent the moment
+            blockchain confirms. No manual work.</span>
+          </div>
+        </div>
+
+        <div class="problem-item">
+          <span class="problem-icon">🏗️</span>
+          <div class="problem-text">
+            <strong>Sovereign infrastructure</strong>
+            <span>Your code. Your domain.
+            Your files. No one can shut it down.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============================================================
+     HOW IT WORKS
+============================================================ -->
+<section class="section" id="how"
+         style="background:var(--void-soft);border-top:1px solid var(--void-border);">
+  <div class="section-inner">
+
+    <div class="section-label">How It Works</div>
+    <h2 class="section-h2">Your rail in four steps</h2>
+    <p class="section-sub">
+      From zero to sovereign infrastructure.
+      No server. No hosting fees. No technical experience needed.
+    </p>
+
+    <div class="how-grid">
+      <div class="how-card">
+        <div class="how-number">01 —</div>
+        <span class="how-icon">🛒</span>
+        <div class="how-title">Choose Your Package</div>
+        <div class="how-desc">
+          Select DIY ($145) to build it yourself with
+          our complete guide, or Managed ($90) for us
+          to deploy everything while you watch.
+        </div>
+      </div>
+
+      <div class="how-card">
+        <div class="how-number">02 —</div>
+        <span class="how-icon">⛓️</span>
+        <div class="how-title">Pay with Crypto</div>
+        <div class="how-desc">
+          Choose from 13 cryptocurrencies.
+          NOWPayments generates a dynamic address.
+          Send exact amount. Blockchain confirms.
+        </div>
+      </div>
+
+      <div class="how-card">
+        <div class="how-number">03 —</div>
+        <span class="how-icon">📦</span>
+        <div class="how-title">Receive Everything</div>
+        <div class="how-desc">
+          Your ZIP file and Deployment Report arrive
+          in your email automatically the moment
+          payment confirms on-chain. Zero wait.
+        </div>
+      </div>
+
+      <div class="how-card">
+        <div class="how-number">04 —</div>
+        <span class="how-icon">🚀</span>
+        <div class="how-title">Deploy &amp; Earn</div>
+        <div class="how-desc">
+          Follow the install guide. Your store goes live
+          on GitHub Pages. Customers buy. Crypto hits
+          your wallet. USDC converts to local cash.
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============================================================
+     PRODUCTS
+============================================================ -->
+<section class="section products-section" id="products">
+  <div class="section-inner">
+
+    <div class="section-label" style="justify-content:center;">
+      Packages
+    </div>
+    <h2 class="section-h2" style="text-align:center;">
+      Choose your deployment
+    </h2>
+    <p class="section-sub" style="text-align:center;margin:0 auto 60px;">
+      Two packages. One goal. Your sovereign
+      infrastructure live and earning.
+    </p>
+
+    <div class="products-grid">
+
+      <!-- Managed Service -->
+      <div class="product-card">
+        <span class="product-icon">🚀</span>
+
+        <div class="product-name">
+          OpenRail Managed
+        </div>
+        <div class="product-tagline">
+          White glove · We build everything · Keys delivered
+        </div>
+
+        <div class="product-price">
+          <span class="price-amount">$90</span>
+          <span class="price-currency">USD</span>
+        </div>
+        <div class="price-note">
+          ✅ One-time · 0% recurring platform fee
+        </div>
+
+        <div class="product-divider"></div>
+
+        <ul class="product-features">
+          <li>
+            <span class="feature-check">✓</span>
+            White glove — we build everything
+          </li>
+          <li>
+            <span class="feature-check">✓</span>
+            Submit your info → receive all keys
+          </li>
+          <li>
+            <span class="feature-check">✓</span>
+            Storefront live within 24 hours
+          </li>
+          <li>
+            <span class="feature-check">✓</span>
+            Full Deployment Report delivered
+          </li>
+          <li>
+            <span class="feature-check">✓</span>
+            NOWPayments rail configured for you
+          </li>
+          <li>
+            <span class="feature-check">✓</span>
+            Cloudflare security shield setup
+          </li>
+          <li>
+            <span class="feature-check">✓</span>
+            Liquidity manual (Crypto → Local Bank)
+          </li>
+          <li>
+            <span class="feature-check">✓</span>
+            7-day support after deployment
+          </li>
+          <li>
+            <span class="feature-check">✓</span>
+            No technical knowledge required
+          </li>
+          <li>
+            <span class="feature-check">✓</span>
+            100% ownership transferred to you
+          </li>
+        </ul>
+
+        <a class="product-cta secondary"
+           href="checkout.html?product=managed">
+          Deploy Managed →
+        </a>
+      </div>
+
+      <!-- DIY Package -->
+      <div class="product-card featured">
+        <div class="product-badge">BEST VALUE</div>
+        <span class="product-icon">🛠️</span>
+
+        <div class="product-name">
+          OpenRail DIY
+        </div>
+        <div class="product-tagline">
+          Full source code · Self-deploy · Yours forever
+        </div>
+
+        <div class="product-price">
+          <span class="price-amount">$145</span>
+          <span class="price-currency">USD</span>
+        </div>
+        <div class="price-note">
+          ✅ One-time · Full ownership · No subscriptions
+        </div>
+
+        <div class="product-divider"></div>
+
+        <ul class="product-features">
+          <li>
+            <span class="feature-check">✓</span>
+            GitHub Pages storefront — your brand
+          </li>
+          <li>
+            <span class="feature-check">✓</span>
+            NOWPayments crypto rail (13 currencies)
+          </li>
+          <li>
+            <span class="feature-check">✓</span>
+            Google Apps Script backend engine
+          </li>
+          <li>
+            <span class="feature-check">✓</span>
+            Auto-delivery system (ZIP + PDF receipt)
+          </li>
+          <li>
+            <span class="feature-check">✓</span>
+            Live dashboard — orders, stats, commands
+          </li>
+          <li>
+            <span class="feature-check">✓</span>
+            Discord + Gmail notification system
+          </li>
+          <li>
+            <span class="feature-check">✓</span>
+            Cloudflare + VPN security setup guide
+          </li>
+          <li>
+            <span class="feature-check">✓</span>
+            Liquidity manual (USDC → Local Bank)
+          </li>
+          <li>
+            <span class="feature-check">✓</span>
+            Full Deployment Report document
+          </li>
+          <li>
+            <span class="feature-check">✓</span>
+            100% source code — modify anything
+          </li>
+        </ul>
+
+        <a class="product-cta primary"
+           href="checkout.html?product=diy">
+          ⚡ Deploy DIY — $145
+        </a>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- ============================================================
+     TRUST FEATURES
+============================================================ -->
+<section class="section" id="features">
+  <div class="section-inner">
+
+    <div class="section-label">Infrastructure</div>
+    <h2 class="section-h2">
+      Built on proven technology
+    </h2>
+    <p class="section-sub">
+      Every component of OpenRail is production-tested,
+      non-custodial, and built to survive.
+    </p>
+
+    <div class="features-grid">
+
+      <div class="feature-card">
+        <span class="feature-card-icon">🔐</span>
+        <div class="feature-card-title">
+          Non-Custodial Payments
+        </div>
+        <div class="feature-card-desc">
+          NOWPayments generates a unique address for every
+          order. Funds settle directly to your wallet.
+          No middleman holds your money at any point.
+        </div>
+      </div>
+
+      <div class="feature-card">
+        <span class="feature-card-icon">⚡</span>
+        <div class="feature-card-title">
+          Automatic Delivery
+        </div>
+        <div class="feature-card-desc">
+          The moment blockchain confirms your customer's
+          payment, the system fires automatically.
+          ZIP file and receipt arrive within seconds.
+        </div>
+      </div>
+
+      <div class="feature-card">
+        <span class="feature-card-icon">🛡️</span>
+        <div class="feature-card-title">
+          5-Layer Security
+        </div>
+        <div class="feature-card-desc">
+          IPN token verification, API re-verification,
+          idempotency protection, amount verification,
+          and asset type checking on every payment.
+        </div>
+      </div>
+
+      <div class="feature-card">
+        <span class="feature-card-icon">📊</span>
+        <div class="feature-card-title">
+          Live Command Dashboard
+        </div>
+        <div class="feature-card-desc">
+          Real-time orders, revenue stats, pending queue,
+          diagnostic logs, and manual delivery controls.
+          All in a protected web interface.
+        </div>
+      </div>
+
+      <div class="feature-card">
+        <span class="feature-card-icon">🔄</span>
+        <div class="feature-card-title">
+          Retry Engine
+        </div>
+        <div class="feature-card-desc">
+          Automatic 5-minute polling for any orders
+          that missed IPN delivery. 24-hour expiry window.
+          No payment ever silently lost.
+        </div>
+      </div>
+
+      <div class="feature-card">
+        <span class="feature-card-icon">💵</span>
+        <div class="feature-card-title">
+          Local Cash Exit
+        </div>
+        <div class="feature-card-desc">
+          Detailed liquidity manual: USDC/USDT → Binance
+          P2P → your local bank in PKR, NGN, BDT,
+          or any supported currency.
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- ============================================================
+     COUNTRIES / WHO IT'S FOR
+============================================================ -->
+<section class="section countries-section" id="countries">
+  <div class="section-inner">
+
+    <div class="countries-grid">
+
+      <div class="countries-text">
+        <div class="section-label">Who It's For</div>
+        <h2 class="section-h2">
+          Built for creators<br/>the platforms forgot
+        </h2>
+        <p class="section-sub">
+          If your country is on their blocklist,
+          OpenRail is your bypass. Sell digital products,
+          ebooks, templates, courses, services — to
+          anyone, anywhere, right now.
+        </p>
+
+        <div class="country-tags">
+          <div class="country-tag">
+            <span class="flag">🇵🇰</span> Pakistan
+          </div>
+          <div class="country-tag">
+            <span class="flag">🇳🇬</span> Nigeria
+          </div>
+          <div class="country-tag">
+            <span class="flag">🇧🇩</span> Bangladesh
+          </div>
+          <div class="country-tag">
+            <span class="flag">🇮🇷</span> Iran
+          </div>
+          <div class="country-tag">
+            <span class="flag">🇪🇬</span> Egypt
+          </div>
+          <div class="country-tag">
+            <span class="flag">🇬🇭</span> Ghana
+          </div>
+          <div class="country-tag">
+            <span class="flag">🇰🇪</span> Kenya
+          </div>
+          <div class="country-tag">
+            <span class="flag">🇮🇶</span> Iraq
+          </div>
+          <div class="country-tag">
+            <span class="flag">🇿🇦</span> South Africa
+          </div>
+          <div class="country-tag">
+            <span class="flag">🇻🇳</span> Vietnam
+          </div>
+          <div class="country-tag">
+            <span class="flag">🇺🇦</span> Ukraine
+          </div>
+          <div class="country-tag">
+            <span class="flag">🌍</span> +60 more
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="blocked-platforms">
+          <div class="blocked-title">
+            ❌ Platforms That Blocked You
+          </div>
+          <div class="blocked-list">
+            <div class="blocked-item">💳 PayPal</div>
+            <div class="blocked-item">🟢 Gumroad</div>
+            <div class="blocked-item">💼 Fiverr</div>
+            <div class="blocked-item">📦 Amazon</div>
+            <div class="blocked-item">🛒 Etsy</div>
+            <div class="blocked-item">💳 Stripe</div>
+            <div class="blocked-item">🏪 Shopify</div>
+            <div class="blocked-item">📧 ConvertKit</div>
+          </div>
+          <div class="openrail-replace">
+            ↓ OpenRail replaces all of these ↓
+          </div>
+        </div>
+
+        <div style="margin-top:16px;background:rgba(0,209,255,0.05);
+             border:1px solid rgba(0,209,255,0.2);border-radius:12px;
+             padding:20px 24px;">
+          <div style="font-family:var(--font-mono);font-size:10px;
+               color:var(--voltage);text-transform:uppercase;
+               letter-spacing:2px;margin-bottom:12px;">
+            ✅ OpenRail Works
+          </div>
+          <div style="font-family:var(--font-mono);font-size:12px;
+               color:var(--silver-dim);line-height:1.8;">
+            NOWPayments — Global crypto processing<br/>
+            GitHub Pages — Free global CDN hosting<br/>
+            Google Apps Script — Free automation<br/>
+            Binance P2P — Local currency exit<br/>
+            Cloudflare — Free DDoS protection<br/>
+            Discord — Free order notifications<br/>
+            Gmail — Free automated delivery
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- ============================================================
+     TECH STACK
+============================================================ -->
+<section class="section" id="tech">
+  <div class="section-inner">
+
+    <div class="section-label">Tech Stack</div>
+    <h2 class="section-h2">
+      What powers your rail
+    </h2>
+    <p class="section-sub">
+      Every tool is free or near-free. You own
+      every piece. Nothing can be taken away.
+    </p>
+
+    <div class="tech-grid">
+      <div class="tech-card">
+        <span class="tech-icon">⛓️</span>
+        <div class="tech-name">NOWPayments</div>
+        <div class="tech-desc">Crypto payment processing</div>
+      </div>
+      <div class="tech-card">
+        <span class="tech-icon">📄</span>
+        <div class="tech-name">GitHub Pages</div>
+        <div class="tech-desc">Free global storefront hosting</div>
+      </div>
+      <div class="tech-card">
+        <span class="tech-icon">⚙️</span>
+        <div class="tech-name">Google Apps Script</div>
+        <div class="tech-desc">Backend automation engine</div>
+      </div>
+      <div class="tech-card">
+        <span class="tech-icon">📊</span>
+        <div class="tech-name">Google Sheets</div>
+        <div class="tech-desc">Order database + logging</div>
+      </div>
+      <div class="tech-card">
+        <span class="tech-icon">🛡️</span>
+        <div class="tech-name">Cloudflare</div>
+        <div class="tech-desc">Security + DDoS protection</div>
+      </div>
+      <div class="tech-card">
+        <span class="tech-icon">💬</span>
+        <div class="tech-name">Discord</div>
+        <div class="tech-desc">Real-time order alerts</div>
+      </div>
+      <div class="tech-card">
+        <span class="tech-icon">📧</span>
+        <div class="tech-name">Gmail</div>
+        <div class="tech-desc">Automated product delivery</div>
+      </div>
+      <div class="tech-card">
+        <span class="tech-icon">🏦</span>
+        <div class="tech-name">Binance P2P</div>
+        <div class="tech-desc">Crypto → local bank exit</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============================================================
+     FAQ
+============================================================ -->
+<section class="section"
+         style="background:var(--void-soft);
+                border-top:1px solid var(--void-border);"
+         id="faq">
+  <div class="section-inner">
+
+    <div class="section-label" style="justify-content:center;">
+      FAQ
+    </div>
+    <h2 class="section-h2" style="text-align:center;
+        margin-bottom:60px;">
+      Questions answered
+    </h2>
+
+    <div class="faq-list">
+
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          Is this legal?
+          <span class="faq-arrow">+</span>
+        </button>
+        <div class="faq-a">
+          <div class="faq-a-inner">
+            <strong>Yes, completely.</strong>
+            Accepting cryptocurrency payments is legal in most
+            countries worldwide. GitHub Pages hosting is standard
+            web infrastructure. Google Apps Script is used by
+            millions of businesses globally. OpenRail uses no
+            exploits, hacks, or grey-market tools — only
+            legitimate, publicly available services assembled
+            into a complete commerce system.
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          What do I need to get started?
+          <span class="faq-arrow">+</span>
+        </button>
+        <div class="faq-a">
+          <div class="faq-a-inner">
+            <strong>For DIY ($145):</strong> a Google account,
+            a GitHub account, a free NOWPayments account,
+            and a crypto wallet to receive payments.
+            All free. Setup takes 2–4 hours with our guide.<br/><br/>
+            <strong>For Managed ($90):</strong> just your email
+            address and the information we request.
+            We handle everything else and deliver your keys.
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          How do I convert crypto to my local currency?
+          <span class="faq-arrow">+</span>
+        </button>
+        <div class="faq-a">
+          <div class="faq-a-inner">
+            Your package includes a <strong>Liquidity Manual</strong>
+            that walks you through the exact process:
+            USDT/USDC received → transfer to Binance/Bybit →
+            sell via P2P marketplace → local bank transfer
+            in PKR, NGN, BDT, or your local currency.
+            Most P2P transfers settle within 15–30 minutes.
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          What happens after a customer pays?
+          <span class="faq-arrow">+</span>
+        </button>
+        <div class="faq-a">
+          <div class="faq-a-inner">
+            Everything is automatic.
+            <strong>1.</strong> Customer selects crypto and pays. &nbsp;
+            <strong>2.</strong> NOWPayments detects payment on blockchain. &nbsp;
+            <strong>3.</strong> IPN fires to your backend. &nbsp;
+            <strong>4.</strong> System verifies amount and authenticity
+            through 5 security checks. &nbsp;
+            <strong>5.</strong> ZIP + PDF receipt auto-emailed to customer.
+            The whole process takes under 60 seconds after
+            blockchain confirmation.
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          Can I sell my own products through this system?
+          <span class="faq-arrow">+</span>
+        </button>
+        <div class="faq-a">
+          <div class="faq-a-inner">
+            <strong>Absolutely — and that's the point.</strong>
+            The entire infrastructure is delivered to you as
+            source code. You replace our demo products with
+            your own digital files (ebooks, templates, courses,
+            presets, software, anything). The system delivers
+            whatever ZIP file you upload to Google Drive.
+            You modify the store copy, branding, prices —
+            everything. It becomes your store, not ours.
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          What's the difference between DIY and Managed?
+          <span class="faq-arrow">+</span>
+        </button>
+        <div class="faq-a">
+          <div class="faq-a-inner">
+            <strong>DIY ($145):</strong> You receive all the files,
+            code, and a detailed install guide. You deploy it
+            yourself. Takes 2–4 hours. You learn the system
+            deeply and can modify anything. Best if you want
+            full technical understanding.<br/><br/>
+            <strong>Managed ($90):</strong> You submit your info,
+            we build and configure everything, and deliver your
+            live infrastructure with all keys and credentials.
+            Best if you want it done immediately without
+            technical involvement.
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          What if something goes wrong after purchase?
+          <span class="faq-arrow">+</span>
+        </button>
+        <div class="faq-a">
+          <div class="faq-a-inner">
+            Every package includes a <strong>7-day guarantee</strong>.
+            If your infrastructure is not live and functional
+            within 7 days, we fix it or refund you completely.
+            Email <a href="mailto:support@open-rail.io">
+            support@open-rail.io</a> with your transaction ID
+            and we respond within 24 hours.
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          Which cryptocurrencies are accepted?
+          <span class="faq-arrow">+</span>
+        </button>
+        <div class="faq-a">
+          <div class="faq-a-inner">
+            <strong>13 currencies:</strong> USDT (TRC20), USDC,
+            Bitcoin (BTC), BNB (BSC), Solana (SOL), TRON (TRX),
+            Litecoin (LTC), Dogecoin (DOGE), Cardano (ADA),
+            Bitcoin Cash (BCH), Dash (DASH), Zcash (ZEC),
+            and DigiByte (DGB).<br/><br/>
+            We recommend <strong>USDT TRC20</strong> — lowest fees,
+            stable value, fastest local currency conversion
+            on Binance P2P.
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- ============================================================
+     GUARANTEE
+============================================================ -->
+<section class="section" id="guarantee">
+  <div class="section-inner">
+    <div class="guarantee-banner">
+      <span class="guarantee-icon">🛡️</span>
+      <div class="guarantee-title">
+        7-Day Deployment Guarantee
+      </div>
+      <div class="guarantee-desc">
+        If your OpenRail infrastructure is not live
+        and functional within 7 days of purchase,
+        we will fix it — or refund you completely.
+        No questions asked.
+      </div>
+      <a class="btn-primary" href="#products">
+        Deploy With Confidence →
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     FINAL CTA
+============================================================ -->
+<section class="cta-section">
+  <div class="section-inner">
+    <h2 class="cta-h2">
+      The path is open.<br/>
+      Are you ready to deploy?
+    </h2>
+    <p class="cta-sub">
+      Stop waiting for permission.
+      Build your sovereign digital infrastructure today.
+    </p>
+    <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;">
+      <a class="btn-primary" href="#products">
+        ⚡ Deploy My Store Now
+      </a>
+      <a class="btn-secondary"
+         href="mailto:support@open-rail.io">
+        Ask a Question
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     FOOTER
+============================================================ -->
+<footer class="footer">
+  <div class="footer-inner">
+
+    <div class="footer-logo">
+      <span class="mark">=/=</span>
+      OpenRail — Sovereign Digital Infrastructure
+    </div>
+
+    <div class="footer-links">
+      <a class="footer-link" href="#products">Packages</a>
+      <a class="footer-link" href="#how">How It Works</a>
+      <a class="footer-link" href="#faq">FAQ</a>
+      <a class="footer-link"
+         href="mailto:support@open-rail.io">
+        Support
+      </a>
+      <a class="footer-link"
+         href="checkout.html?product=diy">
+        Deploy DIY
+      </a>
+      <a class="footer-link"
+         href="checkout.html?product=managed">
+        Deploy Managed
+      </a>
+    </div>
+
+    <div class="footer-copy">
+      © 2026 OpenRail · The Path is Open
+    </div>
+
+  </div>
+</footer>
+
+<!-- Toast -->
+<div class="toast" id="toast"></div>
+
+<!-- ============================================================
+     JAVASCRIPT
+============================================================ -->
+<script>
+"use strict";
+
+// ── FAQ Toggle ─────────────────────────────────────────────
+function toggleFaq(btn) {
+  var item = btn.parentElement;
+  var isOpen = item.classList.contains("open");
+
+  // Close all
+  document.querySelectorAll(".faq-item").forEach(function(el) {
+    el.classList.remove("open");
+  });
+
+  // Open clicked if it was closed
+  if (!isOpen) {
+    item.classList.add("open");
+  }
+}
+
+// ── Smooth scroll for anchor links ────────────────────────
+document.querySelectorAll('a[href^="#"]').forEach(function(a) {
+  a.addEventListener("click", function(e) {
+    var target = document.querySelector(
+      a.getAttribute("href"));
+    if (!target) return;
+    e.preventDefault();
+    var navHeight = 64;
+    var top = target.getBoundingClientRect().top +
+              window.pageYOffset - navHeight - 20;
+    window.scrollTo({ top: top, behavior: "smooth" });
+  });
+});
+
+// ── Nav scroll effect ──────────────────────────────────────
+window.addEventListener("scroll", function() {
+  var nav = document.querySelector(".nav");
+  if (!nav) return;
+  if (window.scrollY > 20) {
+    nav.style.borderBottomColor = "rgba(36,36,36,0.8)";
+  } else {
+    nav.style.borderBottomColor = "var(--void-border)";
+  }
+}, { passive: true });
+
+// ── Animate stat numbers on scroll ────────────────────────
+function animateNumber(el, target, suffix) {
+  var start  = 0;
+  var dur    = 1200;
+  var begin  = performance.now();
+  suffix = suffix || "";
+
+  function step(now) {
+    var p = Math.min((now - begin) / dur, 1);
+    var ease = 1 - Math.pow(1 - p, 3);
+    var val  = Math.round(ease * target);
+    el.textContent = val + suffix;
+    if (p < 1) requestAnimationFrame(step);
+    else el.textContent = target + suffix;
+  }
+  requestAnimationFrame(step);
+}
+
+// Intersection observer for hero stats
+var statsAnimated = false;
+var statsObserver = new IntersectionObserver(function(entries) {
+  if (entries[0].isIntersecting && !statsAnimated) {
+    statsAnimated = true;
+    var vals = document.querySelectorAll(".hero-stat-value");
+    // Only animate numeric ones
+    if (vals[0]) animateNumber(vals[0], 13, "");
+    // Skip % and text values — leave as-is
+  }
+}, { threshold: 0.5 });
+
+var heroStats = document.querySelector(".hero-stats");
+if (heroStats) statsObserver.observe(heroStats);
+
+// ── Card entrance animation on scroll ─────────────────────
+var cardObserver = new IntersectionObserver(function(entries) {
+  entries.forEach(function(entry) {
+    if (entry.isIntersecting) {
+      entry.target.style.opacity    = "1";
+      entry.target.style.transform  = "translateY(0)";
+      cardObserver.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.1, rootMargin: "0px 0px -40px 0px" });
+
+document.querySelectorAll(
+  ".how-card, .feature-card, .tech-card, .product-card"
+).forEach(function(card) {
+  card.style.opacity   = "0";
+  card.style.transform = "translateY(20px)";
+  card.style.transition= "opacity 0.5s ease, transform 0.5s ease";
+  cardObserver.observe(card);
+});
+
+// ── Toast ──────────────────────────────────────────────────
+function showToast(message, type) {
+  var toast = document.getElementById("toast");
+  if (!toast) return;
+  toast.textContent   = message;
+  toast.className     = "toast";
+  toast.style.display = "block";
+  if (toast._t) clearTimeout(toast._t);
+  toast._t = setTimeout(function() {
+    toast.style.display = "none";
+  }, 4000);
+}
+
+// ── UTM / referral tracking ────────────────────────────────
+(function() {
+  var params = new URLSearchParams(window.location.search);
+  var ref    = params.get("ref") || params.get("utm_source");
+  if (ref) {
+    sessionStorage.setItem("openrail_ref", ref);
+  }
+})();
+</script>
+
+</body>
+</html>
