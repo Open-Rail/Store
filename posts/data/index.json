@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260505-WQJC",
+      "title": "Crypto Payments for Digital Creators in Developing Countries: Which Option Works Regardless of Where You Are",
+      "date": "2026-05-05",
+      "category": "Global Access",
+      "contentType": "comparison",
+      "excerpt": "Creators in Nigeria, Pakistan, Ghana, Bangladesh, and dozens of other countries cannot use the platforms everyone else takes for granted. This changes that.",
+      "file": "post-20260505-WQJC.json",
+      "image": "https://open-rail.github.io/Store//posts/images/post-20260505-WQJC.png",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260505-BXHB",
       "title": "Traditional Platforms vs Unchained Commerce for Selling Music Beats in Nigeria Without PayPal",
       "date": "2026-05-05",
@@ -7036,5 +7047,5 @@
     }
   ],
   "lastUpdated": "2026-05-05",
-  "totalPosts": 640
+  "totalPosts": 641
 }
