@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260505-A1L0",
+      "title": "Selling Without Stripe Using Crypto Payment Infrastructure: What Actually Works When You Are in a Restricted Country",
+      "date": "2026-05-05",
+      "category": "Platform Restrictions",
+      "contentType": "comparison",
+      "excerpt": "PayPal, Stripe, Gumroad, and Payhip do not work in your country. That is a platform problem, not a you problem. Here is what actually works.",
+      "file": "post-20260505-A1L0.json",
+      "image": "https://open-rail.github.io/Store//posts/images/post-20260505-A1L0.png",
+      "imageSource": "pollinations-flux"
+    },
+    {
       "id": "post-20260505-B6GW",
       "title": "Integrating NOWPayments Into a Digital Goods Store: What Actually Works When You Are in a Restricted Country",
       "date": "2026-05-05",
@@ -7289,5 +7300,5 @@
     }
   ],
   "lastUpdated": "2026-05-05",
-  "totalPosts": 663
+  "totalPosts": 664
 }
