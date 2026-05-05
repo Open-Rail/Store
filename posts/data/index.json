@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260505-7IDB",
+      "title": "Accepting Bitcoin for Digital Product Sales: Which Option Works Regardless of Where You Are",
+      "date": "2026-05-05",
+      "category": "Selling Digital Products",
+      "contentType": "comparison",
+      "excerpt": "You made the product. The platform blocked you. Here is how to sell it anyway — to anyone, anywhere, with no gatekeeper in the way.",
+      "file": "post-20260505-7IDB.json",
+      "image": "https://open-rail.github.io/Store//posts/images/post-20260505-7IDB.png",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260505-E007",
       "title": "Treasure Hunt Engine: Configuration Decisions That Actually Matter: What the Docs Do Not Say",
       "date": "2026-05-05",
@@ -6693,5 +6704,7 @@
       "excerpt": "Proxy configuration, shared databases, cross-server chat. The exact order you should set these up and why order matters more than people think.",
       "file": "post-003.json"
     }
-  ]
+  ],
+  "lastUpdated": "2026-05-05",
+  "totalPosts": 610
 }
