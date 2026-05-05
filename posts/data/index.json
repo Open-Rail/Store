@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260505-RIMM",
+      "title": "How Creators in Ghana Sell Digital Products: Which Option Works Regardless of Where You Are",
+      "date": "2026-05-05",
+      "category": "Global Access",
+      "contentType": "comparison",
+      "excerpt": "Creators in Nigeria, Pakistan, Ghana, Bangladesh, and dozens of other countries cannot use the platforms everyone else takes for granted. This changes that.",
+      "file": "post-20260505-RIMM.json",
+      "image": "https://open-rail.github.io/Store//posts/images/post-20260505-RIMM.png",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260505-4JSU",
       "title": "Selling Online Courses Without PayPal: What Actually Works When You Are in a Restricted Country",
       "date": "2026-05-05",
@@ -6904,5 +6915,5 @@
     }
   ],
   "lastUpdated": "2026-05-05",
-  "totalPosts": 628
+  "totalPosts": 629
 }
