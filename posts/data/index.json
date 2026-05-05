@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260505-1VTK",
+      "title": "The Real Difference Between Platform Stores and Automating Order Fulfillment for Crypto Payments",
+      "date": "2026-05-05",
+      "category": "Getting Paid",
+      "contentType": "comparison",
+      "excerpt": "Getting paid for your digital work should not depend on which country you were born in. Here is how creators everywhere collect real income.",
+      "file": "post-20260505-1VTK.json",
+      "image": "https://open-rail.github.io/Store//posts/images/post-20260505-1VTK.png",
+      "imageSource": "pollinations-flux"
+    },
+    {
       "id": "post-20260505-55SX",
       "title": "Selling Online When PayPal Is Not Available in Your Country: What Actually Works When You Are in a Restricted Country",
       "date": "2026-05-05",
@@ -7377,5 +7388,5 @@
     }
   ],
   "lastUpdated": "2026-05-05",
-  "totalPosts": 671
+  "totalPosts": 672
 }
