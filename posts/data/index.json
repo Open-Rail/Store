@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260505-PISY",
+      "title": "How to Sell Digital Products Without Being Restricted by Payment Platforms: Which Option Works Regardless of Where You Are",
+      "date": "2026-05-05",
+      "category": "Platform Restrictions",
+      "contentType": "comparison",
+      "excerpt": "PayPal, Stripe, Gumroad, and Payhip do not work in your country. That is a platform problem, not a you problem. Here is what actually works.",
+      "file": "post-20260505-PISY.json",
+      "image": "https://open-rail.github.io/Store//posts/images/post-20260505-PISY.png",
+      "imageSource": "pollinations-flux"
+    },
+    {
       "id": "post-20260505-ADQY",
       "title": "Collecting Payment for Freelance Work in Nigeria: What Actually Works When You Are in a Restricted Country",
       "date": "2026-05-05",
@@ -7212,5 +7223,5 @@
     }
   ],
   "lastUpdated": "2026-05-05",
-  "totalPosts": 656
+  "totalPosts": 657
 }
