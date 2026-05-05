@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260505-CCI2",
+      "title": "Traditional Platforms vs Unchained Commerce for Receiving Payment for Digital Products in Kenya and Ethiopia",
+      "date": "2026-05-05",
+      "category": "Global Access",
+      "contentType": "comparison",
+      "excerpt": "Creators in Nigeria, Pakistan, Ghana, Bangladesh, and dozens of other countries cannot use the platforms everyone else takes for granted. This changes that.",
+      "file": "post-20260505-CCI2.json",
+      "image": "https://open-rail.github.io/Store//posts/images/post-20260505-CCI2.png",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260505-5HC9",
       "title": "PayPal vs Crypto for Receiving International Payments Without a Bank Account — An Honest Comparison",
       "date": "2026-05-05",
@@ -7179,5 +7190,5 @@
     }
   ],
   "lastUpdated": "2026-05-05",
-  "totalPosts": 653
+  "totalPosts": 654
 }
