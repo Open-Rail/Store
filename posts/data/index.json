@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260505-87PV",
+      "title": "Selling Ebooks Online Without Stripe or Gumroad: Which Option Works Regardless of Where You Are",
+      "date": "2026-05-05",
+      "category": "Platform Restrictions",
+      "contentType": "comparison",
+      "excerpt": "PayPal, Stripe, Gumroad, and Payhip do not work in your country. That is a platform problem, not a you problem. Here is what actually works.",
+      "file": "post-20260505-87PV.json",
+      "image": "https://open-rail.github.io/Store//posts/images/post-20260505-87PV.png",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260505-PISY",
       "title": "How to Sell Digital Products Without Being Restricted by Payment Platforms: Which Option Works Regardless of Where You Are",
       "date": "2026-05-05",
@@ -7223,5 +7234,5 @@
     }
   ],
   "lastUpdated": "2026-05-05",
-  "totalPosts": 657
+  "totalPosts": 658
 }
