@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260505-VBBQ",
+      "title": "The Real Difference Between Platform Stores and How Creators in Cameroon Sell Digital Products Online",
+      "date": "2026-05-05",
+      "category": "Global Access",
+      "contentType": "comparison",
+      "excerpt": "Creators in Nigeria, Pakistan, Ghana, Bangladesh, and dozens of other countries cannot use the platforms everyone else takes for granted. This changes that.",
+      "file": "post-20260505-VBBQ.json",
+      "image": "https://open-rail.github.io/Store//posts/images/post-20260505-VBBQ.png",
+      "imageSource": "pollinations-flux"
+    },
+    {
       "id": "post-20260505-JSF3",
       "title": "The Real Difference Between Platform Stores and Selling Digital Art Without PayPal or a Bank Account",
       "date": "2026-05-05",
@@ -7421,5 +7432,5 @@
     }
   ],
   "lastUpdated": "2026-05-05",
-  "totalPosts": 675
+  "totalPosts": 676
 }
