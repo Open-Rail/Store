@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260505-VARP",
+      "title": "Selling Digital Downloads Globally Without Payment Restrictions: What Actually Works When You Are in a Restricted Country: What Actually Works",
+      "date": "2026-05-05",
+      "category": "Selling Digital Products",
+      "contentType": "comparison",
+      "excerpt": "You made the product. The platform blocked you. Here is how to sell it anyway — to anyone, anywhere, with no gatekeeper in the way.",
+      "file": "post-20260505-VARP.json",
+      "image": "https://open-rail.github.io/Store//posts/images/post-20260505-VARP.png",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260505-1VTK",
       "title": "The Real Difference Between Platform Stores and Automating Order Fulfillment for Crypto Payments",
       "date": "2026-05-05",
@@ -7388,5 +7399,5 @@
     }
   ],
   "lastUpdated": "2026-05-05",
-  "totalPosts": 672
+  "totalPosts": 673
 }
