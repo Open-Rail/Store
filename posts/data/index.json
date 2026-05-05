@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260505-4RBX",
+      "title": "PayPal vs Crypto for How to Build a Crypto Payment Store for Digital Products — An Honest Comparison",
+      "date": "2026-05-05",
+      "category": "Getting Paid",
+      "contentType": "comparison",
+      "excerpt": "Getting paid for your digital work should not depend on which country you were born in. Here is how creators everywhere collect real income.",
+      "file": "post-20260505-4RBX.json",
+      "image": "https://open-rail.github.io/Store//posts/images/post-20260505-4RBX.png",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260505-N1LP",
       "title": "The Real Difference Between Platform Stores and Selling Fonts Online Without Stripe or PayPal — The Honest Version",
       "date": "2026-05-05",
@@ -7069,5 +7080,5 @@
     }
   ],
   "lastUpdated": "2026-05-05",
-  "totalPosts": 643
+  "totalPosts": 644
 }
