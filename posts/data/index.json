@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260505-MLK6",
+      "title": "Global Payment Solutions for Digital Sellers With No Geographic Restrictions: What Actually Works When You Are in a Restricted Country",
+      "date": "2026-05-05",
+      "category": "Selling Digital Products",
+      "contentType": "comparison",
+      "excerpt": "You made the product. The platform blocked you. Here is how to sell it anyway — to anyone, anywhere, with no gatekeeper in the way.",
+      "file": "post-20260505-MLK6.json",
+      "image": "https://open-rail.github.io/Store//posts/images/post-20260505-MLK6.png",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260505-G2TB",
       "title": "Building a Crypto Store for Selling Digital Downloads: What Actually Works When You Are in a Restricted Country",
       "date": "2026-05-05",
@@ -7344,5 +7355,5 @@
     }
   ],
   "lastUpdated": "2026-05-05",
-  "totalPosts": 668
+  "totalPosts": 669
 }
