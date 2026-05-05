@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260505-FFRZ",
+      "title": "Accepting Bitcoin for Digital Product Sales: Which Option Works Regardless of Where You Are — The Honest Version",
+      "date": "2026-05-05",
+      "category": "Selling Digital Products",
+      "contentType": "comparison",
+      "excerpt": "You made the product. The platform blocked you. Here is how to sell it anyway — to anyone, anywhere, with no gatekeeper in the way.",
+      "file": "post-20260505-FFRZ.json",
+      "image": "https://open-rail.github.io/Store//posts/images/post-20260505-FFRZ.png",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260505-A1L0",
       "title": "Selling Without Stripe Using Crypto Payment Infrastructure: What Actually Works When You Are in a Restricted Country",
       "date": "2026-05-05",
@@ -7300,5 +7311,5 @@
     }
   ],
   "lastUpdated": "2026-05-05",
-  "totalPosts": 664
+  "totalPosts": 665
 }
