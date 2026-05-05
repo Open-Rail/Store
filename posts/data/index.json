@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260505-O3U1",
+      "title": "Traditional Platforms vs Unchained Commerce for Selling Digital Products Without a Bank Account",
+      "date": "2026-05-05",
+      "category": "Platform Restrictions",
+      "contentType": "comparison",
+      "excerpt": "PayPal, Stripe, Gumroad, and Payhip do not work in your country. That is a platform problem, not a you problem. Here is what actually works.",
+      "file": "post-20260505-O3U1.json",
+      "image": "https://open-rail.github.io/Store//posts/images/post-20260505-O3U1.png",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260505-MLK6",
       "title": "Global Payment Solutions for Digital Sellers With No Geographic Restrictions: What Actually Works When You Are in a Restricted Country",
       "date": "2026-05-05",
@@ -7355,5 +7366,5 @@
     }
   ],
   "lastUpdated": "2026-05-05",
-  "totalPosts": 669
+  "totalPosts": 670
 }
