@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260505-B36N",
+      "title": "Global Payment Solutions for Digital Sellers With No Geographic Restrictions: Which Option Works Regardless of Where You Are",
+      "date": "2026-05-05",
+      "category": "Selling Digital Products",
+      "contentType": "comparison",
+      "excerpt": "You made the product. The platform blocked you. Here is how to sell it anyway — to anyone, anywhere, with no gatekeeper in the way.",
+      "file": "post-20260505-B36N.json",
+      "image": "https://open-rail.github.io/Store//posts/images/post-20260505-B36N.png",
+      "imageSource": "pollinations-flux"
+    },
+    {
       "id": "post-20260505-HRAR",
       "title": "PayPal vs Crypto for Building a Shopify Alternative With Crypto Payments — An Honest Comparison",
       "date": "2026-05-05",
@@ -6871,5 +6882,5 @@
     }
   ],
   "lastUpdated": "2026-05-05",
-  "totalPosts": 625
+  "totalPosts": 626
 }
