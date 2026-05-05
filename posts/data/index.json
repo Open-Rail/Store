@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260505-B6GW",
+      "title": "Integrating NOWPayments Into a Digital Goods Store: What Actually Works When You Are in a Restricted Country",
+      "date": "2026-05-05",
+      "category": "Getting Paid",
+      "contentType": "comparison",
+      "excerpt": "Getting paid for your digital work should not depend on which country you were born in. Here is how creators everywhere collect real income.",
+      "file": "post-20260505-B6GW.json",
+      "image": "https://open-rail.github.io/Store//posts/images/post-20260505-B6GW.png",
+      "imageSource": "pollinations-flux"
+    },
+    {
       "id": "post-20260505-7K51",
       "title": "The Real Difference Between Platform Stores and Building Digital Creator Income Without Western Payment Platforms: A Real Answer for Restricted Creators",
       "date": "2026-05-05",
@@ -7278,5 +7289,5 @@
     }
   ],
   "lastUpdated": "2026-05-05",
-  "totalPosts": 662
+  "totalPosts": 663
 }
