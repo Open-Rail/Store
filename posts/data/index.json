@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260505-NWIE",
+      "title": "How Digital Creators in Tanzania Sell Products Online: What Actually Works When You Are in a Restricted Country",
+      "date": "2026-05-05",
+      "category": "Global Access",
+      "contentType": "comparison",
+      "excerpt": "Creators in Nigeria, Pakistan, Ghana, Bangladesh, and dozens of other countries cannot use the platforms everyone else takes for granted. This changes that.",
+      "file": "post-20260505-NWIE.json",
+      "image": "https://open-rail.github.io/Store//posts/images/post-20260505-NWIE.png",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260505-FFRZ",
       "title": "Accepting Bitcoin for Digital Product Sales: Which Option Works Regardless of Where You Are — The Honest Version",
       "date": "2026-05-05",
@@ -7311,5 +7322,5 @@
     }
   ],
   "lastUpdated": "2026-05-05",
-  "totalPosts": 665
+  "totalPosts": 666
 }
