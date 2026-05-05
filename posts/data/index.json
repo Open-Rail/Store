@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260505-IZYI",
+      "title": "The Real Difference Between Platform Stores and How Creators in Bangladesh Sell Digital Products",
+      "date": "2026-05-05",
+      "category": "Global Access",
+      "contentType": "comparison",
+      "excerpt": "Creators in Nigeria, Pakistan, Ghana, Bangladesh, and dozens of other countries cannot use the platforms everyone else takes for granted. This changes that.",
+      "file": "post-20260505-IZYI.json",
+      "image": "https://open-rail.github.io/Store//posts/images/post-20260505-IZYI.png",
+      "imageSource": "pollinations-flux"
+    },
+    {
       "id": "post-20260505-EC2I",
       "title": "Traditional Platforms vs Unchained Commerce for Accepting Payments as a Digital Creator in Pakistan",
       "date": "2026-05-05",
@@ -7124,5 +7135,5 @@
     }
   ],
   "lastUpdated": "2026-05-05",
-  "totalPosts": 648
+  "totalPosts": 649
 }
