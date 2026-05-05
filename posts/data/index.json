@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260505-1OX0",
+      "title": "Multi-Chain Payment Integration for a Digital Product Store: Which Option Works Regardless of Where You Are",
+      "date": "2026-05-05",
+      "category": "Getting Paid",
+      "contentType": "comparison",
+      "excerpt": "Getting paid for your digital work should not depend on which country you were born in. Here is how creators everywhere collect real income.",
+      "file": "post-20260505-1OX0.json",
+      "image": "https://open-rail.github.io/Store//posts/images/post-20260505-1OX0.png",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260505-CCI2",
       "title": "Traditional Platforms vs Unchained Commerce for Receiving Payment for Digital Products in Kenya and Ethiopia",
       "date": "2026-05-05",
@@ -7190,5 +7201,5 @@
     }
   ],
   "lastUpdated": "2026-05-05",
-  "totalPosts": 654
+  "totalPosts": 655
 }
