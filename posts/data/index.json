@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260505-CHTC",
+      "title": "PayPal vs Crypto for Selling Online When PayPal Is Not Available in Your Country — An Honest Comparison",
+      "date": "2026-05-05",
+      "category": "Platform Restrictions",
+      "contentType": "comparison",
+      "excerpt": "PayPal, Stripe, Gumroad, and Payhip do not work in your country. That is a platform problem, not a you problem. Here is what actually works.",
+      "file": "post-20260505-CHTC.json",
+      "image": "https://open-rail.github.io/Store//posts/images/post-20260505-CHTC.png",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260505-RIMM",
       "title": "How Creators in Ghana Sell Digital Products: Which Option Works Regardless of Where You Are",
       "date": "2026-05-05",
@@ -6915,5 +6926,5 @@
     }
   ],
   "lastUpdated": "2026-05-05",
-  "totalPosts": 629
+  "totalPosts": 630
 }
