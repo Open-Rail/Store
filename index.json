@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260506-9ML0",
+      "title": "Everything You Need to Know About USDT Payment Gateways for Digital Products: What You Need to Know",
+      "date": "2026-05-06T21:33:07.981Z",
+      "category": "Selling Digital Products",
+      "contentType": "breakdown",
+      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
+      "file": "posts/data/post-20260506-9ML0.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260506-9ML0.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260506-AVBW",
       "title": "Setting Up a NOWPayments Digital Store: Everything You Need to Get Started",
       "date": "2026-05-06T21:22:48.496Z",
@@ -595,6 +606,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-06T21:22:48.496Z",
-  "totalPosts": 54
+  "lastUpdated": "2026-05-06T21:33:07.981Z",
+  "totalPosts": 55
 }
