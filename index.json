@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260506-CCVC",
+      "title": "Accepting Bitcoin for Ebook Sales: A Step-by-Step Setup Guide",
+      "date": "2026-05-06T18:42:22.705Z",
+      "category": "Selling Digital Products",
+      "contentType": "guide",
+      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
+      "file": "posts/data/post-20260506-CCVC.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260506-CCVC.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260506-DGAS",
       "title": "Comparing Your Real Options for Selling Plugins Without a Payment Processor",
       "date": "2026-05-06T18:32:56.973Z",
@@ -408,6 +419,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-06T18:32:56.973Z",
-  "totalPosts": 37
+  "lastUpdated": "2026-05-06T18:42:22.705Z",
+  "totalPosts": 38
 }
