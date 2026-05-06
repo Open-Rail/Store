@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260506-34D9",
+      "title": "Multi-Chain Payment Integration for a Digital Product Store: What Actually Works When You Are in a Restricted Country",
+      "date": "2026-05-06",
+      "category": "Getting Paid",
+      "contentType": "comparison",
+      "excerpt": "Getting paid for your digital work should not depend on which country you were born in. Here is how creators everywhere collect real income.",
+      "file": "post-20260506-34D9.json",
+      "image": "https://open-rail.github.io/Store//posts/images/post-20260506-34D9.png",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260506-04TP",
       "title": "PayPal vs Crypto for Getting Paid Online Without Stripe — An Honest Comparison",
       "date": "2026-05-06",
@@ -7597,5 +7608,5 @@
     }
   ],
   "lastUpdated": "2026-05-06",
-  "totalPosts": 691
+  "totalPosts": 692
 }
