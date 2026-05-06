@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260506-IQPH",
+      "title": "Webhook-Driven Crypto Payment Fulfillment Explained for Digital Creators for Digital Creators",
+      "date": "2026-05-06T21:52:33.288Z",
+      "category": "Getting Paid",
+      "contentType": "breakdown",
+      "excerpt": "USDT, BTC, ETH, SOL, and 300+ coins. Get paid in seconds, convert locally, and keep 100% of your revenue minus network fees.",
+      "file": "posts/data/post-20260506-IQPH.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260506-IQPH.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260506-F8A4",
       "title": "How to Get Payment Gateways for Cameroon Digital Products Live Before the End of the Day",
       "date": "2026-05-06T21:44:04.381Z",
@@ -617,6 +628,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-06T21:44:04.381Z",
-  "totalPosts": 56
+  "lastUpdated": "2026-05-06T21:52:33.288Z",
+  "totalPosts": 57
 }
