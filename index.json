@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260506-W9MD",
+      "title": "Selling Music Online and Accepting Bitcoin Explained for Digital Creators",
+      "date": "2026-05-06T20:53:17.066Z",
+      "category": "Selling Digital Products",
+      "contentType": "breakdown",
+      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
+      "file": "posts/data/post-20260506-W9MD.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260506-W9MD.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260506-AS4K",
       "title": "The No-Nonsense Guide to Getting Paid in USDT for Digital Work",
       "date": "2026-05-06T20:43:02.847Z",
@@ -551,6 +562,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-06T20:43:02.847Z",
-  "totalPosts": 50
+  "lastUpdated": "2026-05-06T20:53:17.066Z",
+  "totalPosts": 51
 }
