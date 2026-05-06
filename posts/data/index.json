@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260506-FBOJ",
+      "title": "PayPal vs Crypto for Integrating NOWPayments Into a Digital Goods Store — An Honest Comparison — The Honest Version",
+      "date": "2026-05-06",
+      "category": "Getting Paid",
+      "contentType": "comparison",
+      "excerpt": "Getting paid for your digital work should not depend on which country you were born in. Here is how creators everywhere collect real income.",
+      "file": "post-20260506-FBOJ.json",
+      "image": "https://open-rail.github.io/Store//posts/images/post-20260506-FBOJ.png",
+      "imageSource": "pollinations-flux"
+    },
+    {
       "id": "post-20260506-MCX1",
       "title": "Traditional Platforms vs Unchained Commerce for Building Digital Creator Income Without Western Payment Platforms",
       "date": "2026-05-06",
@@ -7685,5 +7696,5 @@
     }
   ],
   "lastUpdated": "2026-05-06",
-  "totalPosts": 699
+  "totalPosts": 700
 }
