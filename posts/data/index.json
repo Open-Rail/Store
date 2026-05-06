@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260506-TGHX",
+      "title": "Setting Up an Admin Dashboard for Your Crypto Digital Store: What Actually Works When You Are in a Restricted Country — The Honest Version",
+      "date": "2026-05-06",
+      "category": "Store Setup",
+      "contentType": "comparison",
+      "excerpt": "A complete crypto store for digital products — no PayPal, no Stripe, no geographic restrictions. Built and running in one session.",
+      "file": "post-20260506-TGHX.json",
+      "image": "https://open-rail.github.io/Store//posts/images/post-20260506-TGHX.png",
+      "imageSource": "pollinations-flux"
+    },
+    {
       "id": "post-20260506-M25A",
       "title": "Running an Online Store Without a Credit Card Processing Account: Which Option Works Regardless of Where You Are",
       "date": "2026-05-06",
@@ -8125,5 +8136,5 @@
     }
   ],
   "lastUpdated": "2026-05-06",
-  "totalPosts": 739
+  "totalPosts": 740
 }
