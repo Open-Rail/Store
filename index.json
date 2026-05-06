@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260506-XWI0",
+      "title": "The Real Difference Between Your Choices for Selling Digital Art Without PayPal That Actually Works",
+      "date": "2026-05-06T14:52:30.120Z",
+      "category": "Platform Restrictions",
+      "contentType": "comparison",
+      "excerpt": "PayPal and Stripe block creators in dozens of countries. Here is the infrastructure that works everywhere they don't.",
+      "file": "posts/data/post-20260506-XWI0.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260506-XWI0.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260506-4IP0",
       "title": "The No-Nonsense Guide to Deploying a Digital Store on GitHub Pages",
       "date": "2026-05-06T14:42:26.732Z",
@@ -155,6 +166,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-06T14:42:26.732Z",
-  "totalPosts": 14
+  "lastUpdated": "2026-05-06T14:52:30.120Z",
+  "totalPosts": 15
 }
