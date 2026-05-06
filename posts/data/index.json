@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260506-HLQ6",
+      "title": "Traditional Platforms vs Unchained Commerce for Receiving Payment for Digital Products in Kenya and Ethiopia — The Honest Version",
+      "date": "2026-05-06",
+      "category": "Global Access",
+      "contentType": "comparison",
+      "excerpt": "Creators in Nigeria, Pakistan, Ghana, Bangladesh, and dozens of other countries cannot use the platforms everyone else takes for granted. This changes that.",
+      "file": "post-20260506-HLQ6.json",
+      "image": "https://open-rail.github.io/Store//posts/images/post-20260506-HLQ6.png",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260506-TGHX",
       "title": "Setting Up an Admin Dashboard for Your Crypto Digital Store: What Actually Works When You Are in a Restricted Country — The Honest Version",
       "date": "2026-05-06",
@@ -8136,5 +8147,5 @@
     }
   ],
   "lastUpdated": "2026-05-06",
-  "totalPosts": 740
+  "totalPosts": 741
 }
