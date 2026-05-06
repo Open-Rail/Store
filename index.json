@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260506-L1XF",
+      "title": "Selling Software Without a Stripe Account: What Nobody Tells You Before You Choose",
+      "date": "2026-05-06T15:02:43.606Z",
+      "category": "Platform Restrictions",
+      "contentType": "comparison",
+      "excerpt": "PayPal and Stripe block creators in dozens of countries. Here is the infrastructure that works everywhere they don't.",
+      "file": "posts/data/post-20260506-L1XF.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260506-L1XF.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260506-XWI0",
       "title": "The Real Difference Between Your Choices for Selling Digital Art Without PayPal That Actually Works",
       "date": "2026-05-06T14:52:30.120Z",
@@ -166,6 +177,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-06T14:52:30.120Z",
-  "totalPosts": 15
+  "lastUpdated": "2026-05-06T15:02:43.606Z",
+  "totalPosts": 16
 }
