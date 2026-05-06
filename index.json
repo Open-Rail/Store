@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260506-Q3OG",
+      "title": "Everything You Need to Know About Automated Digital Product Delivery with Crypto — The Full Guide",
+      "date": "2026-05-06T19:02:41.083Z",
+      "category": "Selling Digital Products",
+      "contentType": "breakdown",
+      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
+      "file": "posts/data/post-20260506-Q3OG.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260506-Q3OG.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260506-5P8C",
       "title": "The Fastest Way to Set Up Digital Product Payment Solutions in West Africa and Start Selling",
       "date": "2026-05-06T18:52:34.308Z",
@@ -430,6 +441,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-06T18:52:34.308Z",
-  "totalPosts": 39
+  "lastUpdated": "2026-05-06T19:02:41.083Z",
+  "totalPosts": 40
 }
