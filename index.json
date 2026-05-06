@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260507-KUGO",
+      "title": "Everything You Need to Know About Financial Sovereignty for Digital Creators — The Full Guide",
+      "date": "2026-05-06T22:02:39.160Z",
+      "category": "Selling Digital Products",
+      "contentType": "breakdown",
+      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
+      "file": "posts/data/post-20260507-KUGO.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-KUGO.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260506-IQPH",
       "title": "Webhook-Driven Crypto Payment Fulfillment Explained for Digital Creators for Digital Creators",
       "date": "2026-05-06T21:52:33.288Z",
@@ -628,6 +639,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-06T21:52:33.288Z",
-  "totalPosts": 57
+  "lastUpdated": "2026-05-06T22:02:39.160Z",
+  "totalPosts": 58
 }
