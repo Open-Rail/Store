@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260506-ZEJO",
+      "title": "Alternatives to Gumroad's Payout Delays: What Nobody Tells You Before You Choose",
+      "date": "2026-05-06T12:52:15.842Z",
+      "category": "Platform Restrictions",
+      "contentType": "comparison",
+      "excerpt": "PayPal and Stripe block creators in dozens of countries. Here is the infrastructure that works everywhere they don't.",
+      "file": "posts/data/post-20260506-ZEJO.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260506-ZEJO.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260506-PXK2",
       "title": "How Creators in Ghana Get Paid Online from First Principles: The Definitive Breakdown",
       "date": "2026-05-06T12:42:30.747Z",
@@ -23,6 +34,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-06T12:42:30.748Z",
-  "totalPosts": 2
+  "lastUpdated": "2026-05-06T12:52:15.842Z",
+  "totalPosts": 3
 }
