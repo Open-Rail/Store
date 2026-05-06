@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260506-MCX1",
+      "title": "Traditional Platforms vs Unchained Commerce for Building Digital Creator Income Without Western Payment Platforms",
+      "date": "2026-05-06",
+      "category": "Platform Restrictions",
+      "contentType": "comparison",
+      "excerpt": "PayPal, Stripe, Gumroad, and Payhip do not work in your country. That is a platform problem, not a you problem. Here is what actually works.",
+      "file": "post-20260506-MCX1.json",
+      "image": "https://open-rail.github.io/Store//posts/images/post-20260506-MCX1.png",
+      "imageSource": "pollinations-flux"
+    },
+    {
       "id": "post-20260506-A36B",
       "title": "Automated Crypto Payment and Delivery for Digital Products: What Actually Works When You Are in a Restricted Country: What Actually Works",
       "date": "2026-05-06",
@@ -7674,5 +7685,5 @@
     }
   ],
   "lastUpdated": "2026-05-06",
-  "totalPosts": 698
+  "totalPosts": 699
 }
