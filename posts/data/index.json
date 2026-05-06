@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260506-9YK3",
+      "title": "Traditional Platforms vs Unchained Commerce for Accepting Payments as a Digital Creator in Pakistan — The Honest Version",
+      "date": "2026-05-06",
+      "category": "Global Access",
+      "contentType": "comparison",
+      "excerpt": "Creators in Nigeria, Pakistan, Ghana, Bangladesh, and dozens of other countries cannot use the platforms everyone else takes for granted. This changes that.",
+      "file": "post-20260506-9YK3.json",
+      "image": "https://open-rail.github.io/Store//posts/images/post-20260506-9YK3.png",
+      "imageSource": "pollinations-flux"
+    },
+    {
       "id": "post-20260506-E9FJ",
       "title": "Traditional Platforms vs Unchained Commerce for Selling Digital Products in Countries Stripe Does Not Support",
       "date": "2026-05-06",
@@ -7498,5 +7509,5 @@
     }
   ],
   "lastUpdated": "2026-05-06",
-  "totalPosts": 682
+  "totalPosts": 683
 }
