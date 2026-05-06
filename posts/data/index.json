@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260506-CTZB",
+      "title": "Traditional Platforms vs Unchained Commerce for How Creators in Bangladesh Sell Digital Products",
+      "date": "2026-05-06",
+      "category": "Global Access",
+      "contentType": "comparison",
+      "excerpt": "Creators in Nigeria, Pakistan, Ghana, Bangladesh, and dozens of other countries cannot use the platforms everyone else takes for granted. This changes that.",
+      "file": "post-20260506-CTZB.json",
+      "image": "https://open-rail.github.io/Store//posts/images/post-20260506-CTZB.png",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260506-J54P",
       "title": "The Real Difference Between Platform Stores and Selling Digital Products in Countries Stripe Does Not Support",
       "date": "2026-05-06",
@@ -8081,5 +8092,5 @@
     }
   ],
   "lastUpdated": "2026-05-06",
-  "totalPosts": 735
+  "totalPosts": 736
 }
