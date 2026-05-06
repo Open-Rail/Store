@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260506-ZDGO",
+      "title": "Why Selling Digital Downloads in Pakistan Is the Only Real Option for Blocked Creators",
+      "date": "2026-05-06T18:13:15.915Z",
+      "category": "Global Access",
+      "contentType": "opinion",
+      "excerpt": "Selling digital products from Nigeria, Ghana, Kenya, Pakistan, or Bangladesh is possible with crypto-native infrastructure that has no geographic restrictions.",
+      "file": "posts/data/post-20260506-ZDGO.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260506-ZDGO.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260506-LYBF",
       "title": "The No-Nonsense Guide to Building a Crypto Store on GitHub Pages — The Full Guide",
       "date": "2026-05-06T18:02:16.848Z",
@@ -375,6 +386,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-06T18:02:16.848Z",
-  "totalPosts": 34
+  "lastUpdated": "2026-05-06T18:13:15.915Z",
+  "totalPosts": 35
 }
