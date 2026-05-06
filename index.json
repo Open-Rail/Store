@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260506-3RVT",
+      "title": "Comparing Your Real Options for Selling Courses Without Teachable or Gumroad: What You Need to Know",
+      "date": "2026-05-06T20:32:30.589Z",
+      "category": "Platform Restrictions",
+      "contentType": "comparison",
+      "excerpt": "PayPal and Stripe block creators in dozens of countries. Here is the infrastructure that works everywhere they don't.",
+      "file": "posts/data/post-20260506-3RVT.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260506-3RVT.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260506-2UTI",
       "title": "Selling Fonts Online Without PayPal: What Nobody Tells You Before You Choose — The Full Guide",
       "date": "2026-05-06T20:23:26.207Z",
@@ -529,6 +540,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-06T20:23:26.207Z",
-  "totalPosts": 48
+  "lastUpdated": "2026-05-06T20:32:30.589Z",
+  "totalPosts": 49
 }
