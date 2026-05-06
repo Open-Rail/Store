@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260507-F9X7",
+      "title": "How Creators in Ghana Get Paid Online: Which Option Actually Works for You",
+      "date": "2026-05-06T22:42:48.414Z",
+      "category": "Global Access",
+      "contentType": "comparison",
+      "excerpt": "Selling digital products from Nigeria, Ghana, Kenya, Pakistan, or Bangladesh is possible with crypto-native infrastructure that has no geographic restrictions.",
+      "file": "posts/data/post-20260507-F9X7.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-F9X7.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260507-FW5C",
       "title": "Everything You Need to Know About Crypto Payment Integration for Static Sites",
       "date": "2026-05-06T22:33:39.626Z",
@@ -672,6 +683,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-06T22:33:39.626Z",
-  "totalPosts": 61
+  "lastUpdated": "2026-05-06T22:42:48.414Z",
+  "totalPosts": 62
 }
