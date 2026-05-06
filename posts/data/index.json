@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260506-GQT5",
+      "title": "PayPal vs Crypto for Selling Stock Photos Without a Stripe Account — An Honest Comparison",
+      "date": "2026-05-06",
+      "category": "Platform Restrictions",
+      "contentType": "comparison",
+      "excerpt": "PayPal, Stripe, Gumroad, and Payhip do not work in your country. That is a platform problem, not a you problem. Here is what actually works.",
+      "file": "post-20260506-GQT5.json",
+      "image": "https://open-rail.github.io/Store//posts/images/post-20260506-GQT5.png",
+      "imageSource": "pollinations-flux"
+    },
+    {
       "id": "post-20260506-D905",
       "title": "PayPal vs Crypto for Selling Software Plugins Without PayPal — An Honest Comparison",
       "date": "2026-05-06",
@@ -7784,5 +7795,5 @@
     }
   ],
   "lastUpdated": "2026-05-06",
-  "totalPosts": 708
+  "totalPosts": 709
 }
