@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260506-4XZ4",
+      "title": "Selling Digital Products from Africa from First Principles: The Definitive Breakdown",
+      "date": "2026-05-06T17:02:30.872Z",
+      "category": "Global Access",
+      "contentType": "deep-dive",
+      "excerpt": "Selling digital products from Nigeria, Ghana, Kenya, Pakistan, or Bangladesh is possible with crypto-native infrastructure that has no geographic restrictions.",
+      "file": "posts/data/post-20260506-4XZ4.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260506-4XZ4.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260506-4KI7",
       "title": "Selling Ebooks Without Stripe: Which Option Actually Works for You",
       "date": "2026-05-06T16:52:31.093Z",
@@ -298,6 +309,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-06T16:52:31.093Z",
-  "totalPosts": 27
+  "lastUpdated": "2026-05-06T17:02:30.872Z",
+  "totalPosts": 28
 }
