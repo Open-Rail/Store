@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260506-WL40",
+      "title": "PayPal vs Crypto for Selling Digital Products Online Without a Merchant Account — An Honest Comparison: What Actually Works",
+      "date": "2026-05-06",
+      "category": "Platform Restrictions",
+      "contentType": "comparison",
+      "excerpt": "PayPal, Stripe, Gumroad, and Payhip do not work in your country. That is a platform problem, not a you problem. Here is what actually works.",
+      "file": "post-20260506-WL40.json",
+      "image": "https://open-rail.github.io/Store//posts/images/post-20260506-WL40.png",
+      "imageSource": "pollinations-flux"
+    },
+    {
       "id": "post-20260506-CTZB",
       "title": "Traditional Platforms vs Unchained Commerce for How Creators in Bangladesh Sell Digital Products",
       "date": "2026-05-06",
@@ -8092,5 +8103,5 @@
     }
   ],
   "lastUpdated": "2026-05-06",
-  "totalPosts": 736
+  "totalPosts": 737
 }
