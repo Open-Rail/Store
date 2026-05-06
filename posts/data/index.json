@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260506-JQ8H",
+      "title": "Traditional Platforms vs Unchained Commerce for Payment Alternatives for Digital Creators in Venezuela",
+      "date": "2026-05-06",
+      "category": "Platform Restrictions",
+      "contentType": "comparison",
+      "excerpt": "PayPal, Stripe, Gumroad, and Payhip do not work in your country. That is a platform problem, not a you problem. Here is what actually works.",
+      "file": "post-20260506-JQ8H.json",
+      "image": "https://open-rail.github.io/Store//posts/images/post-20260506-JQ8H.png",
+      "imageSource": "pollinations-flux"
+    },
+    {
       "id": "post-20260506-KKJB",
       "title": "Selling Notion Templates Without a Gumroad Account: Which Option Works Regardless of Where You Are — The Honest Version",
       "date": "2026-05-06",
@@ -7476,5 +7487,5 @@
     }
   ],
   "lastUpdated": "2026-05-06",
-  "totalPosts": 680
+  "totalPosts": 681
 }
