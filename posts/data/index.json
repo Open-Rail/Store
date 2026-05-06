@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260506-4QJL",
+      "title": "Payhip Alternatives for African Digital Creators: Which Option Works Regardless of Where You Are — The Honest Version",
+      "date": "2026-05-06",
+      "category": "Platform Restrictions",
+      "contentType": "comparison",
+      "excerpt": "PayPal, Stripe, Gumroad, and Payhip do not work in your country. That is a platform problem, not a you problem. Here is what actually works.",
+      "file": "post-20260506-4QJL.json",
+      "image": "https://open-rail.github.io/Store//posts/images/post-20260506-4QJL.png",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260506-9YSB",
       "title": "Selling Digital Products in Nigeria Without PayPal: What Actually Works When You Are in a Restricted Country",
       "date": "2026-05-06",
@@ -7982,5 +7993,5 @@
     }
   ],
   "lastUpdated": "2026-05-06",
-  "totalPosts": 726
+  "totalPosts": 727
 }
