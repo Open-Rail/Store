@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260506-Z8HN",
+      "title": "How to How to Start Selling Digital Products with Crypto: The Complete Creator Guide",
+      "date": "2026-05-06T19:42:27.068Z",
+      "category": "Selling Digital Products",
+      "contentType": "guide",
+      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
+      "file": "posts/data/post-20260506-Z8HN.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260506-Z8HN.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260506-XEAH",
       "title": "Comparing Your Real Options for Selling Courses from Pakistan Without Stripe",
       "date": "2026-05-06T19:32:39.649Z",
@@ -474,6 +485,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-06T19:32:39.649Z",
-  "totalPosts": 43
+  "lastUpdated": "2026-05-06T19:42:27.068Z",
+  "totalPosts": 44
 }
