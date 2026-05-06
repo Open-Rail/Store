@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260506-S5EP",
+      "title": "Tron USDT Payments for Digital Products: What It Actually Is and How It Works",
+      "date": "2026-05-06T14:12:27.068Z",
+      "category": "Selling Digital Products",
+      "contentType": "breakdown",
+      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
+      "file": "posts/data/post-20260506-S5EP.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260506-S5EP.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260506-ELM1",
       "title": "The Real Difference Between Your Choices for Selling PDF Guides Without Gumroad",
       "date": "2026-05-06T14:02:29.947Z",
@@ -111,6 +122,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-06T14:02:29.947Z",
-  "totalPosts": 10
+  "lastUpdated": "2026-05-06T14:12:27.068Z",
+  "totalPosts": 11
 }
