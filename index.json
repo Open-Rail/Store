@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260506-XEAH",
+      "title": "Comparing Your Real Options for Selling Courses from Pakistan Without Stripe",
+      "date": "2026-05-06T19:32:39.649Z",
+      "category": "Platform Restrictions",
+      "contentType": "comparison",
+      "excerpt": "PayPal and Stripe block creators in dozens of countries. Here is the infrastructure that works everywhere they don't.",
+      "file": "posts/data/post-20260506-XEAH.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260506-XEAH.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260506-XTTQ",
       "title": "5 Steps to Get Payment Infrastructure for South Asian Creators Working for Your Store",
       "date": "2026-05-06T19:22:41.713Z",
@@ -463,6 +474,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-06T19:22:41.713Z",
-  "totalPosts": 42
+  "lastUpdated": "2026-05-06T19:32:39.649Z",
+  "totalPosts": 43
 }
