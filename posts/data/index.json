@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260506-ZD8O",
+      "title": "Selling Digital Products Anonymously Online: What Actually Works When You Are in a Restricted Country — The Honest Version",
+      "date": "2026-05-06",
+      "category": "Selling Digital Products",
+      "contentType": "comparison",
+      "excerpt": "You made the product. The platform blocked you. Here is how to sell it anyway — to anyone, anywhere, with no gatekeeper in the way.",
+      "file": "post-20260506-ZD8O.json",
+      "image": "https://open-rail.github.io/Store//posts/images/post-20260506-ZD8O.png",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260506-GQT5",
       "title": "PayPal vs Crypto for Selling Stock Photos Without a Stripe Account — An Honest Comparison",
       "date": "2026-05-06",
@@ -7795,5 +7806,5 @@
     }
   ],
   "lastUpdated": "2026-05-06",
-  "totalPosts": 709
+  "totalPosts": 710
 }
