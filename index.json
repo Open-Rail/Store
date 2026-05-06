@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260506-A8J3",
+      "title": "Everything You Need to Know About Bitcoin Payments for Digital Downloads",
+      "date": "2026-05-06T13:22:43.518Z",
+      "category": "Selling Digital Products",
+      "contentType": "breakdown",
+      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
+      "file": "posts/data/post-20260506-A8J3.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260506-A8J3.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260506-B06B",
       "title": "PayPal Alternatives for Nigerian Creators: What Nobody Tells You Before You Choose — The Full Guide",
       "date": "2026-05-06T13:12:18.185Z",
@@ -56,6 +67,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-06T13:12:18.185Z",
-  "totalPosts": 5
+  "lastUpdated": "2026-05-06T13:22:43.518Z",
+  "totalPosts": 6
 }
