@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260506-N5JH",
+      "title": "Solana Payments for Digital Products Explained for Digital Creators: What You Need to Know",
+      "date": "2026-05-06T21:12:40.586Z",
+      "category": "Selling Digital Products",
+      "contentType": "breakdown",
+      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
+      "file": "posts/data/post-20260506-N5JH.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260506-N5JH.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260506-8V21",
       "title": "Solutions When PayPal and Stripe Ban Your Account: What Nobody Tells You Before You Choose for Digital Creators",
       "date": "2026-05-06T21:02:37.475Z",
@@ -573,6 +584,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-06T21:02:37.475Z",
-  "totalPosts": 52
+  "lastUpdated": "2026-05-06T21:12:40.587Z",
+  "totalPosts": 53
 }
