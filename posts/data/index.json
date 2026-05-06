@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260506-8N4E",
+      "title": "How to Build a Crypto Payment Store for Digital Products: What Actually Works When You Are in a Restricted Country",
+      "date": "2026-05-06",
+      "category": "Getting Paid",
+      "contentType": "comparison",
+      "excerpt": "Getting paid for your digital work should not depend on which country you were born in. Here is how creators everywhere collect real income.",
+      "file": "post-20260506-8N4E.json",
+      "image": "https://open-rail.github.io/Store//posts/images/post-20260506-8N4E.png",
+      "imageSource": "pollinations-flux"
+    },
+    {
       "id": "post-20260506-W686",
       "title": "Selling Fonts Online Without Stripe or PayPal: Which Option Works Regardless of Where You Are — The Honest Version",
       "date": "2026-05-06",
@@ -8037,5 +8048,5 @@
     }
   ],
   "lastUpdated": "2026-05-06",
-  "totalPosts": 731
+  "totalPosts": 732
 }
