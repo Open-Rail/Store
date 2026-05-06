@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260506-F8A4",
+      "title": "How to Get Payment Gateways for Cameroon Digital Products Live Before the End of the Day",
+      "date": "2026-05-06T21:44:04.381Z",
+      "category": "Global Access",
+      "contentType": "quick-win",
+      "excerpt": "Selling digital products from Nigeria, Ghana, Kenya, Pakistan, or Bangladesh is possible with crypto-native infrastructure that has no geographic restrictions.",
+      "file": "posts/data/post-20260506-F8A4.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260506-F8A4.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260506-9ML0",
       "title": "Everything You Need to Know About USDT Payment Gateways for Digital Products: What You Need to Know",
       "date": "2026-05-06T21:33:07.981Z",
@@ -606,6 +617,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-06T21:33:07.981Z",
-  "totalPosts": 55
+  "lastUpdated": "2026-05-06T21:44:04.381Z",
+  "totalPosts": 56
 }
