@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260506-AVBW",
+      "title": "Setting Up a NOWPayments Digital Store: Everything You Need to Get Started",
+      "date": "2026-05-06T21:22:48.496Z",
+      "category": "Getting Paid",
+      "contentType": "guide",
+      "excerpt": "USDT, BTC, ETH, SOL, and 300+ coins. Get paid in seconds, convert locally, and keep 100% of your revenue minus network fees.",
+      "file": "posts/data/post-20260506-AVBW.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260506-AVBW.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260506-N5JH",
       "title": "Solana Payments for Digital Products Explained for Digital Creators: What You Need to Know",
       "date": "2026-05-06T21:12:40.586Z",
@@ -584,6 +595,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-06T21:12:40.587Z",
-  "totalPosts": 53
+  "lastUpdated": "2026-05-06T21:22:48.496Z",
+  "totalPosts": 54
 }
