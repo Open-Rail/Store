@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260507-MICK",
+      "title": "Selling Ebooks in Nigeria Without PayPal: Which Option Actually Works for You: What You Need to Know",
+      "date": "2026-05-06T22:12:19.936Z",
+      "category": "Platform Restrictions",
+      "contentType": "comparison",
+      "excerpt": "PayPal and Stripe block creators in dozens of countries. Here is the infrastructure that works everywhere they don't.",
+      "file": "posts/data/post-20260507-MICK.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-MICK.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260507-KUGO",
       "title": "Everything You Need to Know About Financial Sovereignty for Digital Creators — The Full Guide",
       "date": "2026-05-06T22:02:39.160Z",
@@ -639,6 +650,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-06T22:02:39.160Z",
-  "totalPosts": 58
+  "lastUpdated": "2026-05-06T22:12:19.936Z",
+  "totalPosts": 59
 }
