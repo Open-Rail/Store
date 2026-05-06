@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260506-TU9C",
+      "title": "Everything You Need to Know About No-KYC Payment Gateways for Digital Sellers",
+      "date": "2026-05-06T16:42:36.330Z",
+      "category": "Selling Digital Products",
+      "contentType": "breakdown",
+      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
+      "file": "posts/data/post-20260506-TU9C.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260506-TU9C.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260506-XDUY",
       "title": "The Complete Deep-Dive on How Kenyan Creators Get Paid Internationally for Serious Sellers",
       "date": "2026-05-06T16:32:45.190Z",
@@ -276,6 +287,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-06T16:32:45.190Z",
-  "totalPosts": 25
+  "lastUpdated": "2026-05-06T16:42:36.330Z",
+  "totalPosts": 26
 }
