@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260506-DLEV",
+      "title": "Traditional Platforms vs Unchained Commerce for Monetizing Your Skills When Stripe Is Not Available in Your Country",
+      "date": "2026-05-06",
+      "category": "Platform Restrictions",
+      "contentType": "comparison",
+      "excerpt": "PayPal, Stripe, Gumroad, and Payhip do not work in your country. That is a platform problem, not a you problem. Here is what actually works.",
+      "file": "post-20260506-DLEV.json",
+      "image": "https://open-rail.github.io/Store//posts/images/post-20260506-DLEV.png",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260506-6KXF",
       "title": "The Real Difference Between Platform Stores and Selling Digital Art Online Without PayPal: What Actually Works",
       "date": "2026-05-06",
@@ -7652,5 +7663,5 @@
     }
   ],
   "lastUpdated": "2026-05-06",
-  "totalPosts": 696
+  "totalPosts": 697
 }
