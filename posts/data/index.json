@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260506-5HQL",
+      "title": "Building a Full Stack Crypto Storefront for Digital Products: What Actually Works When You Are in a Restricted Country",
+      "date": "2026-05-06",
+      "category": "Store Setup",
+      "contentType": "comparison",
+      "excerpt": "A complete crypto store for digital products — no PayPal, no Stripe, no geographic restrictions. Built and running in one session.",
+      "file": "post-20260506-5HQL.json",
+      "image": "https://open-rail.github.io/Store//posts/images/post-20260506-5HQL.png",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260506-ZD8O",
       "title": "Selling Digital Products Anonymously Online: What Actually Works When You Are in a Restricted Country — The Honest Version",
       "date": "2026-05-06",
@@ -7806,5 +7817,5 @@
     }
   ],
   "lastUpdated": "2026-05-06",
-  "totalPosts": 710
+  "totalPosts": 711
 }
