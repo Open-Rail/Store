@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260506-I3IX",
+      "title": "Traditional Platforms vs Unchained Commerce for How to Sell Digital Products Without Being Restricted by Payment Platforms",
+      "date": "2026-05-06",
+      "category": "Platform Restrictions",
+      "contentType": "comparison",
+      "excerpt": "PayPal, Stripe, Gumroad, and Payhip do not work in your country. That is a platform problem, not a you problem. Here is what actually works.",
+      "file": "post-20260506-I3IX.json",
+      "image": "https://open-rail.github.io/Store//posts/images/post-20260506-I3IX.png",
+      "imageSource": "pollinations-flux"
+    },
+    {
       "id": "post-20260506-KRIO",
       "title": "PayPal vs Crypto for Collecting Payment for Freelance Work in Nigeria — An Honest Comparison",
       "date": "2026-05-06",
@@ -7619,5 +7630,5 @@
     }
   ],
   "lastUpdated": "2026-05-06",
-  "totalPosts": 693
+  "totalPosts": 694
 }
