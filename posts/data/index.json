@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260506-63MM",
+      "title": "Traditional Platforms vs Unchained Commerce for Selling Tutorials, Ebooks, and Courses Without Gumroad or Payhip",
+      "date": "2026-05-06",
+      "category": "Platform Restrictions",
+      "contentType": "comparison",
+      "excerpt": "PayPal, Stripe, Gumroad, and Payhip do not work in your country. That is a platform problem, not a you problem. Here is what actually works.",
+      "file": "post-20260506-63MM.json",
+      "image": "https://open-rail.github.io/Store//posts/images/post-20260506-63MM.png",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260506-VB7I",
       "title": "The Real Difference Between Platform Stores and Selling Digital Downloads Globally Without Payment Restrictions",
       "date": "2026-05-06",
@@ -7949,5 +7960,5 @@
     }
   ],
   "lastUpdated": "2026-05-06",
-  "totalPosts": 723
+  "totalPosts": 724
 }
