@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260506-J54P",
+      "title": "The Real Difference Between Platform Stores and Selling Digital Products in Countries Stripe Does Not Support",
+      "date": "2026-05-06",
+      "category": "Platform Restrictions",
+      "contentType": "comparison",
+      "excerpt": "PayPal, Stripe, Gumroad, and Payhip do not work in your country. That is a platform problem, not a you problem. Here is what actually works.",
+      "file": "post-20260506-J54P.json",
+      "image": "https://open-rail.github.io/Store//posts/images/post-20260506-J54P.png",
+      "imageSource": "pollinations-flux"
+    },
+    {
       "id": "post-20260506-WC0K",
       "title": "Payment Alternatives for Digital Creators in Venezuela: Which Option Works Regardless of Where You Are",
       "date": "2026-05-06",
@@ -8070,5 +8081,5 @@
     }
   ],
   "lastUpdated": "2026-05-06",
-  "totalPosts": 734
+  "totalPosts": 735
 }
