@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260507-YN4S",
+      "title": "The Real Difference Between Your Choices for Selling Digital Products Without PayPal — No PayPal Required",
+      "date": "2026-05-07T06:02:40.911Z",
+      "category": "Platform Restrictions",
+      "contentType": "comparison",
+      "excerpt": "PayPal and Stripe block creators in dozens of countries. Here is the infrastructure that works everywhere they don't.",
+      "file": "posts/data/post-20260507-YN4S.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-YN4S.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260507-CVQ7",
       "title": "Setting Up NOWPayments Webhooks: Everything You Need to Get Started: What You Need to Know",
       "date": "2026-05-07T05:52:24.388Z",
@@ -1156,6 +1167,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-07T05:52:24.388Z",
-  "totalPosts": 105
+  "lastUpdated": "2026-05-07T06:02:40.911Z",
+  "totalPosts": 106
 }
