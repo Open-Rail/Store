@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260507-Q1V1",
+      "title": "Comparing Your Real Options for PayPal Alternatives for Nigerian Creators",
+      "date": "2026-05-07T09:02:26.380Z",
+      "category": "Platform Restrictions",
+      "contentType": "comparison",
+      "excerpt": "PayPal and Stripe block creators in dozens of countries. Here is the infrastructure that works everywhere they don't.",
+      "file": "posts/data/post-20260507-Q1V1.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-Q1V1.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260507-IQEQ",
       "title": "Crypto Payment Gateways for Digital Products Explained for Digital Creators — No PayPal Required",
       "date": "2026-05-07T08:52:47.200Z",
@@ -1365,6 +1376,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-07T08:52:47.200Z",
-  "totalPosts": 124
+  "lastUpdated": "2026-05-07T09:02:26.380Z",
+  "totalPosts": 125
 }
