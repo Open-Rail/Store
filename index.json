@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260507-VP6Q",
+      "title": "Understanding Payment Solutions for Iranian Digital Sellers: A Plain-Language Breakdown",
+      "date": "2026-05-07T02:13:21.392Z",
+      "category": "Global Access",
+      "contentType": "breakdown",
+      "excerpt": "Selling digital products from Nigeria, Ghana, Kenya, Pakistan, or Bangladesh is possible with crypto-native infrastructure that has no geographic restrictions.",
+      "file": "posts/data/post-20260507-VP6Q.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-VP6Q.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260507-EWSY",
       "title": "The Real Mechanics Behind Web3 Wallet Connect for Digital Sellers — The Full Guide",
       "date": "2026-05-07T02:02:35.414Z",
@@ -903,6 +914,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-07T02:02:35.414Z",
-  "totalPosts": 82
+  "lastUpdated": "2026-05-07T02:13:21.392Z",
+  "totalPosts": 83
 }
