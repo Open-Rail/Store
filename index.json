@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260507-DABL",
+      "title": "How Kenyan Creators Get Paid Internationally from First Principles: The Definitive Breakdown: What You Need to Know",
+      "date": "2026-05-07T02:32:30.540Z",
+      "category": "Global Access",
+      "contentType": "deep-dive",
+      "excerpt": "Selling digital products from Nigeria, Ghana, Kenya, Pakistan, or Bangladesh is possible with crypto-native infrastructure that has no geographic restrictions.",
+      "file": "posts/data/post-20260507-DABL.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-DABL.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260507-427U",
       "title": "Everything You Need to Know About Real-Time Analytics for Crypto Product Stores in 2025",
       "date": "2026-05-07T02:22:28.992Z",
@@ -925,6 +936,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-07T02:22:28.992Z",
-  "totalPosts": 84
+  "lastUpdated": "2026-05-07T02:32:30.540Z",
+  "totalPosts": 85
 }
