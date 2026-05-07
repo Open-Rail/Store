@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260507-IQEQ",
+      "title": "Crypto Payment Gateways for Digital Products Explained for Digital Creators — No PayPal Required",
+      "date": "2026-05-07T08:52:47.200Z",
+      "category": "Selling Digital Products",
+      "contentType": "breakdown",
+      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
+      "file": "posts/data/post-20260507-IQEQ.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-IQEQ.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260507-MPNC",
       "title": "Alternatives to Gumroad's Payout Delays: What Nobody Tells You Before You Choose — No PayPal Required",
       "date": "2026-05-07T08:42:29.115Z",
@@ -1354,6 +1365,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-07T08:42:29.115Z",
-  "totalPosts": 123
+  "lastUpdated": "2026-05-07T08:52:47.200Z",
+  "totalPosts": 124
 }
