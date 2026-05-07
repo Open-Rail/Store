@@ -1,0 +1,129 @@
+{
+  "id": "post-20260507-QP0L",
+  "title": "Accepting Bitcoin for Ebook Sales: A Step-by-Step Setup Guide: What You Need to Know",
+  "date": "2026-05-07T14:32:34.676Z",
+  "category": "Selling Digital Products",
+  "contentType": "guide",
+  "author": "Unchained Commerce",
+  "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
+  "image": "https://open-rail.github.io/Store/posts/images/post-20260507-QP0L.jpg",
+  "imageSource": "picsum",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "You're a Nigerian digital creator with a best-selling ebook, but PayPal and Stripe won't let you receive payments due to platform restrictions. You've tried Gumroad, Payhip, and other popular platforms, but they all require KYC. You need a payment gateway that accepts Bitcoin and other cryptocurrencies, allowing you to sell ebooks without relying on traditional payment processors. This step-by-step guide walks you through setting up an ebook sales platform that works around these restrictions, using Unchained Commerce's Web3 Wallet Connect ($19.99) for frontend wallet integration and multi-chain QR code generation."
+    },
+    {
+      "type": "heading",
+      "text": "Why This Method Works When Everything Else Fails"
+    },
+    {
+      "type": "paragraph",
+      "text": "The conventional payment processors, like PayPal and Stripe, rely on KYC (Know Your Customer) and AML (Anti-Money Laundering) regulations, which make it difficult for creators in restricted countries to receive payments. In contrast, NOWPayments, the payment processor used by Unchained Commerce, supports over 300 coins and doesn't require KYC, allowing you to accept Bitcoin and other cryptocurrencies without any hassle."
+    },
+    {
+      "type": "heading",
+      "text": "What You Need Before You Start"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pricing digital products in crypto is simpler than most creators expect. You set your price in USD. The Web3 Wallet Connect module pulls live exchange rates from price feeds and displays the equivalent amount in whatever coin the buyer chooses — Bitcoin, Ethereum, USDT, Solana, or 300 more options. The buyer always pays the USD equivalent at the time of transaction. NOWPayments handles the currency conversion accounting. You receive the crypto equivalent of your USD price in your wallet. For USDT-priced products, there is no conversion at all — one dollar in equals one dollar received, minus network fees that typically amount to less than one percent of the transaction."
+    },
+    {
+      "type": "heading",
+      "text": "Setting Up Your Payment and Delivery Pipeline"
+    },
+    {
+      "type": "paragraph",
+      "text": "The product types that work best with crypto-native delivery are any digital files that can be stored on a server and delivered via download link: ebooks in PDF or EPUB format, courses as video files or structured content packages, Notion templates as exported .notion files or share links, fonts as ZIP archives of OTF and TTF files, preset packs for Lightroom, Capture One, or DaVinci Resolve, beat files as WAV or MP3 archives, plugin installers, stock photo packs, and any other file-based product. The Core Shop Engine handles the delivery link generation and expiry, ensuring that download links are valid for a set time period and cannot be shared indefinitely after a single purchase."
+    },
+    {
+      "type": "callout",
+      "text": "You don't need a PayPal account or a Stripe subscription to sell ebooks online."
+    },
+    {
+      "type": "heading",
+      "text": "Going Live and Making Your First Sale"
+    },
+    {
+      "type": "paragraph",
+      "text": "Once you've set up the payment and delivery pipeline, you can go live with your ebook sales shop. To do this, you'll need to create a listing for your ebook and configure the pricing and payment settings. You can then promote your shop on social media and other platforms to attract buyers. When a buyer makes a purchase, the payment will be processed automatically, and the ebook will be delivered instantly."
+    },
+    {
+      "type": "heading",
+      "text": "Scaling Once the System Is Running"
+    },
+    {
+      "type": "paragraph",
+      "text": "Once you've established a steady stream of sales, you can scale your shop by adding more digital products, optimizing your pricing and payment settings, and promoting your shop to a wider audience. You can also consider upgrading to the Full Stack Bundle ($79.99), which includes priority updates, Discord support, and a deployment guide to help you take your shop to the next level."
+    },
+    {
+      "type": "heading",
+      "text": "How do I sell an ebook online without PayPal?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The fastest path to your first crypto-native digital product sale is a three-step process. First, set up NOWPayments — create an account, configure your wallet address, get your API key. Second, deploy the Core Shop Engine with your product file and NOWPayments credentials. Third, configure Web3 Wallet Connect with your checkout settings and product details. At that point, your store accepts crypto payments and delivers the product automatically. The complete setup, following the included deployment guide, takes most creators two to four hours from start to first test transaction. The Full Stack Bundle at $79.99 includes all three components plus the deployment guide and support access. For a creator who cannot use PayPal or Stripe, this is the infrastructure that makes selling digital products viable."
+    },
+    {
+      "type": "callout",
+      "text": "Unchained Commerce's NOWPayments gateway supports over 300 coins, including Bitcoin, Ethereum, and USDT."
+    },
+    {
+      "type": "heading",
+      "text": "Related: How Creators Like You Are Getting Paid"
+    },
+    {
+      "type": "paragraph",
+      "text": "If you're looking for a platform to sell digital downloads without fees, such as Notion templates for Bitcoin, consider using Unchained Commerce's Web3 Wallet Connect ($19.99) for frontend wallet integration and multi-chain QR code generation. You can also check out Unchained Commerce's Shop at https://unchained-commerce.github.io/Shop/index.html to see how it works."
+    },
+    {
+      "type": "heading",
+      "text": "Your Action Checklist"
+    },
+    {
+      "type": "paragraph",
+      "text": "To set up your ebook sales shop, follow these steps: Create a digital product, like an ebook, and set up an Unchained Commerce account; Install the Web3 Wallet Connect ($19.99) frontend wallet integration plugin on your shop; Connect your Unchained Commerce account to the NOWPayments gateway and configure the payment settings; Set up automated delivery for your ebooks; Create a listing for your ebook and configure the pricing and payment settings; Promote your shop on social media and other platforms to attract buyers."
+    },
+    {
+      "type": "callout",
+      "text": "With Web3 Wallet Connect ($19.99), you can enable multi-chain QR code generation and live price feeds for your ebook sales shop."
+    },
+    {
+      "type": "cta",
+      "text": "Web3 Wallet Connect — $19.99. Frontend wallet integration with multi-chain QR generation and live price feeds. Let buyers pay in BTC, ETH, USDT, SOL, and 300 more coins.",
+      "url": "https://unchained-commerce.github.io/Shop/index.html",
+      "product": "Web3 Wallet Connect",
+      "price": "$19.99"
+    }
+  ],
+  "related": [
+    "post-20260507-ZPQG",
+    "post-20260507-6QMW",
+    "post-20260507-JSL6"
+  ],
+  "meta": {
+    "searchQuery": "how to accept bitcoin for ebook sales",
+    "serpSource": "tavily",
+    "imageSource": "picsum",
+    "wordCount": 896,
+    "aiProvider": "cerebras",
+    "aiModel": "llama3.1-8b",
+    "aiCallCount": 1,
+    "peopleAlsoAsk": [
+      "How do I sell an ebook online without PayPal?",
+      "What is the best platform to sell digital downloads without fees?",
+      "Can I sell templates and fonts without using Gumroad or Payhip?",
+      "How do independent creators sell courses without Stripe?"
+    ],
+    "relatedSearches": [
+      "sell ebook without paypal stripe gumroad",
+      "digital download store crypto only",
+      "sell notion templates for bitcoin",
+      "font designer accept usdt payment"
+    ],
+    "product": "Web3 Wallet Connect",
+    "botVersion": "5.1",
+    "generatedAt": "2026-05-07T14:32:34.676Z"
+  }
+}
