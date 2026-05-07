@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260507-ABR8",
+      "title": "Why I Stopped Recommending Alternatives to Payment Gateways for Cameroon Digital Products — The Full Guide",
+      "date": "2026-05-07T07:32:13.455Z",
+      "category": "Global Access",
+      "contentType": "opinion",
+      "excerpt": "Selling digital products from Nigeria, Ghana, Kenya, Pakistan, or Bangladesh is possible with crypto-native infrastructure that has no geographic restrictions.",
+      "file": "posts/data/post-20260507-ABR8.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-ABR8.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260507-XD6W",
       "title": "Understanding USDT Payment Gateways for Digital Products: A Plain-Language Breakdown for Digital Creators",
       "date": "2026-05-07T07:22:24.554Z",
@@ -1266,6 +1277,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-07T07:22:24.554Z",
-  "totalPosts": 115
+  "lastUpdated": "2026-05-07T07:32:13.455Z",
+  "totalPosts": 116
 }
