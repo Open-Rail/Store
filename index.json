@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260507-IXTJ",
+      "title": "The No-Nonsense Guide to How to Sell Ebooks from Kenya",
+      "date": "2026-05-07T14:12:45.026Z",
+      "category": "Global Access",
+      "contentType": "guide",
+      "excerpt": "Selling digital products from Nigeria, Ghana, Kenya, Pakistan, or Bangladesh is possible with crypto-native infrastructure that has no geographic restrictions.",
+      "file": "posts/data/post-20260507-IXTJ.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-IXTJ.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260507-Z755",
       "title": "Why I Stopped Recommending Alternatives to Selling Digital Downloads in Pakistan",
       "date": "2026-05-07T14:02:23.076Z",
@@ -1706,6 +1717,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-07T14:02:23.076Z",
-  "totalPosts": 155
+  "lastUpdated": "2026-05-07T14:12:45.026Z",
+  "totalPosts": 156
 }
