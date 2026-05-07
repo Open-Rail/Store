@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260507-DPRY",
+      "title": "Why Venezuelan Creators Accepting Crypto Payments Is Costing You More Than You Think",
+      "date": "2026-05-07T21:43:09.366Z",
+      "category": "Global Access",
+      "contentType": "warning",
+      "excerpt": "Selling digital products from Nigeria, Ghana, Kenya, Pakistan, or Bangladesh is possible with crypto-native infrastructure that has no geographic restrictions.",
+      "file": "posts/data/post-20260507-DPRY.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-DPRY.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260507-L3GU",
       "title": "The Real Mechanics Behind Anonymous Crypto Payments for Digital Products — The Full Guide",
       "date": "2026-05-07T21:32:35.512Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260506-PXK2.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260506-PXK2.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260506-SQH5",
-      "title": "Crypto Payment Integration for Static Sites: What It Actually Is and How It Works",
-      "date": "2026-05-06T12:16:59.075Z",
-      "category": "Getting Paid",
-      "contentType": "breakdown",
-      "excerpt": "USDT, BTC, ETH, SOL, and 300+ coins. Get paid in seconds, convert locally, and keep 100% of your revenue minus network fees.",
-      "file": "posts/data/post-20260506-SQH5.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260506-SQH5.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-07T21:32:35.512Z",
+  "lastUpdated": "2026-05-07T21:43:09.369Z",
   "totalPosts": 200
 }
