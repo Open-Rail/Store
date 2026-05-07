@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260507-JSL6",
+      "title": "Selling Notion Templates for Crypto Explained for Digital Creators — No PayPal Required",
+      "date": "2026-05-07T13:03:43.476Z",
+      "category": "Selling Digital Products",
+      "contentType": "breakdown",
+      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
+      "file": "posts/data/post-20260507-JSL6.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-JSL6.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260507-W3XT",
       "title": "Selling Digital Products from Africa: The Reality Check Every Creator Needs",
       "date": "2026-05-07T12:52:42.846Z",
@@ -1629,6 +1640,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-07T12:52:42.846Z",
-  "totalPosts": 148
+  "lastUpdated": "2026-05-07T13:03:43.476Z",
+  "totalPosts": 149
 }
