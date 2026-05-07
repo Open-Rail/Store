@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260507-4H0U",
+      "title": "Transaction Logs for Digital Product Sales: What It Actually Is and How It Works",
+      "date": "2026-05-07T21:22:24.830Z",
+      "category": "Selling Digital Products",
+      "contentType": "breakdown",
+      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
+      "file": "posts/data/post-20260507-4H0U.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-4H0U.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260507-C5JD",
       "title": "The Payment Options for Ethiopian Digital Creators Trap Most Creators Walk Right Into — The Full Guide",
       "date": "2026-05-07T21:12:09.327Z",
@@ -2179,6 +2190,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-07T21:12:09.327Z",
-  "totalPosts": 198
+  "lastUpdated": "2026-05-07T21:22:24.830Z",
+  "totalPosts": 199
 }
