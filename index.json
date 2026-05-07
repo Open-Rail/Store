@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260507-51Z9",
+      "title": "Selling Presets Without Stripe: Which Option Actually Works for You — No PayPal Required",
+      "date": "2026-05-07T10:25:28.657Z",
+      "category": "Platform Restrictions",
+      "contentType": "comparison",
+      "excerpt": "PayPal and Stripe block creators in dozens of countries. Here is the infrastructure that works everywhere they don't.",
+      "file": "posts/data/post-20260507-51Z9.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-51Z9.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260507-MAFU",
       "title": "Everything You Need to Know About PDF Receipt Generation for Crypto Stores — No PayPal Required",
       "date": "2026-05-07T10:12:52.304Z",
@@ -1453,6 +1464,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-07T10:12:52.305Z",
-  "totalPosts": 132
+  "lastUpdated": "2026-05-07T10:25:28.657Z",
+  "totalPosts": 133
 }
