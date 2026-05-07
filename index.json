@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260507-XUEK",
+      "title": "The Real Difference Between Your Choices for Selling Software Without a Stripe Account — No PayPal Required",
+      "date": "2026-05-07T01:02:36.828Z",
+      "category": "Platform Restrictions",
+      "contentType": "comparison",
+      "excerpt": "PayPal and Stripe block creators in dozens of countries. Here is the infrastructure that works everywhere they don't.",
+      "file": "posts/data/post-20260507-XUEK.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-XUEK.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260507-39M1",
       "title": "Selling Digital Art Without PayPal: What Nobody Tells You Before You Choose — No PayPal Required",
       "date": "2026-05-07T00:52:27.816Z",
@@ -826,6 +837,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-07T00:52:27.816Z",
-  "totalPosts": 75
+  "lastUpdated": "2026-05-07T01:02:36.828Z",
+  "totalPosts": 76
 }
