@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260507-DLNB",
+      "title": "The Real Mechanics Behind Webhook-Driven Crypto Payment Fulfillment",
+      "date": "2026-05-07T17:42:36.202Z",
+      "category": "Getting Paid",
+      "contentType": "breakdown",
+      "excerpt": "USDT, BTC, ETH, SOL, and 300+ coins. Get paid in seconds, convert locally, and keep 100% of your revenue minus network fees.",
+      "file": "posts/data/post-20260507-DLNB.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-DLNB.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260507-TI2O",
       "title": "10 Facts About Payment Gateways for Cameroon Digital Products That Change How You Sell",
       "date": "2026-05-07T17:33:08.882Z",
@@ -1937,6 +1948,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-07T17:33:08.882Z",
-  "totalPosts": 176
+  "lastUpdated": "2026-05-07T17:42:36.202Z",
+  "totalPosts": 177
 }
