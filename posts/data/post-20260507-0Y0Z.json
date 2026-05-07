@@ -1,0 +1,129 @@
+{
+  "id": "post-20260507-0Y0Z",
+  "title": "How Setting Up NOWPayments Webhooks Works and How to Set It Up Today",
+  "date": "2026-05-07T15:43:56.489Z",
+  "category": "Selling Digital Products",
+  "contentType": "guide",
+  "author": "Unchained Commerce",
+  "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
+  "image": "https://open-rail.github.io/Store/posts/images/post-20260507-0Y0Z.jpg",
+  "imageSource": "picsum",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "You’re in Nigeria, Ghana, or Venezuela, and PayPal, Stripe, or Gumroad won’t let you sell your ebook, course, or templates. Or maybe you’re in Iran, Pakistan, or Bangladesh, and KYC requirements block you from collecting payments. You’ve got digital products—ebooks, fonts, presets, beats—but no way to deliver them automatically when someone pays. NOWPayments solves the payment side with 300+ coins and no KYC, but you need webhooks to automate delivery. This guide shows you how to set up NOWPayments webhooks today, so you can sell globally, deliver instantly, and get paid in crypto—no matter where you’re based."
+    },
+    {
+      "type": "heading",
+      "text": "Why This Method Works When Everything Else Fails"
+    },
+    {
+      "type": "paragraph",
+      "text": "NOWPayments webhooks are your lifeline when traditional platforms fail. They trigger instant actions—like delivering your ebook or template—the moment payment hits. No manual emails, no waiting. This works because NOWPayments doesn’t care where you’re from or what bank you use. It accepts 300+ coins, from BTC to SOL, and doesn’t require KYC. Webhooks bridge the gap between payment and delivery, making your store fully automated. If you’re selling in restricted countries or to buyers who can’t use PayPal, this is how you stay in business. It’s global, instant, and doesn’t rely on third-party accounts. You control the process, and your buyers get their product the second they pay."
+    },
+    {
+      "type": "heading",
+      "text": "What You Need Before You Start"
+    },
+    {
+      "type": "paragraph",
+      "text": "Before setting up webhooks, you need three things: a NOWPayments account (free, no KYC), a server or backend to handle webhook requests (use Core Shop Engine for $49.99 if you don’t have one), and your digital product files hosted somewhere secure. Your server must have a public URL—NOWPayments sends POST requests here when payments complete. If you’re using Core Shop Engine, it handles this for you. You’ll also need your NOWPayments API key and secret, found in your dashboard. Finally, decide which events trigger delivery—usually ‘payment_succeeded’ for instant access. With these in place, you’re ready to connect NOWPayments to your delivery system."
+    },
+    {
+      "type": "heading",
+      "text": "Setting Up Your Payment and Delivery Pipeline"
+    },
+    {
+      "type": "paragraph",
+      "text": "Log into NOWPayments and go to ‘Webhooks’ under settings. Add your server’s endpoint URL—this is where NOWPayments sends payment data. Select the ‘payment_succeeded’ event to trigger delivery. Test the connection by sending a dummy payment. On your server, write a script to verify the payment, generate a download link for your ebook or template, and email it to the buyer. If you’re using Core Shop Engine, this is pre-built—just plug in your API keys. For frontend integration, use Web3 Wallet Connect ($19.99) to let buyers pay with any wallet. It generates multi-chain QR codes and live price feeds, so buyers can pay in their preferred coin. Now, every payment triggers automated delivery, no matter where the buyer is."
+    },
+    {
+      "type": "callout",
+      "text": "Automated delivery means the download link arrives before the buyer navigates away from the payment confirmation page."
+    },
+    {
+      "type": "heading",
+      "text": "Going Live and Making Your First Sale"
+    },
+    {
+      "type": "paragraph",
+      "text": "Deploy your store with the webhook integration live. Share your product page with your audience—email list, social media, or forums. When a buyer pays, NOWPayments sends the webhook to your server, which delivers the product instantly. Monitor your NOWPayments dashboard for transaction logs. If a delivery fails, check your server logs for errors. For buyers in restricted countries, this is their only way to purchase your ebook, course, or template. They pay in crypto, get instant access, and you’re paid directly to your wallet. No middlemen, no delays, no KYC. Your first sale proves the system works—now replicate it."
+    },
+    {
+      "type": "heading",
+      "text": "Scaling Once the System Is Running"
+    },
+    {
+      "type": "paragraph",
+      "text": "Once your first sale is live, scale by adding more products or expanding your audience. Use the Admin Dashboard ($29.99) to track transactions, manage orders, and analyze sales in real-time. Add more payment coins to your NOWPayments account to cater to a global audience. If you’re selling fonts, presets, or beats, bundle them into packages to increase average order value. For developers, the Full Stack Bundle ($79.99) includes priority updates and Discord support to keep your store running smoothly. Automate marketing with email sequences for new buyers. With webhooks handling delivery, focus on creating more products and reaching more buyers—the system runs itself."
+    },
+    {
+      "type": "heading",
+      "text": "How do I sell an ebook online without PayPal?"
+    },
+    {
+      "type": "paragraph",
+      "text": "To sell an ebook online without PayPal, use NOWPayments with webhooks for automated delivery. NOWPayments accepts 300+ cryptocurrencies, requires no KYC, and works globally. Set up a webhook to trigger instant delivery of your ebook when payment is confirmed. This method bypasses geographic and banking restrictions, letting you sell to buyers in Nigeria, Iran, or Venezuela. Combine it with Core Shop Engine ($49.99) for a complete backend solution, or use Web3 Wallet Connect ($19.99) for frontend wallet integration. Your buyers pay in crypto, and you deliver the ebook automatically—no manual steps required."
+    },
+    {
+      "type": "callout",
+      "text": "Every digital file type — ebooks, fonts, presets, plugins, templates — works with the same delivery pipeline."
+    },
+    {
+      "type": "heading",
+      "text": "Related: How Creators Like You Are Getting Paid"
+    },
+    {
+      "type": "paragraph",
+      "text": "Digital creators selling ebooks, courses, templates, fonts, presets, and beats often look for Gumroad or Payhip alternatives after hitting payout restrictions or platform policy problems. The difference with crypto-native infrastructure is structural: there is no platform relationship to manage, no content policy to comply with, and no payout schedule to wait on. The Core Shop Engine at $49.99 handles automated delivery and payment verification. Web3 Wallet Connect at $19.99 handles the checkout experience. The Full Stack Bundle at $79.99 packages everything together. Details and purchase at https://unchained-commerce.github.io/Shop/index.html."
+    },
+    {
+      "type": "heading",
+      "text": "Your Action Checklist"
+    },
+    {
+      "type": "paragraph",
+      "text": "Prepare your product files in delivery-ready format — PDF for ebooks, ZIP archives for multi-file products like font families or preset packs. Set your prices in USD and use NOWPayments to handle the crypto equivalent calculation automatically. Deploy the Core Shop Engine and configure your product list with file paths, prices, and delivery settings. Set up Web3 Wallet Connect with your product display and checkout configuration. Test the checkout flow in a browser on both desktop and mobile — confirm the QR code generates correctly and the payment amount displays accurately. Complete a real mainnet test transaction and confirm the delivery email arrives with a working download link. Open the Admin Dashboard and verify the test transaction appears with correct details. Once the test passes, publish your store URL across your content channels. Review your first week of transactions in the Admin Dashboard to confirm everything is running correctly."
+    },
+    {
+      "type": "callout",
+      "text": "No platform middleman means no percentage cut, no payout delay, and no content policy that can delist your products."
+    },
+    {
+      "type": "cta",
+      "text": "Web3 Wallet Connect — $19.99. Frontend wallet integration with multi-chain QR generation and live price feeds. Let buyers pay in BTC, ETH, USDT, SOL, and 300 more coins.",
+      "url": "https://unchained-commerce.github.io/Shop/index.html",
+      "product": "Web3 Wallet Connect",
+      "price": "$19.99"
+    }
+  ],
+  "related": [
+    "post-20260507-4H1J",
+    "post-20260507-WINZ",
+    "post-20260507-BUOC"
+  ],
+  "meta": {
+    "searchQuery": "nowpayments webhook setup tutorial",
+    "serpSource": "tavily",
+    "imageSource": "picsum",
+    "wordCount": 1090,
+    "aiProvider": "cohere",
+    "aiModel": "command-a-03-2025",
+    "aiCallCount": 1,
+    "peopleAlsoAsk": [
+      "How do I sell an ebook online without PayPal?",
+      "What is the best platform to sell digital downloads without fees?",
+      "Can I sell templates and fonts without using Gumroad or Payhip?",
+      "How do independent creators sell courses without Stripe?"
+    ],
+    "relatedSearches": [
+      "sell ebook without paypal stripe gumroad",
+      "digital download store crypto only",
+      "sell notion templates for bitcoin",
+      "font designer accept usdt payment"
+    ],
+    "product": "Web3 Wallet Connect",
+    "botVersion": "5.1",
+    "generatedAt": "2026-05-07T15:43:56.489Z"
+  }
+}
