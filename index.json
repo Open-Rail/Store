@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260507-XIN4",
+      "title": "How Bangladeshi Freelancers Accept International Payments from First Principles: The Definitive Breakdown",
+      "date": "2026-05-07T13:42:23.167Z",
+      "category": "Global Access",
+      "contentType": "deep-dive",
+      "excerpt": "Selling digital products from Nigeria, Ghana, Kenya, Pakistan, or Bangladesh is possible with crypto-native infrastructure that has no geographic restrictions.",
+      "file": "posts/data/post-20260507-XIN4.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-XIN4.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260507-OOQS",
       "title": "Everything You Need to Know About Payment Methods for Filipino Digital Creators — No PayPal Required",
       "date": "2026-05-07T13:32:43.786Z",
@@ -1673,6 +1684,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-07T13:32:43.786Z",
-  "totalPosts": 152
+  "lastUpdated": "2026-05-07T13:42:23.168Z",
+  "totalPosts": 153
 }
