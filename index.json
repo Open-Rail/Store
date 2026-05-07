@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260507-I9E2",
+      "title": "How Crypto Payments for Tanzanian Online Sellers Works and How to Set It Up Today — The Full Guide",
+      "date": "2026-05-07T01:13:20.834Z",
+      "category": "Global Access",
+      "contentType": "guide",
+      "excerpt": "Selling digital products from Nigeria, Ghana, Kenya, Pakistan, or Bangladesh is possible with crypto-native infrastructure that has no geographic restrictions.",
+      "file": "posts/data/post-20260507-I9E2.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-I9E2.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260507-XUEK",
       "title": "The Real Difference Between Your Choices for Selling Software Without a Stripe Account — No PayPal Required",
       "date": "2026-05-07T01:02:36.828Z",
@@ -837,6 +848,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-07T01:02:36.828Z",
-  "totalPosts": 76
+  "lastUpdated": "2026-05-07T01:13:20.834Z",
+  "totalPosts": 77
 }
