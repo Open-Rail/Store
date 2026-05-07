@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260507-5THC",
+      "title": "Understanding Selling Notion Templates for Crypto: A Plain-Language Breakdown",
+      "date": "2026-05-07T03:12:19.978Z",
+      "category": "Selling Digital Products",
+      "contentType": "breakdown",
+      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
+      "file": "posts/data/post-20260507-5THC.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-5THC.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260507-X731",
       "title": "Selling Digital Products from Africa Explained for Digital Creators — The Full Guide",
       "date": "2026-05-07T03:02:22.312Z",
@@ -969,6 +980,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-07T03:02:22.312Z",
-  "totalPosts": 88
+  "lastUpdated": "2026-05-07T03:12:19.979Z",
+  "totalPosts": 89
 }
