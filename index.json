@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260507-F8NU",
+      "title": "The No-Nonsense Guide to Digital Product Payment Solutions in West Africa — The Full Guide",
+      "date": "2026-05-07T14:42:22.020Z",
+      "category": "Global Access",
+      "contentType": "guide",
+      "excerpt": "Selling digital products from Nigeria, Ghana, Kenya, Pakistan, or Bangladesh is possible with crypto-native infrastructure that has no geographic restrictions.",
+      "file": "posts/data/post-20260507-F8NU.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-F8NU.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260507-QP0L",
       "title": "Accepting Bitcoin for Ebook Sales: A Step-by-Step Setup Guide: What You Need to Know",
       "date": "2026-05-07T14:32:36.768Z",
@@ -1739,6 +1750,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-07T14:32:36.768Z",
-  "totalPosts": 158
+  "lastUpdated": "2026-05-07T14:42:22.020Z",
+  "totalPosts": 159
 }
