@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260507-5RLW",
+      "title": "Comparing Your Real Options for Venezuelan Creators Accepting Crypto Payments",
+      "date": "2026-05-07T01:52:36.134Z",
+      "category": "Global Access",
+      "contentType": "comparison",
+      "excerpt": "Selling digital products from Nigeria, Ghana, Kenya, Pakistan, or Bangladesh is possible with crypto-native infrastructure that has no geographic restrictions.",
+      "file": "posts/data/post-20260507-5RLW.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-5RLW.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260507-RRPJ",
       "title": "Anonymous Crypto Payments for Digital Products: What It Actually Is and How It Works for Digital Creators",
       "date": "2026-05-07T01:42:34.159Z",
@@ -881,6 +892,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-07T01:42:34.159Z",
-  "totalPosts": 80
+  "lastUpdated": "2026-05-07T01:52:36.134Z",
+  "totalPosts": 81
 }
