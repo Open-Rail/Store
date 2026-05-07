@@ -1,0 +1,129 @@
+{
+  "id": "post-20260508-OV0H",
+  "title": "The No-Nonsense Guide to Building a Crypto Store on GitHub Pages — No PayPal Required",
+  "date": "2026-05-07T23:52:31.762Z",
+  "category": "Store Setup",
+  "contentType": "guide",
+  "author": "Unchained Commerce",
+  "excerpt": "From zero to live crypto store in one afternoon. GitHub Pages hosting, Core Shop Engine, Web3 Wallet Connect, NOWPayments integration.",
+  "image": "https://open-rail.github.io/Store/posts/images/post-20260508-OV0H.jpg",
+  "imageSource": "picsum",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "In Nigeria, PayPal is blocked. In Iran, Stripe is restricted. You're a digital creator stuck without a payment solution. You need a store that accepts crypto payments, on a platform that's free and open-sourced. Your solution is GitHub Pages. You just need to know how to set it up. You just need to know how to integrate crypto payments. And, most importantly, you need to know how to get paid. This guide will walk you through the process of building a crypto store on GitHub Pages, using the Core Shop Engine, Web3 Wallet Connect, and NOWPayments. By the end of this guide, you'll have a fully functional store, ready to sell your digital products and get paid in crypto.\"\n\n  \"sections\": [\n    { \n      \"heading\": \"Why This Method Works When Everything Else Fails"
+    },
+    {
+      "type": "heading",
+      "text": "Why This Method Works When Everything Else Fails"
+    },
+    {
+      "type": "paragraph",
+      "text": "GitHub Pages is a free, open-source platform that allows you to host static websites. By using a static site generator like Jekyll or Hugo, you can create a website that's easy to set up and maintain. The Core Shop Engine, on the other hand, is a backend solution that automates the delivery of digital products and integrates with NOWPayments, a payment processor that accepts over 300 cryptocurrencies. By combining these two solutions, you get a store that's fast, reliable, and scalable, without the need for a traditional payment processor like PayPal or Stripe."
+    },
+    {
+      "type": "heading",
+      "text": "What You Need Before You Start"
+    },
+    {
+      "type": "paragraph",
+      "text": "Before you start building your store, you'll need to set up a GitHub account and create a new repository for your website. You'll also need to install the Core Shop Engine and Web3 Wallet Connect, which are available on GitHub. Finally, you'll need to set up NOWPayments, which will allow you to accept crypto payments on your store. Don't worry, this process is easier than it sounds, and we'll guide you through it step by step."
+    },
+    {
+      "type": "heading",
+      "text": "Setting Up Your Payment and Delivery Pipeline"
+    },
+    {
+      "type": "paragraph",
+      "text": "Once you've set up your repository and installed the necessary software, it's time to configure your payment and delivery pipeline. This involves setting up the Core Shop Engine to automate the delivery of your digital products, as well as configuring NOWPayments to accept crypto payments. You'll also need to set up the Web3 Wallet Connect, which will allow customers to pay for your products using their crypto wallets. This process may seem complicated, but trust us, it's easier than you think."
+    },
+    {
+      "type": "callout",
+      "text": "The Core Shop Engine automates the delivery of digital products, making it easier to get paid in crypto."
+    },
+    {
+      "type": "heading",
+      "text": "Going Live and Making Your First Sale"
+    },
+    {
+      "type": "paragraph",
+      "text": "Once you've set up your payment and delivery pipeline, it's time to go live and make your first sale. This involves deploying your website to GitHub Pages, configuring your store settings, and promoting your products to potential customers. Don't worry if this sounds daunting - we'll guide you through the process step by step, and provide you with a checklist of tasks to complete before you go live."
+    },
+    {
+      "type": "heading",
+      "text": "Scaling Once the System Is Running"
+    },
+    {
+      "type": "paragraph",
+      "text": "Testing your store before promoting it is not optional — it is the step that prevents you from discovering problems after real buyers encounter them. The testing sequence has four steps. First, deploy the Core Shop Engine and verify the webhook endpoint is reachable. Second, configure Web3 Wallet Connect and confirm the checkout interface displays correctly on both desktop and mobile. Third, complete a real mainnet transaction with a small amount — send actual crypto to your wallet address and confirm that the webhook fires, the engine processes it, and the delivery email arrives with a working download link. Fourth, check the Admin Dashboard to confirm the transaction appears in the log with the correct details. Only after all four steps confirm correctly should you promote your store."
+    },
+    {
+      "type": "heading",
+      "text": "How do I build a digital store that accepts crypto payments?"
+    },
+    {
+      "type": "paragraph",
+      "text": "How do I build a digital store that accepts crypto payments? You can build a digital store that accepts crypto payments by using GitHub Pages, the Core Shop Engine, and NOWPayments. The Core Shop Engine automates the delivery of digital products, while NOWPayments allows you to accept over 300 cryptocurrencies. With the Full Stack Bundle, you get everything you need to launch a fully functional store, including priority updates, Discord support, and a deployment guide."
+    },
+    {
+      "type": "callout",
+      "text": "NOWPayments accepts over 300 cryptocurrencies, giving you the flexibility to accept payments in your customers' preferred currencies."
+    },
+    {
+      "type": "heading",
+      "text": "Related: How Creators Like You Are Getting Paid"
+    },
+    {
+      "type": "paragraph",
+      "text": "If you're looking for a way to host a digital store on GitHub Pages for free, you're in luck. By using the Core Shop Engine and NOWPayments, you can create a fully functional store without incurring any hosting costs. And, with the Full Stack Bundle, you'll get access to priority updates, Discord support, and a deployment guide, making it easier to scale your store and grow your business. To get started, head over to the UNCHAINED COMMERCE website and explore the shop at https://unchained-commerce.github.io/Shop/index.html."
+    },
+    {
+      "type": "heading",
+      "text": "Your Action Checklist"
+    },
+    {
+      "type": "paragraph",
+      "text": "To build a crypto store on GitHub Pages, you'll need to: Install the Core Shop Engine and Web3 Wallet Connect on your repository; Set up NOWPayments and configure it to accept crypto payments; Deploy your website to GitHub Pages and configure your store settings; Promote your products to potential customers and optimize your website for performance. With the Full Stack Bundle, you'll get access to priority updates, Discord support, and a deployment guide, making it easier to launch and scale your store."
+    },
+    {
+      "type": "callout",
+      "text": "The Full Stack Bundle includes priority updates, Discord support, and a deployment guide, making it easier to launch and scale your store."
+    },
+    {
+      "type": "cta",
+      "text": "Full Stack Bundle — $79.99. Everything — Core Engine, Wallet Connect, Dashboard — plus priority updates, Discord support, and deployment guide. Your complete store infrastructure, one payment.",
+      "url": "https://unchained-commerce.github.io/Shop/index.html",
+      "product": "Full Stack Bundle",
+      "price": "$79.99"
+    }
+  ],
+  "related": [
+    "post-20260507-D56K",
+    "post-20260507-GK05",
+    "post-20260507-JGUR"
+  ],
+  "meta": {
+    "searchQuery": "how to build a crypto store on github pages",
+    "serpSource": "tavily",
+    "imageSource": "picsum",
+    "wordCount": 958,
+    "aiProvider": "cerebras",
+    "aiModel": "llama3.1-8b",
+    "aiCallCount": 1,
+    "peopleAlsoAsk": [
+      "How do I build a digital store that accepts crypto payments?",
+      "What is the cheapest way to set up a digital product store?",
+      "Can I host a digital store on GitHub Pages for free?",
+      "How do I connect NOWPayments to my website?"
+    ],
+    "relatedSearches": [
+      "github pages digital store crypto payments",
+      "nowpayments integration static site tutorial",
+      "core shop engine setup guide",
+      "web3 wallet connect digital store"
+    ],
+    "product": "Full Stack Bundle",
+    "botVersion": "5.1",
+    "generatedAt": "2026-05-07T23:52:31.762Z"
+  }
+}
