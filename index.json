@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260507-6U1D",
+      "title": "PDF Receipt Generation for Crypto Stores Explained for Digital Creators — No PayPal Required",
+      "date": "2026-05-07T20:12:47.731Z",
+      "category": "Automation",
+      "contentType": "breakdown",
+      "excerpt": "Payment confirmed, receipt generated, download link sent — all within 30 seconds. The fully automated digital product pipeline.",
+      "file": "posts/data/post-20260507-6U1D.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-6U1D.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260507-SUK9",
       "title": "Tron USDT Payments for Digital Products: What It Actually Is and How It Works — No PayPal Required",
       "date": "2026-05-07T20:02:12.673Z",
@@ -2102,6 +2113,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-07T20:02:12.673Z",
-  "totalPosts": 191
+  "lastUpdated": "2026-05-07T20:12:47.731Z",
+  "totalPosts": 192
 }
