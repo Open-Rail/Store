@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260507-RRPJ",
+      "title": "Anonymous Crypto Payments for Digital Products: What It Actually Is and How It Works for Digital Creators",
+      "date": "2026-05-07T01:42:34.159Z",
+      "category": "Selling Digital Products",
+      "contentType": "breakdown",
+      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
+      "file": "posts/data/post-20260507-RRPJ.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-RRPJ.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260507-LDDT",
       "title": "Everything You Need to Know About Transaction Logs for Digital Product Sales",
       "date": "2026-05-07T01:32:11.502Z",
@@ -870,6 +881,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-07T01:32:11.502Z",
-  "totalPosts": 79
+  "lastUpdated": "2026-05-07T01:42:34.159Z",
+  "totalPosts": 80
 }
