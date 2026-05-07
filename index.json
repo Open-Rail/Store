@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260507-8AUA",
+      "title": "How Creators in Ghana Get Paid Online in One Afternoon: The Fast-Track Setup",
+      "date": "2026-05-07T18:32:44.468Z",
+      "category": "Global Access",
+      "contentType": "quick-win",
+      "excerpt": "Selling digital products from Nigeria, Ghana, Kenya, Pakistan, or Bangladesh is possible with crypto-native infrastructure that has no geographic restrictions.",
+      "file": "posts/data/post-20260507-8AUA.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-8AUA.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260507-EMZY",
       "title": "Everything You Need to Know About Crypto Payment Integration for Static Sites — No PayPal Required",
       "date": "2026-05-07T18:22:30.898Z",
@@ -1992,6 +2003,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-07T18:22:30.898Z",
-  "totalPosts": 181
+  "lastUpdated": "2026-05-07T18:32:44.468Z",
+  "totalPosts": 182
 }
