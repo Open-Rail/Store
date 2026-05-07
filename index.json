@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260507-CVQ7",
+      "title": "Setting Up NOWPayments Webhooks: Everything You Need to Get Started: What You Need to Know",
+      "date": "2026-05-07T05:52:24.388Z",
+      "category": "Selling Digital Products",
+      "contentType": "guide",
+      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
+      "file": "posts/data/post-20260507-CVQ7.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-CVQ7.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260507-WQRR",
       "title": "How to How to Start Selling Digital Products with Crypto: The Complete Creator Guide — No PayPal Required",
       "date": "2026-05-07T05:42:12.447Z",
@@ -1145,6 +1156,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-07T05:42:12.447Z",
-  "totalPosts": 104
+  "lastUpdated": "2026-05-07T05:52:24.388Z",
+  "totalPosts": 105
 }
