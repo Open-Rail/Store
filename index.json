@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260507-UTNJ",
+      "title": "The Real Difference Between Your Choices for Selling Plugins Without a Payment Processor — The Full Guide",
+      "date": "2026-05-07T04:32:21.850Z",
+      "category": "Platform Restrictions",
+      "contentType": "comparison",
+      "excerpt": "PayPal and Stripe block creators in dozens of countries. Here is the infrastructure that works everywhere they don't.",
+      "file": "posts/data/post-20260507-UTNJ.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-UTNJ.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260507-P3Z4",
       "title": "How to Sell Ebooks from Kenya: A Step-by-Step Setup Guide — The Full Guide",
       "date": "2026-05-07T04:22:29.264Z",
@@ -1057,6 +1068,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-07T04:22:29.264Z",
-  "totalPosts": 96
+  "lastUpdated": "2026-05-07T04:32:21.850Z",
+  "totalPosts": 97
 }
