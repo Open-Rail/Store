@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260507-6QMW",
+      "title": "Understanding Digital Product Stores with No-KYC Payments: A Plain-Language Breakdown",
+      "date": "2026-05-07T13:12:43.660Z",
+      "category": "Selling Digital Products",
+      "contentType": "breakdown",
+      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
+      "file": "posts/data/post-20260507-6QMW.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-6QMW.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260507-JSL6",
       "title": "Selling Notion Templates for Crypto Explained for Digital Creators — No PayPal Required",
       "date": "2026-05-07T13:03:43.476Z",
@@ -1640,6 +1651,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-07T13:03:43.476Z",
-  "totalPosts": 149
+  "lastUpdated": "2026-05-07T13:12:43.660Z",
+  "totalPosts": 150
 }
