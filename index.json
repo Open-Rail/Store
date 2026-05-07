@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260507-JCU0",
+      "title": "Automated Digital Product Delivery with Crypto Explained for Digital Creators for Digital Creators",
+      "date": "2026-05-07T05:05:47.931Z",
+      "category": "Selling Digital Products",
+      "contentType": "breakdown",
+      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
+      "file": "posts/data/post-20260507-JCU0.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-JCU0.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260507-OPDT",
       "title": "Why Digital Product Payment Solutions in West Africa Keeps Failing — and the Fix That Works",
       "date": "2026-05-07T04:53:27.323Z",
@@ -1090,6 +1101,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-07T04:53:27.323Z",
-  "totalPosts": 99
+  "lastUpdated": "2026-05-07T05:05:47.931Z",
+  "totalPosts": 100
 }
