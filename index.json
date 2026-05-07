@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260507-31MZ",
+      "title": "How Building a Crypto Store on GitHub Pages Works and How to Set It Up Today",
+      "date": "2026-05-07T04:02:20.975Z",
+      "category": "Store Setup",
+      "contentType": "guide",
+      "excerpt": "From zero to live crypto store in one afternoon. GitHub Pages hosting, Core Shop Engine, Web3 Wallet Connect, NOWPayments integration.",
+      "file": "posts/data/post-20260507-31MZ.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-31MZ.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260507-R63T",
       "title": "The No-Nonsense Guide to How Bangladeshi Freelancers Accept International Payments",
       "date": "2026-05-07T03:52:28.825Z",
@@ -1024,6 +1035,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-07T03:52:28.825Z",
-  "totalPosts": 93
+  "lastUpdated": "2026-05-07T04:02:20.975Z",
+  "totalPosts": 94
 }
