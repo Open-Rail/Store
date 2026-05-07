@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260507-427U",
+      "title": "Everything You Need to Know About Real-Time Analytics for Crypto Product Stores in 2025",
+      "date": "2026-05-07T02:22:28.992Z",
+      "category": "Selling Digital Products",
+      "contentType": "breakdown",
+      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
+      "file": "posts/data/post-20260507-427U.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-427U.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260507-VP6Q",
       "title": "Understanding Payment Solutions for Iranian Digital Sellers: A Plain-Language Breakdown",
       "date": "2026-05-07T02:13:21.392Z",
@@ -914,6 +925,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-07T02:13:21.392Z",
-  "totalPosts": 83
+  "lastUpdated": "2026-05-07T02:22:28.992Z",
+  "totalPosts": 84
 }
