@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260507-BFW2",
+      "title": "Payment Options for Ethiopian Digital Creators: The Reality Check Every Creator Needs",
+      "date": "2026-05-07T01:23:03.556Z",
+      "category": "Global Access",
+      "contentType": "opinion",
+      "excerpt": "Selling digital products from Nigeria, Ghana, Kenya, Pakistan, or Bangladesh is possible with crypto-native infrastructure that has no geographic restrictions.",
+      "file": "posts/data/post-20260507-BFW2.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-BFW2.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260507-I9E2",
       "title": "How Crypto Payments for Tanzanian Online Sellers Works and How to Set It Up Today — The Full Guide",
       "date": "2026-05-07T01:13:20.834Z",
@@ -848,6 +859,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-07T01:13:20.834Z",
-  "totalPosts": 77
+  "lastUpdated": "2026-05-07T01:23:03.556Z",
+  "totalPosts": 78
 }
