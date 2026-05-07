@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260507-EWSY",
+      "title": "The Real Mechanics Behind Web3 Wallet Connect for Digital Sellers — The Full Guide",
+      "date": "2026-05-07T02:02:35.414Z",
+      "category": "Selling Digital Products",
+      "contentType": "breakdown",
+      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
+      "file": "posts/data/post-20260507-EWSY.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-EWSY.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260507-5RLW",
       "title": "Comparing Your Real Options for Venezuelan Creators Accepting Crypto Payments",
       "date": "2026-05-07T01:52:36.134Z",
@@ -892,6 +903,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-07T01:52:36.134Z",
-  "totalPosts": 81
+  "lastUpdated": "2026-05-07T02:02:35.414Z",
+  "totalPosts": 82
 }
