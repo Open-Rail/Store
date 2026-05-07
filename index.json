@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260507-ZPQG",
+      "title": "Understanding Selling Beats Online with Crypto Payments: A Plain-Language Breakdown: What You Need to Know",
+      "date": "2026-05-07T13:22:49.052Z",
+      "category": "Selling Digital Products",
+      "contentType": "breakdown",
+      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
+      "file": "posts/data/post-20260507-ZPQG.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-ZPQG.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260507-6QMW",
       "title": "Understanding Digital Product Stores with No-KYC Payments: A Plain-Language Breakdown",
       "date": "2026-05-07T13:12:43.660Z",
@@ -1651,6 +1662,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-07T13:12:43.660Z",
-  "totalPosts": 150
+  "lastUpdated": "2026-05-07T13:22:49.052Z",
+  "totalPosts": 151
 }
