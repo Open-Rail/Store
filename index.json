@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260507-EMZY",
+      "title": "Everything You Need to Know About Crypto Payment Integration for Static Sites — No PayPal Required",
+      "date": "2026-05-07T18:22:30.898Z",
+      "category": "Getting Paid",
+      "contentType": "breakdown",
+      "excerpt": "USDT, BTC, ETH, SOL, and 300+ coins. Get paid in seconds, convert locally, and keep 100% of your revenue minus network fees.",
+      "file": "posts/data/post-20260507-EMZY.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-EMZY.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260507-GK05",
       "title": "Admin Dashboards for Crypto Digital Stores: Everything You Need to Get Started for Digital Creators",
       "date": "2026-05-07T18:12:37.850Z",
@@ -1981,6 +1992,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-07T18:12:37.850Z",
-  "totalPosts": 180
+  "lastUpdated": "2026-05-07T18:22:30.898Z",
+  "totalPosts": 181
 }
