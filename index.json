@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260507-8SRU",
+      "title": "How Payment Methods for Filipino Digital Creators Works and How to Set It Up Today",
+      "date": "2026-05-07T03:42:29.953Z",
+      "category": "Global Access",
+      "contentType": "guide",
+      "excerpt": "Selling digital products from Nigeria, Ghana, Kenya, Pakistan, or Bangladesh is possible with crypto-native infrastructure that has no geographic restrictions.",
+      "file": "posts/data/post-20260507-8SRU.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-8SRU.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260507-LU6I",
       "title": "Selling Beats Online with Crypto Payments: What It Actually Is and How It Works — No PayPal Required",
       "date": "2026-05-07T03:32:31.312Z",
@@ -1002,6 +1013,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-07T03:32:31.312Z",
-  "totalPosts": 91
+  "lastUpdated": "2026-05-07T03:42:29.953Z",
+  "totalPosts": 92
 }
