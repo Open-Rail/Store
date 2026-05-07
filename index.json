@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260507-ZP5M",
+      "title": "Comparing Your Real Options for Selling Ebooks Without Stripe: The Honest Answer",
+      "date": "2026-05-07T02:52:49.317Z",
+      "category": "Platform Restrictions",
+      "contentType": "comparison",
+      "excerpt": "PayPal and Stripe block creators in dozens of countries. Here is the infrastructure that works everywhere they don't.",
+      "file": "posts/data/post-20260507-ZP5M.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-ZP5M.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260507-SXXM",
       "title": "The Real Mechanics Behind No-KYC Payment Gateways for Digital Sellers for Digital Creators",
       "date": "2026-05-07T02:42:13.424Z",
@@ -947,6 +958,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-07T02:42:13.424Z",
-  "totalPosts": 86
+  "lastUpdated": "2026-05-07T02:52:49.317Z",
+  "totalPosts": 87
 }
