@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260507-O1EA",
+      "title": "Deploying a Digital Store on GitHub Pages: A Step-by-Step Setup Guide — The Full Guide",
+      "date": "2026-05-07T00:43:05.797Z",
+      "category": "Store Setup",
+      "contentType": "guide",
+      "excerpt": "From zero to live crypto store in one afternoon. GitHub Pages hosting, Core Shop Engine, Web3 Wallet Connect, NOWPayments integration.",
+      "file": "posts/data/post-20260507-O1EA.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-O1EA.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260507-SGDT",
       "title": "The Real Difference Between Your Choices for Selling Presets Without Stripe — No PayPal Required",
       "date": "2026-05-07T00:32:25.665Z",
@@ -804,6 +815,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-07T00:32:25.665Z",
-  "totalPosts": 73
+  "lastUpdated": "2026-05-07T00:43:05.797Z",
+  "totalPosts": 74
 }
