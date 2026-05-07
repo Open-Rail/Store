@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260507-HX2M",
+      "title": "How Kenyan Creators Get Paid Internationally: The Minimum Viable Setup That Actually Works",
+      "date": "2026-05-07T12:22:23.253Z",
+      "category": "Global Access",
+      "contentType": "quick-win",
+      "excerpt": "Selling digital products from Nigeria, Ghana, Kenya, Pakistan, or Bangladesh is possible with crypto-native infrastructure that has no geographic restrictions.",
+      "file": "posts/data/post-20260507-HX2M.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-HX2M.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260507-N6G9",
       "title": "Real-Time Analytics for Crypto Product Stores: What It Actually Is and How It Works",
       "date": "2026-05-07T12:12:39.274Z",
@@ -1585,6 +1596,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-07T12:12:39.274Z",
-  "totalPosts": 144
+  "lastUpdated": "2026-05-07T12:22:23.253Z",
+  "totalPosts": 145
 }
