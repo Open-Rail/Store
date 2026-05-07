@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260507-SX7L",
+      "title": "Automated Ebook Delivery After Crypto Payment: What It Actually Is and How It Works",
+      "date": "2026-05-07T05:12:09.743Z",
+      "category": "Selling Digital Products",
+      "contentType": "breakdown",
+      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
+      "file": "posts/data/post-20260507-SX7L.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-SX7L.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260507-JCU0",
       "title": "Automated Digital Product Delivery with Crypto Explained for Digital Creators for Digital Creators",
       "date": "2026-05-07T05:05:47.931Z",
@@ -1101,6 +1112,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-07T05:05:47.931Z",
-  "totalPosts": 100
+  "lastUpdated": "2026-05-07T05:12:09.743Z",
+  "totalPosts": 101
 }
