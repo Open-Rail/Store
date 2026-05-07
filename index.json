@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260507-VYQB",
+      "title": "Payment Infrastructure for South Asian Creators: A Step-by-Step Setup Guide",
+      "date": "2026-05-07T05:22:33.539Z",
+      "category": "Global Access",
+      "contentType": "guide",
+      "excerpt": "Selling digital products from Nigeria, Ghana, Kenya, Pakistan, or Bangladesh is possible with crypto-native infrastructure that has no geographic restrictions.",
+      "file": "posts/data/post-20260507-VYQB.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-VYQB.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260507-SX7L",
       "title": "Automated Ebook Delivery After Crypto Payment: What It Actually Is and How It Works",
       "date": "2026-05-07T05:12:09.743Z",
@@ -1112,6 +1123,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-07T05:12:09.743Z",
-  "totalPosts": 101
+  "lastUpdated": "2026-05-07T05:22:33.539Z",
+  "totalPosts": 102
 }
