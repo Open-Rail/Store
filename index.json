@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260507-IAPH",
+      "title": "Selling Stock Photos Without PayPal: Which Option Actually Works for You for Digital Creators",
+      "date": "2026-05-07T06:12:20.011Z",
+      "category": "Platform Restrictions",
+      "contentType": "comparison",
+      "excerpt": "PayPal and Stripe block creators in dozens of countries. Here is the infrastructure that works everywhere they don't.",
+      "file": "posts/data/post-20260507-IAPH.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-IAPH.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260507-YN4S",
       "title": "The Real Difference Between Your Choices for Selling Digital Products Without PayPal — No PayPal Required",
       "date": "2026-05-07T06:02:40.911Z",
@@ -1167,6 +1178,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-07T06:02:40.911Z",
-  "totalPosts": 106
+  "lastUpdated": "2026-05-07T06:12:20.011Z",
+  "totalPosts": 107
 }
