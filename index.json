@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260507-9VFJ",
+      "title": "Understanding Selling Design Assets with Crypto Payments: A Plain-Language Breakdown",
+      "date": "2026-05-07T09:22:41.957Z",
+      "category": "Selling Digital Products",
+      "contentType": "breakdown",
+      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
+      "file": "posts/data/post-20260507-9VFJ.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-9VFJ.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260507-PUEZ",
       "title": "Bitcoin Payments for Digital Downloads: What It Actually Is and How It Works — The Full Guide",
       "date": "2026-05-07T09:12:25.063Z",
@@ -1387,6 +1398,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-07T09:12:25.063Z",
-  "totalPosts": 126
+  "lastUpdated": "2026-05-07T09:22:41.957Z",
+  "totalPosts": 127
 }
