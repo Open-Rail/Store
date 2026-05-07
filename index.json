@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260507-I5W6",
+      "title": "How to Getting Paid in USDT for Digital Work: The Complete Creator Guide — The Full Guide",
+      "date": "2026-05-07T16:32:46.351Z",
+      "category": "Getting Paid",
+      "contentType": "guide",
+      "excerpt": "USDT, BTC, ETH, SOL, and 300+ coins. Get paid in seconds, convert locally, and keep 100% of your revenue minus network fees.",
+      "file": "posts/data/post-20260507-I5W6.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-I5W6.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260507-V5WE",
       "title": "Selling Courses Without Teachable or Gumroad: What Nobody Tells You Before You Choose — No PayPal Required",
       "date": "2026-05-07T16:24:21.412Z",
@@ -1860,6 +1871,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-07T16:24:21.412Z",
-  "totalPosts": 169
+  "lastUpdated": "2026-05-07T16:32:46.351Z",
+  "totalPosts": 170
 }
