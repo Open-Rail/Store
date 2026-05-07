@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260507-3YAF",
+      "title": "The Real Difference Between Your Choices for Solutions When PayPal and Stripe Ban Your Account: What You Need to Know",
+      "date": "2026-05-07T07:03:25.551Z",
+      "category": "Platform Restrictions",
+      "contentType": "comparison",
+      "excerpt": "PayPal and Stripe block creators in dozens of countries. Here is the infrastructure that works everywhere they don't.",
+      "file": "posts/data/post-20260507-3YAF.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-3YAF.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260507-0SGU",
       "title": "Everything You Need to Know About Selling Music Online and Accepting Bitcoin",
       "date": "2026-05-07T06:52:29.640Z",
@@ -1222,6 +1233,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-07T06:52:29.640Z",
-  "totalPosts": 111
+  "lastUpdated": "2026-05-07T07:03:25.551Z",
+  "totalPosts": 112
 }
