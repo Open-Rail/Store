@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260507-MPNC",
+      "title": "Alternatives to Gumroad's Payout Delays: What Nobody Tells You Before You Choose — No PayPal Required",
+      "date": "2026-05-07T08:42:29.115Z",
+      "category": "Platform Restrictions",
+      "contentType": "comparison",
+      "excerpt": "PayPal and Stripe block creators in dozens of countries. Here is the infrastructure that works everywhere they don't.",
+      "file": "posts/data/post-20260507-MPNC.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-MPNC.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260507-OCML",
       "title": "How Creators in Ghana Get Paid Online from First Principles: The Definitive Breakdown — No PayPal Required",
       "date": "2026-05-07T08:32:18.138Z",
@@ -1343,6 +1354,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-07T08:32:18.138Z",
-  "totalPosts": 122
+  "lastUpdated": "2026-05-07T08:42:29.115Z",
+  "totalPosts": 123
 }
