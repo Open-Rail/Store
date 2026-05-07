@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260507-SBUO",
+      "title": "The Real Difference Between Your Choices for Payhip Alternatives for Restricted Countries",
+      "date": "2026-05-07T19:42:41.472Z",
+      "category": "Platform Restrictions",
+      "contentType": "comparison",
+      "excerpt": "PayPal and Stripe block creators in dozens of countries. Here is the infrastructure that works everywhere they don't.",
+      "file": "posts/data/post-20260507-SBUO.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-SBUO.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260507-9JZD",
       "title": "Selling Online Without Gumroad: Which Option Actually Works for You — No PayPal Required",
       "date": "2026-05-07T19:32:12.941Z",
@@ -2069,6 +2080,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-07T19:32:12.941Z",
-  "totalPosts": 188
+  "lastUpdated": "2026-05-07T19:42:41.472Z",
+  "totalPosts": 189
 }
