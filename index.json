@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260507-9JZD",
+      "title": "Selling Online Without Gumroad: Which Option Actually Works for You — No PayPal Required",
+      "date": "2026-05-07T19:32:12.941Z",
+      "category": "Platform Restrictions",
+      "contentType": "comparison",
+      "excerpt": "PayPal and Stripe block creators in dozens of countries. Here is the infrastructure that works everywhere they don't.",
+      "file": "posts/data/post-20260507-9JZD.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-9JZD.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260507-8J1G",
       "title": "Everything You Need to Know About Selling Design Assets with Crypto Payments — No PayPal Required",
       "date": "2026-05-07T19:22:20.876Z",
@@ -2058,6 +2069,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-07T19:22:20.876Z",
-  "totalPosts": 187
+  "lastUpdated": "2026-05-07T19:32:12.941Z",
+  "totalPosts": 188
 }
