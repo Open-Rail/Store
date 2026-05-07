@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260507-518M",
+      "title": "The No-Nonsense Guide to Getting Paid in USDT for Digital Work: What You Need to Know",
+      "date": "2026-05-07T06:42:57.089Z",
+      "category": "Getting Paid",
+      "contentType": "guide",
+      "excerpt": "USDT, BTC, ETH, SOL, and 300+ coins. Get paid in seconds, convert locally, and keep 100% of your revenue minus network fees.",
+      "file": "posts/data/post-20260507-518M.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-518M.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260507-9IZ5",
       "title": "Selling Courses Without Teachable or Gumroad: Which Option Actually Works for You in 2025",
       "date": "2026-05-07T06:32:27.475Z",
@@ -1200,6 +1211,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-07T06:32:27.475Z",
-  "totalPosts": 109
+  "lastUpdated": "2026-05-07T06:42:57.089Z",
+  "totalPosts": 110
 }
