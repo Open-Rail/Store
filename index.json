@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260507-5CX5",
+      "title": "The Real Difference Between Your Choices for Selling Fonts Online Without PayPal — No PayPal Required",
+      "date": "2026-05-07T16:14:21.673Z",
+      "category": "Platform Restrictions",
+      "contentType": "comparison",
+      "excerpt": "PayPal and Stripe block creators in dozens of countries. Here is the infrastructure that works everywhere they don't.",
+      "file": "posts/data/post-20260507-5CX5.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-5CX5.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260507-RZ1K",
       "title": "Selling Stock Photos Without PayPal: Which Option Actually Works for You — No PayPal Required",
       "date": "2026-05-07T16:03:26.842Z",
@@ -1838,6 +1849,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-07T16:03:26.842Z",
-  "totalPosts": 167
+  "lastUpdated": "2026-05-07T16:14:21.673Z",
+  "totalPosts": 168
 }
