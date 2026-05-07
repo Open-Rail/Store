@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260507-GK05",
+      "title": "Admin Dashboards for Crypto Digital Stores: Everything You Need to Get Started for Digital Creators",
+      "date": "2026-05-07T18:12:37.850Z",
+      "category": "Store Setup",
+      "contentType": "guide",
+      "excerpt": "From zero to live crypto store in one afternoon. GitHub Pages hosting, Core Shop Engine, Web3 Wallet Connect, NOWPayments integration.",
+      "file": "posts/data/post-20260507-GK05.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-GK05.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260507-YPY2",
       "title": "Selling Ebooks in Nigeria Without PayPal: Which Option Actually Works for You — No PayPal Required",
       "date": "2026-05-07T18:02:50.424Z",
@@ -1970,6 +1981,6 @@
       "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-07T18:02:50.424Z",
-  "totalPosts": 179
+  "lastUpdated": "2026-05-07T18:12:37.850Z",
+  "totalPosts": 180
 }
