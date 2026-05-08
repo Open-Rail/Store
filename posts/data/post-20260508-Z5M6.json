@@ -1,0 +1,129 @@
+{
+  "id": "post-20260508-Z5M6",
+  "title": "Comparing Your Real Options for Selling Courses Without Teachable or Gumroad — No PayPal Required",
+  "date": "2026-05-08T12:12:47.222Z",
+  "category": "Platform Restrictions",
+  "contentType": "comparison",
+  "author": "Unchained Commerce",
+  "excerpt": "PayPal and Stripe block creators in dozens of countries. Here is the infrastructure that works everywhere they don't.",
+  "image": "https://open-rail.github.io/Store/posts/images/post-20260508-Z5M6.jpg",
+  "imageSource": "picsum",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "PayPal and Stripe do not make their exclusion lists public. They do not send you a letter explaining why your country is blocked. You find out when your account gets flagged, your funds get held for 180 days, or your application is rejected with a generic error message. Gumroad has payout delays that stretch to 30 days for sellers in certain regions, and Payhip quietly limits withdrawal options based on geography. These are not edge cases — they are the designed experience for creators in Nigeria, Ghana, Pakistan, Bangladesh, Kenya, Ethiopia, and dozens of other countries. The solution is not a workaround. It is a different infrastructure stack entirely: crypto payments through NOWPayments, automated delivery, and a store that no platform can suspend because no platform owns it."
+    },
+    {
+      "type": "heading",
+      "text": "What Each Option Actually Offers"
+    },
+    {
+      "type": "paragraph",
+      "text": "Teachable and Gumroad offer course creation and distribution platforms, but they often come with strict geographic restrictions, high fees, and limited customization options. Meanwhile, PayPal and Stripe provide payment processing, but they're also subject to country restrictions and often require complex setup processes. In contrast, the Core Shop Engine ($49.99) offers a full backend solution with automated delivery, payment verification, and PDF receipts, making it a more flexible and cost-effective option for creators in restricted countries."
+    },
+    {
+      "type": "heading",
+      "text": "How They Handle Restricted Countries"
+    },
+    {
+      "type": "paragraph",
+      "text": "PayPal and Stripe have strict policies against serving countries with high-risk or non-compliant profiles, including Nigeria, Ghana, Kenya, Pakistan, Bangladesh, Ethiopia, Venezuela, Iran, Cameroon, Tanzania, and more. Teachable and Gumroad have similar restrictions, limiting creators in these countries to using alternative payment methods or third-party services. The Core Shop Engine, on the other hand, uses NOWPayments as its payment processor, which supports over 300 coins and doesn't require KYC or buyer accounts, making it a better option for creators in restricted countries."
+    },
+    {
+      "type": "heading",
+      "text": "Payment Speed, Fees, and Real Costs"
+    },
+    {
+      "type": "paragraph",
+      "text": "PayPal and Stripe charge high fees for international transactions, often exceeding 3% + $0.30 per transaction. Teachable and Gumroad also charge fees, ranging from 2.9% + $0.30 to 5% + $0.30 per transaction. The Core Shop Engine, using NOWPayments, charges a flat rate of 1.75% + $0.25 per transaction, making it a more cost-effective option for creators. Additionally, the Core Shop Engine's automated delivery and payment verification features reduce the risk of chargebacks and disputes, saving creators time and money."
+    },
+    {
+      "type": "callout",
+      "text": "Don't let geographic restrictions hold you back from selling your courses."
+    },
+    {
+      "type": "heading",
+      "text": "Automation and Delivery Capabilities"
+    },
+    {
+      "type": "paragraph",
+      "text": "Teachable and Gumroad require manual delivery of course content, which can be time-consuming and prone to errors. PayPal and Stripe also require manual payment processing, which can lead to delays and disputes. The Core Shop Engine, on the other hand, offers automated delivery and payment verification, ensuring that course content is delivered instantly and securely to customers. This feature is especially valuable for creators in restricted countries where manual delivery and payment processing can be challenging."
+    },
+    {
+      "type": "heading",
+      "text": "Which One to Choose Based on Your Situation"
+    },
+    {
+      "type": "paragraph",
+      "text": "If you're a digital creator in a country with restricted access to PayPal, Stripe, Gumroad, or Payhip, the Core Shop Engine ($49.99) is the best option. Its automated delivery, payment verification, and PDF receipts features make it a more flexible and cost-effective solution. Its use of NOWPayments as its payment processor also eliminates the need for KYC or buyer accounts, making it a better option for creators in restricted countries."
+    },
+    {
+      "type": "heading",
+      "text": "How do I sell digital products if PayPal is not available in my country?"
+    },
+    {
+      "type": "paragraph",
+      "text": "You can sell your courses without Teachable or Gumroad using the Core Shop Engine ($49.99), a full backend solution with automated delivery, payment verification, and PDF receipts. Its use of NOWPayments as its payment processor supports over 300 coins and doesn't require KYC or buyer accounts, making it a better option for creators in restricted countries."
+    },
+    {
+      "type": "callout",
+      "text": "The Core Shop Engine is the only platform that supports automated delivery and payment verification for creators in restricted countries."
+    },
+    {
+      "type": "heading",
+      "text": "Related: How Creators Like You Are Getting Paid"
+    },
+    {
+      "type": "paragraph",
+      "text": "If you're looking for a PayPal alternative for creators in restricted countries, consider the Core Shop Engine ($49.99), which uses NOWPayments as its payment processor and supports over 300 coins. You can also explore other options, such as selling digital products without a Stripe account or using a Gumroad alternative like the Core Shop Engine. Visit https://unchained-commerce.github.io/Shop/index.html to learn more."
+    },
+    {
+      "type": "heading",
+      "text": "Your Action Checklist"
+    },
+    {
+      "type": "paragraph",
+      "text": "To get started with the Core Shop Engine, follow these steps: Create a new store on the Core Shop Engine platform using your desired domain name and branding. Set up your payment processor, NOWPayments, and configure your payment methods. Customize your store's design and layout to reflect your brand identity. Upload your course content and configure automated delivery. Test your store and payment processing to ensure a seamless experience for customers."
+    },
+    {
+      "type": "callout",
+      "text": "Say goodbye to high fees and manual payment processing with the Core Shop Engine's flat rate and automated features."
+    },
+    {
+      "type": "cta",
+      "text": "Core Shop Engine — $49.99. Full backend with bot engine, automated delivery, payment verification, and PDF receipts. No payment processor account required. Works everywhere.",
+      "url": "https://unchained-commerce.github.io/Shop/index.html",
+      "product": "Core Shop Engine",
+      "price": "$49.99"
+    }
+  ],
+  "related": [
+    "post-20260508-LWGL",
+    "post-20260508-RCYB",
+    "post-20260508-WCEC"
+  ],
+  "meta": {
+    "searchQuery": "sell courses without teachable or gumroad",
+    "serpSource": "tavily",
+    "imageSource": "picsum",
+    "wordCount": 826,
+    "aiProvider": "cerebras",
+    "aiModel": "llama3.1-8b",
+    "aiCallCount": 2,
+    "peopleAlsoAsk": [
+      "How do I sell digital products if PayPal is not available in my country?",
+      "What is the best PayPal alternative for creators in restricted countries?",
+      "Can I use Stripe if I am in Nigeria, Ghana, or Pakistan?",
+      "Why does Gumroad not pay out to certain countries?"
+    ],
+    "relatedSearches": [
+      "paypal alternative for nigeria digital sellers",
+      "sell digital products without stripe account",
+      "gumroad blocked countries list 2024",
+      "crypto payment gateway no kyc digital products"
+    ],
+    "product": "Core Shop Engine",
+    "botVersion": "5.1",
+    "generatedAt": "2026-05-08T12:12:47.222Z"
+  }
+}
