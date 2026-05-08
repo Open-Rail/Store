@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260509-920R",
+      "title": "Selling Music Online and Accepting Bitcoin: What It Actually Is and How It Works — No PayPal Required",
+      "date": "2026-05-08T22:32:24.348Z",
+      "category": "Selling Digital Products",
+      "contentType": "breakdown",
+      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
+      "file": "posts/data/post-20260509-920R.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260509-920R.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260509-LFDM",
       "title": "Getting Paid in USDT for Digital Work: A Step-by-Step Setup Guide — No PayPal Required",
       "date": "2026-05-08T22:22:22.315Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260507-OOQS.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260507-OOQS.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260507-ZPQG",
-      "title": "Understanding Selling Beats Online with Crypto Payments: A Plain-Language Breakdown: What You Need to Know",
-      "date": "2026-05-07T13:22:49.052Z",
-      "category": "Selling Digital Products",
-      "contentType": "breakdown",
-      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
-      "file": "posts/data/post-20260507-ZPQG.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-ZPQG.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-08T22:22:22.317Z",
+  "lastUpdated": "2026-05-08T22:32:24.351Z",
   "totalPosts": 200
 }
