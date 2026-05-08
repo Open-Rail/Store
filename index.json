@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260508-DNTN",
+      "title": "The No-Nonsense Guide to Building a Crypto Store on GitHub Pages — No PayPal Required",
+      "date": "2026-05-08T19:42:34.418Z",
+      "category": "Store Setup",
+      "contentType": "guide",
+      "excerpt": "From zero to live crypto store in one afternoon. GitHub Pages hosting, Core Shop Engine, Web3 Wallet Connect, NOWPayments integration.",
+      "file": "posts/data/post-20260508-DNTN.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260508-DNTN.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260508-16BU",
       "title": "The Biggest Mistake Creators Make With How Bangladeshi Freelancers Accept International Payments",
       "date": "2026-05-08T19:32:33.845Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260507-NKUH.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260507-NKUH.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260507-CLBO",
-      "title": "How Deploying a Digital Store on GitHub Pages Works and How to Set It Up Today for Digital Creators",
-      "date": "2026-05-07T10:32:20.153Z",
-      "category": "Store Setup",
-      "contentType": "guide",
-      "excerpt": "From zero to live crypto store in one afternoon. GitHub Pages hosting, Core Shop Engine, Web3 Wallet Connect, NOWPayments integration.",
-      "file": "posts/data/post-20260507-CLBO.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-CLBO.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-08T19:32:33.861Z",
+  "lastUpdated": "2026-05-08T19:42:34.422Z",
   "totalPosts": 200
 }
