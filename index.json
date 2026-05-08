@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260508-2PZ6",
+      "title": "Selling Software Without a Stripe Account: An Honest Side-by-Side Breakdown for Digital Creators",
+      "date": "2026-05-08T06:53:08.438Z",
+      "category": "Platform Restrictions",
+      "contentType": "comparison",
+      "excerpt": "PayPal and Stripe block creators in dozens of countries. Here is the infrastructure that works everywhere they don't.",
+      "file": "posts/data/post-20260508-2PZ6.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260508-2PZ6.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260508-1FEX",
       "title": "The Real Difference Between Your Choices for Selling Digital Art Without PayPal — No PayPal Required",
       "date": "2026-05-08T06:42:29.235Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260506-IQPH.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260506-IQPH.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260506-F8A4",
-      "title": "How to Get Payment Gateways for Cameroon Digital Products Live Before the End of the Day",
-      "date": "2026-05-06T21:44:04.381Z",
-      "category": "Global Access",
-      "contentType": "quick-win",
-      "excerpt": "Selling digital products from Nigeria, Ghana, Kenya, Pakistan, or Bangladesh is possible with crypto-native infrastructure that has no geographic restrictions.",
-      "file": "posts/data/post-20260506-F8A4.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260506-F8A4.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-08T06:42:29.238Z",
+  "lastUpdated": "2026-05-08T06:53:08.440Z",
   "totalPosts": 200
 }
