@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260508-FNY1",
+      "title": "Tron USDT Payments for Digital Products: What It Actually Is and How It Works — No PayPal Required",
+      "date": "2026-05-08T06:02:58.197Z",
+      "category": "Selling Digital Products",
+      "contentType": "breakdown",
+      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
+      "file": "posts/data/post-20260508-FNY1.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260508-FNY1.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260508-7CQJ",
       "title": "Selling PDF Guides Without Gumroad: What Nobody Tells You Before You Choose — No PayPal Required",
       "date": "2026-05-08T05:52:38.702Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260506-8V21.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260506-8V21.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260506-W9MD",
-      "title": "Selling Music Online and Accepting Bitcoin Explained for Digital Creators",
-      "date": "2026-05-06T20:53:17.066Z",
-      "category": "Selling Digital Products",
-      "contentType": "breakdown",
-      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
-      "file": "posts/data/post-20260506-W9MD.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260506-W9MD.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-08T05:52:38.703Z",
+  "lastUpdated": "2026-05-08T06:02:58.199Z",
   "totalPosts": 200
 }
