@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260508-HV3D",
+      "title": "How Accepting Bitcoin for Ebook Sales Works and How to Set It Up Today for Digital Creators",
+      "date": "2026-05-08T20:22:10.045Z",
+      "category": "Selling Digital Products",
+      "contentType": "guide",
+      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
+      "file": "posts/data/post-20260508-HV3D.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260508-HV3D.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260508-TDWF",
       "title": "Selling Plugins Without a Payment Processor: What Nobody Tells You Before You Choose Without the Gatekeepers",
       "date": "2026-05-08T20:12:38.835Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260507-Y4OM.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260507-Y4OM.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260507-6A0L",
-      "title": "Why I Stopped Recommending Alternatives to Payment Options for Ethiopian Digital Creators for Digital Creators",
-      "date": "2026-05-07T11:13:46.393Z",
-      "category": "Global Access",
-      "contentType": "opinion",
-      "excerpt": "Selling digital products from Nigeria, Ghana, Kenya, Pakistan, or Bangladesh is possible with crypto-native infrastructure that has no geographic restrictions.",
-      "file": "posts/data/post-20260507-6A0L.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-6A0L.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-08T20:12:38.837Z",
+  "lastUpdated": "2026-05-08T20:22:10.055Z",
   "totalPosts": 200
 }
