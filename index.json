@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260508-5FYG",
+      "title": "Selling Online Without Gumroad: An Honest Side-by-Side Breakdown — No PayPal Required",
+      "date": "2026-05-08T05:32:23.823Z",
+      "category": "Platform Restrictions",
+      "contentType": "comparison",
+      "excerpt": "PayPal and Stripe block creators in dozens of countries. Here is the infrastructure that works everywhere they don't.",
+      "file": "posts/data/post-20260508-5FYG.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260508-5FYG.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260508-9KTE",
       "title": "Selling Design Assets with Crypto Payments: What It Actually Is and How It Works: What You Need to Know",
       "date": "2026-05-08T05:22:23.797Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260506-3RVT.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260506-3RVT.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260506-2UTI",
-      "title": "Selling Fonts Online Without PayPal: What Nobody Tells You Before You Choose — The Full Guide",
-      "date": "2026-05-06T20:23:26.207Z",
-      "category": "Platform Restrictions",
-      "contentType": "comparison",
-      "excerpt": "PayPal and Stripe block creators in dozens of countries. Here is the infrastructure that works everywhere they don't.",
-      "file": "posts/data/post-20260506-2UTI.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260506-2UTI.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-08T05:22:23.814Z",
+  "lastUpdated": "2026-05-08T05:32:23.838Z",
   "totalPosts": 200
 }
