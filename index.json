@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260508-4FVV",
+      "title": "Understanding Real-Time Analytics for Crypto Product Stores: A Plain-Language Breakdown — The Full Guide",
+      "date": "2026-05-08T08:03:12.331Z",
+      "category": "Selling Digital Products",
+      "contentType": "breakdown",
+      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
+      "file": "posts/data/post-20260508-4FVV.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260508-4FVV.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260508-PMPO",
       "title": "The Fastest Way to Set Up Payment Solutions for Iranian Digital Sellers and Start Selling — The Full Guide",
       "date": "2026-05-08T07:52:47.221Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260507-DRRP.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260507-DRRP.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260507-HCZS",
-      "title": "Crypto Payment Gateways for Digital Products Explained for Digital Creators: The Honest Answer",
-      "date": "2026-05-06T23:02:41.566Z",
-      "category": "Selling Digital Products",
-      "contentType": "breakdown",
-      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
-      "file": "posts/data/post-20260507-HCZS.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-HCZS.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-08T07:52:47.226Z",
+  "lastUpdated": "2026-05-08T08:03:12.341Z",
   "totalPosts": 200
 }
