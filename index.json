@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260508-F091",
+      "title": "The Real Difference Between Your Choices for Selling Ebooks in Nigeria Without PayPal — No PayPal Required",
+      "date": "2026-05-08T13:52:40.449Z",
+      "category": "Platform Restrictions",
+      "contentType": "comparison",
+      "excerpt": "PayPal and Stripe block creators in dozens of countries. Here is the infrastructure that works everywhere they don't.",
+      "file": "posts/data/post-20260508-F091.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260508-F091.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260508-7ST0",
       "title": "Understanding Financial Sovereignty for Digital Creators: A Plain-Language Breakdown: What You Need to Know",
       "date": "2026-05-08T13:42:24.427Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260507-JCU0.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260507-JCU0.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260507-OPDT",
-      "title": "Why Digital Product Payment Solutions in West Africa Keeps Failing — and the Fix That Works",
-      "date": "2026-05-07T04:53:27.323Z",
-      "category": "Global Access",
-      "contentType": "problem-solution",
-      "excerpt": "Selling digital products from Nigeria, Ghana, Kenya, Pakistan, or Bangladesh is possible with crypto-native infrastructure that has no geographic restrictions.",
-      "file": "posts/data/post-20260507-OPDT.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-OPDT.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-08T13:42:24.430Z",
+  "lastUpdated": "2026-05-08T13:52:40.455Z",
   "totalPosts": 200
 }
