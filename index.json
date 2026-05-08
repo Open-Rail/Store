@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260508-SMDC",
+      "title": "Understanding Selling Beats Online with Crypto Payments: A Plain-Language Breakdown — No PayPal Required",
+      "date": "2026-05-08T19:12:33.393Z",
+      "category": "Selling Digital Products",
+      "contentType": "breakdown",
+      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
+      "file": "posts/data/post-20260508-SMDC.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260508-SMDC.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260508-BUHE",
       "title": "The Real Mechanics Behind Digital Product Stores with No-KYC Payments — No PayPal Required",
       "date": "2026-05-08T19:02:42.094Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260507-MAFU.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260507-MAFU.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260507-EKWF",
-      "title": "Everything You Need to Know About Tron USDT Payments for Digital Products — No PayPal Required",
-      "date": "2026-05-07T10:02:15.424Z",
-      "category": "Selling Digital Products",
-      "contentType": "breakdown",
-      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
-      "file": "posts/data/post-20260507-EKWF.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-EKWF.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-08T19:02:42.096Z",
+  "lastUpdated": "2026-05-08T19:12:33.426Z",
   "totalPosts": 200
 }
