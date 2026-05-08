@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260508-S5YW",
+      "title": "USDT Payment Gateways for Digital Products: What It Actually Is and How It Works — No PayPal Required",
+      "date": "2026-05-08T13:12:26.357Z",
+      "category": "Selling Digital Products",
+      "contentType": "breakdown",
+      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
+      "file": "posts/data/post-20260508-S5YW.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260508-S5YW.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260508-BXUT",
       "title": "How to Setting Up a NOWPayments Digital Store: The Complete Creator Guide: What You Need to Know",
       "date": "2026-05-08T13:02:29.992Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260507-P3Z4.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260507-P3Z4.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260507-A1RW",
-      "title": "5 Steps to Get Selling Digital Downloads in Pakistan Working for Your Store",
-      "date": "2026-05-07T04:12:44.470Z",
-      "category": "Global Access",
-      "contentType": "listicle",
-      "excerpt": "Selling digital products from Nigeria, Ghana, Kenya, Pakistan, or Bangladesh is possible with crypto-native infrastructure that has no geographic restrictions.",
-      "file": "posts/data/post-20260507-A1RW.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-A1RW.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-08T13:02:29.995Z",
+  "lastUpdated": "2026-05-08T13:12:26.379Z",
   "totalPosts": 200
 }
