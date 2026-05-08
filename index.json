@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260508-O4P6",
+      "title": "The No-Nonsense Guide to How to Sell Ebooks from Kenya — No PayPal Required",
+      "date": "2026-05-08T00:12:28.730Z",
+      "category": "Global Access",
+      "contentType": "guide",
+      "excerpt": "Selling digital products from Nigeria, Ghana, Kenya, Pakistan, or Bangladesh is possible with crypto-native infrastructure that has no geographic restrictions.",
+      "file": "posts/data/post-20260508-O4P6.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260508-O4P6.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260508-NMV4",
       "title": "The Biggest Mistake Creators Make With Selling Digital Downloads in Pakistan",
       "date": "2026-05-08T00:02:22.627Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260506-Y2FB.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260506-Y2FB.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260506-L1XF",
-      "title": "Selling Software Without a Stripe Account: What Nobody Tells You Before You Choose",
-      "date": "2026-05-06T15:02:43.606Z",
-      "category": "Platform Restrictions",
-      "contentType": "comparison",
-      "excerpt": "PayPal and Stripe block creators in dozens of countries. Here is the infrastructure that works everywhere they don't.",
-      "file": "posts/data/post-20260506-L1XF.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260506-L1XF.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-08T00:02:22.641Z",
+  "lastUpdated": "2026-05-08T00:12:28.733Z",
   "totalPosts": 200
 }
