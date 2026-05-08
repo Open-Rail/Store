@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260508-SBQQ",
+      "title": "The Biggest Mistake Creators Make With Payment Infrastructure for South Asian Creators",
+      "date": "2026-05-08T21:02:37.995Z",
+      "category": "Global Access",
+      "contentType": "warning",
+      "excerpt": "Selling digital products from Nigeria, Ghana, Kenya, Pakistan, or Bangladesh is possible with crypto-native infrastructure that has no geographic restrictions.",
+      "file": "posts/data/post-20260508-SBQQ.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260508-SBQQ.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260508-U2QG",
       "title": "Understanding Automated Ebook Delivery After Crypto Payment: A Plain-Language Breakdown — The Full Guide",
       "date": "2026-05-08T20:52:16.934Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260507-DXUA.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260507-DXUA.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260507-BLZE",
-      "title": "Web3 Wallet Connect for Digital Sellers Explained for Digital Creators — No PayPal Required",
-      "date": "2026-05-07T11:52:34.320Z",
-      "category": "Selling Digital Products",
-      "contentType": "breakdown",
-      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
-      "file": "posts/data/post-20260507-BLZE.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-BLZE.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-08T20:52:16.945Z",
+  "lastUpdated": "2026-05-08T21:02:37.998Z",
   "totalPosts": 200
 }
