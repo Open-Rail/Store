@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260508-LWGL",
+      "title": "Selling Fonts Online Without PayPal: An Honest Side-by-Side Breakdown Without the Gatekeepers",
+      "date": "2026-05-08T12:02:27.847Z",
+      "category": "Platform Restrictions",
+      "contentType": "comparison",
+      "excerpt": "PayPal and Stripe block creators in dozens of countries. Here is the infrastructure that works everywhere they don't.",
+      "file": "posts/data/post-20260508-LWGL.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260508-LWGL.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260508-RCYB",
       "title": "The Real Difference Between Your Choices for Selling Stock Photos Without PayPal — No PayPal Required",
       "date": "2026-05-08T11:52:25.278Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260507-5THC.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260507-5THC.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260507-X731",
-      "title": "Selling Digital Products from Africa Explained for Digital Creators — The Full Guide",
-      "date": "2026-05-07T03:02:22.312Z",
-      "category": "Global Access",
-      "contentType": "breakdown",
-      "excerpt": "Selling digital products from Nigeria, Ghana, Kenya, Pakistan, or Bangladesh is possible with crypto-native infrastructure that has no geographic restrictions.",
-      "file": "posts/data/post-20260507-X731.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-X731.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-08T11:52:25.281Z",
+  "lastUpdated": "2026-05-08T12:02:27.850Z",
   "totalPosts": 200
 }
