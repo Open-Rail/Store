@@ -1,0 +1,129 @@
+{
+  "id": "post-20260508-MYZI",
+  "title": "The No-Nonsense Guide to Admin Dashboards for Crypto Digital Stores — No PayPal Required",
+  "date": "2026-05-08T14:02:21.123Z",
+  "category": "Store Setup",
+  "contentType": "guide",
+  "author": "Unchained Commerce",
+  "excerpt": "From zero to live crypto store in one afternoon. GitHub Pages hosting, Core Shop Engine, Web3 Wallet Connect, NOWPayments integration.",
+  "image": "https://open-rail.github.io/Store/posts/images/post-20260508-MYZI.jpg",
+  "imageSource": "picsum",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Are you a digital creator stuck outside the PayPal and Stripe monopoly, with no access to Gumroad or Payhip due to geographic restrictions, banking limitations, or KYC requirements? You're not alone. In Nigeria, Ghana, Kenya, Pakistan, Bangladesh, Ethiopia, Venezuela, Iran, Cameroon, Tanzania, Philippines, and other restricted countries, creators like you are forced to abandon their dreams of selling ebooks, courses, tutorials, art, music, software, fonts, presets, templates, and digital products. But today, you have a new hope: a way to build a digital store that accepts crypto payments, using the Admin Dashboard, and lives beyond the PayPal wall."
+    },
+    {
+      "type": "heading",
+      "text": "Why This Method Works When Everything Else Fails"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Admin Dashboard is more than just a tool for transaction logs and order management – it's a liberator. With NOWPayments as your payment processor, you can accept 300+ coins, no KYC required, no buyer account needed. This means you can focus on what matters: creating and selling your digital products, without the hassle of restrictive payment gateways. The Admin Dashboard is the key to unlocking your potential, and NOWPayments is the bridge to the world of crypto payments."
+    },
+    {
+      "type": "heading",
+      "text": "What You Need Before You Start"
+    },
+    {
+      "type": "paragraph",
+      "text": "Before you begin, make sure you have the essential tools in place. You'll need the Admin Dashboard ($29.99), a payment processor like NOWPayments, and a digital product to sell. You can set up your store on a platform like WordPress or GitHub Pages, but the Admin Dashboard will give you the most flexibility and control. Don't worry about hosting costs or complicated setup – the Admin Dashboard is designed to be easy to use and understand."
+    },
+    {
+      "type": "heading",
+      "text": "Setting Up Your Payment and Delivery Pipeline"
+    },
+    {
+      "type": "paragraph",
+      "text": "GitHub Pages is the hosting infrastructure for your entire store. It is free, reliable, scales to any traffic level, and requires no server management. Your store files — the HTML, CSS, JavaScript, and any static assets — live in a GitHub repository. GitHub Pages serves them as a static website at a URL like yourusername.github.io/yourstore. There are no monthly costs, no capacity limits for a static site, and no server that can go down and take your store offline. The deployment process involves pushing your configured store files to the repository — a process that takes under five minutes once your files are ready. Updates to your store, including adding new products, are as simple as updating the relevant files and pushing to the repository."
+    },
+    {
+      "type": "callout",
+      "text": "The entire store stack — hosting, payments, delivery — has zero monthly costs after the one-time setup."
+    },
+    {
+      "type": "heading",
+      "text": "Going Live and Making Your First Sale"
+    },
+    {
+      "type": "paragraph",
+      "text": "NOWPayments is the payment processing layer that connects your buyers' crypto wallets to your revenue wallet. You create an account — no KYC required — configure your wallet addresses for each coin you want to accept, and generate an API key. This API key goes into your Core Shop Engine configuration. When a buyer initiates a payment, the engine calls the NOWPayments API to create a payment invoice and get the exact amount to request. When the payment confirms on-chain, NOWPayments fires the webhook to your engine. Your funds go directly to your configured wallet — NOWPayments does not hold your money. The integration is straightforward and the NOWPayments documentation covers every step. The Core Shop Engine deployment guide includes specific configuration instructions."
+    },
+    {
+      "type": "heading",
+      "text": "Scaling Once the System Is Running"
+    },
+    {
+      "type": "paragraph",
+      "text": "As your store grows, the Admin Dashboard will help you scale your operations. With real-time analytics and transaction logs, you'll be able to track your sales, understand your customer behavior, and make data-driven decisions to optimize your store. The Admin Dashboard is designed to grow with you, so you can focus on what matters most: creating and selling your digital products."
+    },
+    {
+      "type": "heading",
+      "text": "How do I build a digital store that accepts crypto payments?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The correct setup sequence matters because each component depends on the previous one being configured correctly. Start with NOWPayments: create your account, add your wallet addresses for each coin you want to accept, and generate your API key. Then deploy the Core Shop Engine: upload your product files, configure your NOWPayments API credentials, set your product prices in USD, and deploy to your hosting environment. Then configure Web3 Wallet Connect: connect it to your Core Shop Engine endpoint, set up your product display, and test the checkout flow in a browser. Finally, complete a real mainnet test transaction with a small amount of actual crypto. Confirm the webhook fires, the engine processes it, the delivery email arrives, and the download link works. Only after that test passes should you start driving traffic to your store."
+    },
+    {
+      "type": "callout",
+      "text": "Test a real mainnet transaction before you promote — finding a bug with your own money costs less than finding it with a buyer's."
+    },
+    {
+      "type": "heading",
+      "text": "Related: How Creators Like You Are Getting Paid"
+    },
+    {
+      "type": "paragraph",
+      "text": "If you're looking for more information on building a digital store, check out the NOWPayments integration static site tutorial or the Core Shop Engine setup guide. And if you want to host your store on GitHub Pages for free, you can do that too. But if you want to take your store to the next level, consider investing in the Admin Dashboard, which starts at $29.99 and includes transaction logs, order management, and real-time analytics."
+    },
+    {
+      "type": "heading",
+      "text": "Your Action Checklist"
+    },
+    {
+      "type": "paragraph",
+      "text": "To get started with the Admin Dashboard, follow these steps: create an account on the Admin Dashboard website, connect your NOWPayments account, configure your payment settings, link your digital product, set a price, and start promoting your store. Don't forget to set up transaction logs and order management, and review your real-time analytics to optimize your store. And when you're ready, integrate the Admin Dashboard with your existing store on WordPress or GitHub Pages."
+    },
+    {
+      "type": "callout",
+      "text": "Four steps: deploy the engine, configure the wallet, test on mainnet, then and only then start promoting your store."
+    },
+    {
+      "type": "cta",
+      "text": "Admin Dashboard — $29.99. Transaction logs, order management, and real-time analytics. See every order, every payment, every delivery — from anywhere in the world.",
+      "url": "https://unchained-commerce.github.io/Shop/index.html",
+      "product": "Admin Dashboard",
+      "price": "$29.99"
+    }
+  ],
+  "related": [
+    "post-20260508-5VT4",
+    "post-20260508-6BLJ",
+    "post-20260508-R1MR"
+  ],
+  "meta": {
+    "searchQuery": "admin dashboard crypto digital store",
+    "serpSource": "tavily",
+    "imageSource": "picsum",
+    "wordCount": 986,
+    "aiProvider": "cerebras",
+    "aiModel": "llama3.1-8b",
+    "aiCallCount": 1,
+    "peopleAlsoAsk": [
+      "How do I build a digital store that accepts crypto payments?",
+      "What is the cheapest way to set up a digital product store?",
+      "Can I host a digital store on GitHub Pages for free?",
+      "How do I connect NOWPayments to my website?"
+    ],
+    "relatedSearches": [
+      "github pages digital store crypto payments",
+      "nowpayments integration static site tutorial",
+      "core shop engine setup guide",
+      "web3 wallet connect digital store"
+    ],
+    "product": "Admin Dashboard",
+    "botVersion": "5.1",
+    "generatedAt": "2026-05-08T14:02:21.123Z"
+  }
+}
