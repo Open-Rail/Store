@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260508-7ST0",
+      "title": "Understanding Financial Sovereignty for Digital Creators: A Plain-Language Breakdown: What You Need to Know",
+      "date": "2026-05-08T13:42:24.427Z",
+      "category": "Selling Digital Products",
+      "contentType": "breakdown",
+      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
+      "file": "posts/data/post-20260508-7ST0.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260508-7ST0.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260508-J919",
       "title": "Webhook-Driven Crypto Payment Fulfillment: What It Actually Is and How It Works — No PayPal Required",
       "date": "2026-05-08T13:32:51.603Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260507-OPDT.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260507-OPDT.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260507-8UQ7",
-      "title": "Accepting Bitcoin for Ebook Sales: Everything You Need to Get Started",
-      "date": "2026-05-07T04:42:36.040Z",
-      "category": "Selling Digital Products",
-      "contentType": "guide",
-      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
-      "file": "posts/data/post-20260507-8UQ7.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-8UQ7.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-08T13:32:51.676Z",
+  "lastUpdated": "2026-05-08T13:42:24.430Z",
   "totalPosts": 200
 }
