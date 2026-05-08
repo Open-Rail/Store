@@ -1,0 +1,129 @@
+{
+  "id": "post-20260508-EVOZ",
+  "title": "How to Setting Up NOWPayments Webhooks: The Complete Creator Guide — No PayPal Required",
+  "date": "2026-05-08T11:32:10.490Z",
+  "category": "Selling Digital Products",
+  "contentType": "guide",
+  "author": "Unchained Commerce",
+  "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
+  "image": "https://open-rail.github.io/Store/posts/images/post-20260508-EVOZ.jpg",
+  "imageSource": "picsum",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "You're a digital creator stuck in Nigeria with a PayPal-restricted account or in Iran with a bank that refuses to work with Stripe. You've tried Gumroad, Payhip, and other conventional platforms to sell your ebooks, courses, and templates, but they just won't let you through. You're not alone - many creators face these same country-specific restrictions and platform limitations. This is where NOWPayments' webhooks come in, letting you sell online without breaking a sweat, and bypassing the usual payment processor hurdles. Let's dive into the complete guide on how to set up NOWPayments webhooks, so you can unlock your digital products' full potential."
+    },
+    {
+      "type": "heading",
+      "text": "Why This Method Works When Everything Else Fails"
+    },
+    {
+      "type": "paragraph",
+      "text": "NOWPayments' webhooks empower you to create a seamless payment and delivery pipeline, eliminating the need for intermediaries like PayPal, Stripe, or Gumroad. With this setup, you can sell digital products online without worrying about payment processor restrictions or fees. Moreover, NOWPayments integrates with your Core Shop Engine ($49.99) backend, ensuring instant automated delivery of your products to customers, along with PDF receipts and payment verification - all without requiring a payment processor account. This method works because it's designed to bypass conventional payment processor hurdles and provide a direct, cryptocurrency-based payment solution."
+    },
+    {
+      "type": "heading",
+      "text": "What You Need Before You Start"
+    },
+    {
+      "type": "paragraph",
+      "text": "Before setting up NOWPayments webhooks, you'll need to create an account on the NOWPayments platform. You'll also need to set up your Core Shop Engine backend and integrate it with NOWPayments. Additionally, you'll need to configure your delivery pipeline, specifying the digital product files to be delivered to customers upon payment. Lastly, you'll need to obtain a unique NOWPayments webhook endpoint to connect your payment notifications with your Core Shop Engine backend. This setup process ensures that your payment and delivery pipeline are fully integrated, allowing you to focus on selling your digital products online."
+    },
+    {
+      "type": "heading",
+      "text": "Setting Up Your Payment and Delivery Pipeline"
+    },
+    {
+      "type": "paragraph",
+      "text": "To set up your payment and delivery pipeline, you'll need to configure the payment gateway on your NOWPayments dashboard. You'll also need to set up automated delivery of your digital products to customers, using the Core Shop Engine backend. This includes specifying the file formats, sizes, and metadata for your digital products. Additionally, you'll need to configure the delivery endpoint URL, which will be used to send payment notifications to your Core Shop Engine backend. By completing these steps, you'll establish a seamless payment and delivery pipeline, allowing customers to purchase and receive your digital products instantly."
+    },
+    {
+      "type": "callout",
+      "text": "With NOWPayments webhooks, you can bypass conventional payment processor restrictions and fees, selling digital products online directly to customers."
+    },
+    {
+      "type": "heading",
+      "text": "Going Live and Making Your First Sale"
+    },
+    {
+      "type": "paragraph",
+      "text": "Once your payment and delivery pipeline is set up, you're ready to go live and start selling your digital products online. To make your first sale, simply add a payment button to your website or online store, using the unique webhook endpoint provided by NOWPayments. When a customer makes a payment, the payment notification will be sent to your Core Shop Engine backend, triggering the automated delivery of your digital product. After the delivery, you'll receive a payment confirmation, and the customer will receive a PDF receipt. By following these steps, you'll be up and running in no time, with a fully functional payment and delivery pipeline in place."
+    },
+    {
+      "type": "heading",
+      "text": "Scaling Once the System Is Running"
+    },
+    {
+      "type": "paragraph",
+      "text": "As you grow your digital product sales and customer base, you can scale your payment and delivery pipeline by adding more payment buttons, processing more transactions, and integrating with other platforms. With NOWPayments' webhooks and your Core Shop Engine backend, you can easily manage and automate your payment notifications, ensuring seamless delivery of your digital products to customers. By scaling your system, you'll be able to focus on creating new digital products, growing your customer base, and expanding your business online."
+    },
+    {
+      "type": "heading",
+      "text": "How do I sell an ebook online without PayPal?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The fastest path to your first crypto-native digital product sale is a three-step process. First, set up NOWPayments — create an account, configure your wallet address, get your API key. Second, deploy the Core Shop Engine with your product file and NOWPayments credentials. Third, configure Web3 Wallet Connect with your checkout settings and product details. At that point, your store accepts crypto payments and delivers the product automatically. The complete setup, following the included deployment guide, takes most creators two to four hours from start to first test transaction. The Full Stack Bundle at $79.99 includes all three components plus the deployment guide and support access. For a creator who cannot use PayPal or Stripe, this is the infrastructure that makes selling digital products viable."
+    },
+    {
+      "type": "callout",
+      "text": "Integrating NOWPayments with your Core Shop Engine backend empowers you to create a seamless payment and delivery pipeline."
+    },
+    {
+      "type": "heading",
+      "text": "Related: How Creators Like You Are Getting Paid"
+    },
+    {
+      "type": "paragraph",
+      "text": "If you're looking for a hassle-free way to sell ebooks, courses, and templates online without breaking a sweat, you'll want to check out Unchained Commerce's Core Shop Engine ($49.99), a full backend with bot engine, automated delivery, payment verification, and PDF receipts. This setup integrates seamlessly with NOWPayments, allowing you to sell digital products online without relying on platforms like Gumroad or Payhip. You can even set up your online store using a simple template like the one found at https://unchained-commerce.github.io/Shop/index.html."
+    },
+    {
+      "type": "heading",
+      "text": "Your Action Checklist"
+    },
+    {
+      "type": "paragraph",
+      "text": "To set up NOWPayments webhooks and start selling your digital products online, follow these concrete steps: Create a NOWPayments account and set up your payment gateway on the dashboard. Integrate your Core Shop Engine backend with NOWPayments and configure automated delivery of digital products. Set up a unique webhook endpoint and connect it to your Core Shop Engine backend. Add a payment button to your website or online store using the webhook endpoint. When a customer makes a payment, ensure seamless delivery of the digital product and payment confirmation. Monitor and manage your payment notifications to scale your system and grow your business online."
+    },
+    {
+      "type": "callout",
+      "text": "By scaling your payment and delivery pipeline, you'll be able to focus on creating new digital products, growing your customer base, and expanding your business online."
+    },
+    {
+      "type": "cta",
+      "text": "Core Shop Engine — $49.99. Full backend with bot engine, automated delivery, payment verification, and PDF receipts. No payment processor account required. Works everywhere.",
+      "url": "https://unchained-commerce.github.io/Shop/index.html",
+      "product": "Core Shop Engine",
+      "price": "$49.99"
+    }
+  ],
+  "related": [
+    "post-20260508-FVLU",
+    "post-20260508-SNWL",
+    "post-20260508-3KHS"
+  ],
+  "meta": {
+    "searchQuery": "nowpayments webhook setup tutorial",
+    "serpSource": "tavily",
+    "imageSource": "picsum",
+    "wordCount": 1028,
+    "aiProvider": "cerebras",
+    "aiModel": "llama3.1-8b",
+    "aiCallCount": 1,
+    "peopleAlsoAsk": [
+      "How do I sell an ebook online without PayPal?",
+      "What is the best platform to sell digital downloads without fees?",
+      "Can I sell templates and fonts without using Gumroad or Payhip?",
+      "How do independent creators sell courses without Stripe?"
+    ],
+    "relatedSearches": [
+      "sell ebook without paypal stripe gumroad",
+      "digital download store crypto only",
+      "sell notion templates for bitcoin",
+      "font designer accept usdt payment"
+    ],
+    "product": "Core Shop Engine",
+    "botVersion": "5.1",
+    "generatedAt": "2026-05-08T11:32:10.490Z"
+  }
+}
