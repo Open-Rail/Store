@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260508-BXUT",
+      "title": "How to Setting Up a NOWPayments Digital Store: The Complete Creator Guide: What You Need to Know",
+      "date": "2026-05-08T13:02:29.992Z",
+      "category": "Getting Paid",
+      "contentType": "guide",
+      "excerpt": "USDT, BTC, ETH, SOL, and 300+ coins. Get paid in seconds, convert locally, and keep 100% of your revenue minus network fees.",
+      "file": "posts/data/post-20260508-BXUT.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260508-BXUT.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260508-WCG6",
       "title": "Solana Payments for Digital Products: What It Actually Is and How It Works — No PayPal Required",
       "date": "2026-05-08T12:52:31.638Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260507-A1RW.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260507-A1RW.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260507-31MZ",
-      "title": "How Building a Crypto Store on GitHub Pages Works and How to Set It Up Today",
-      "date": "2026-05-07T04:02:20.975Z",
-      "category": "Store Setup",
-      "contentType": "guide",
-      "excerpt": "From zero to live crypto store in one afternoon. GitHub Pages hosting, Core Shop Engine, Web3 Wallet Connect, NOWPayments integration.",
-      "file": "posts/data/post-20260507-31MZ.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-31MZ.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-08T12:52:31.639Z",
+  "lastUpdated": "2026-05-08T13:02:29.995Z",
   "totalPosts": 200
 }
