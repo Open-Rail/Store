@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260508-6BLJ",
+      "title": "Deploying a Digital Store on GitHub Pages: Everything You Need to Get Started",
+      "date": "2026-05-08T06:32:39.414Z",
+      "category": "Store Setup",
+      "contentType": "guide",
+      "excerpt": "From zero to live crypto store in one afternoon. GitHub Pages hosting, Core Shop Engine, Web3 Wallet Connect, NOWPayments integration.",
+      "file": "posts/data/post-20260508-6BLJ.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260508-6BLJ.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260508-309Y",
       "title": "Selling Presets Without Stripe: Which Option Actually Works for You — No PayPal Required",
       "date": "2026-05-08T06:22:49.053Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260506-9ML0.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260506-9ML0.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260506-AVBW",
-      "title": "Setting Up a NOWPayments Digital Store: Everything You Need to Get Started",
-      "date": "2026-05-06T21:22:48.496Z",
-      "category": "Getting Paid",
-      "contentType": "guide",
-      "excerpt": "USDT, BTC, ETH, SOL, and 300+ coins. Get paid in seconds, convert locally, and keep 100% of your revenue minus network fees.",
-      "file": "posts/data/post-20260506-AVBW.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260506-AVBW.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-08T06:22:49.054Z",
+  "lastUpdated": "2026-05-08T06:32:39.422Z",
   "totalPosts": 200
 }
