@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260508-T2EC",
+      "title": "Why Payment Gateways for Cameroon Digital Products Keeps Failing — and the Fix That Works",
+      "date": "2026-05-08T03:32:34.476Z",
+      "category": "Global Access",
+      "contentType": "problem-solution",
+      "excerpt": "Selling digital products from Nigeria, Ghana, Kenya, Pakistan, or Bangladesh is possible with crypto-native infrastructure that has no geographic restrictions.",
+      "file": "posts/data/post-20260508-T2EC.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260508-T2EC.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260508-MUIE",
       "title": "USDT Payment Gateways for Digital Products: What It Actually Is and How It Works — No PayPal Required",
       "date": "2026-05-08T03:22:33.241Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260506-DGAS.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260506-DGAS.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260506-B574",
-      "title": "How to How to Sell Ebooks from Kenya: The Complete Creator Guide",
-      "date": "2026-05-06T18:22:26.227Z",
-      "category": "Global Access",
-      "contentType": "guide",
-      "excerpt": "Selling digital products from Nigeria, Ghana, Kenya, Pakistan, or Bangladesh is possible with crypto-native infrastructure that has no geographic restrictions.",
-      "file": "posts/data/post-20260506-B574.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260506-B574.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-08T03:22:33.242Z",
+  "lastUpdated": "2026-05-08T03:32:34.482Z",
   "totalPosts": 200
 }
