@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260508-AGTH",
+      "title": "How to How to Start Selling Digital Products with Crypto: The Complete Creator Guide — No PayPal Required",
+      "date": "2026-05-08T01:32:13.399Z",
+      "category": "Selling Digital Products",
+      "contentType": "guide",
+      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
+      "file": "posts/data/post-20260508-AGTH.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260508-AGTH.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260508-LJAS",
       "title": "Selling Courses from Pakistan Without Stripe: An Honest Side-by-Side Breakdown",
       "date": "2026-05-08T01:22:58.342Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260506-XDUY.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260506-XDUY.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260506-5RJV",
-      "title": "Real-Time Analytics for Crypto Product Stores Explained for Digital Creators — The Full Guide",
-      "date": "2026-05-06T16:22:20.396Z",
-      "category": "Selling Digital Products",
-      "contentType": "breakdown",
-      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
-      "file": "posts/data/post-20260506-5RJV.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260506-5RJV.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-08T01:22:58.343Z",
+  "lastUpdated": "2026-05-08T01:32:13.418Z",
   "totalPosts": 200
 }
