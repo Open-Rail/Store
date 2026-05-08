@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260508-0HE0",
+      "title": "Do Not Start With How Creators in Ghana Get Paid Online Until You Read This",
+      "date": "2026-05-08T04:32:32.488Z",
+      "category": "Global Access",
+      "contentType": "warning",
+      "excerpt": "Selling digital products from Nigeria, Ghana, Kenya, Pakistan, or Bangladesh is possible with crypto-native infrastructure that has no geographic restrictions.",
+      "file": "posts/data/post-20260508-0HE0.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260508-0HE0.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260508-4970",
       "title": "Everything You Need to Know About Crypto Payment Integration for Static Sites — No PayPal Required",
       "date": "2026-05-08T04:22:28.984Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260506-XEAH.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260506-XEAH.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260506-XTTQ",
-      "title": "5 Steps to Get Payment Infrastructure for South Asian Creators Working for Your Store",
-      "date": "2026-05-06T19:22:41.713Z",
-      "category": "Global Access",
-      "contentType": "listicle",
-      "excerpt": "Selling digital products from Nigeria, Ghana, Kenya, Pakistan, or Bangladesh is possible with crypto-native infrastructure that has no geographic restrictions.",
-      "file": "posts/data/post-20260506-XTTQ.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260506-XTTQ.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-08T04:22:28.986Z",
+  "lastUpdated": "2026-05-08T04:32:32.489Z",
   "totalPosts": 200
 }
