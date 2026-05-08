@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260508-QEAG",
+      "title": "Payhip Alternatives for Restricted Countries: Which Option Actually Works for You — No PayPal Required",
+      "date": "2026-05-08T05:42:27.624Z",
+      "category": "Platform Restrictions",
+      "contentType": "comparison",
+      "excerpt": "PayPal and Stripe block creators in dozens of countries. Here is the infrastructure that works everywhere they don't.",
+      "file": "posts/data/post-20260508-QEAG.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260508-QEAG.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260508-5FYG",
       "title": "Selling Online Without Gumroad: An Honest Side-by-Side Breakdown — No PayPal Required",
       "date": "2026-05-08T05:32:23.823Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260506-AS4K.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260506-AS4K.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260506-3RVT",
-      "title": "Comparing Your Real Options for Selling Courses Without Teachable or Gumroad: What You Need to Know",
-      "date": "2026-05-06T20:32:30.589Z",
-      "category": "Platform Restrictions",
-      "contentType": "comparison",
-      "excerpt": "PayPal and Stripe block creators in dozens of countries. Here is the infrastructure that works everywhere they don't.",
-      "file": "posts/data/post-20260506-3RVT.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260506-3RVT.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-08T05:32:23.838Z",
+  "lastUpdated": "2026-05-08T05:42:27.626Z",
   "totalPosts": 200
 }
