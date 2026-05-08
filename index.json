@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260508-VHNZ",
+      "title": "The No-Nonsense Guide to Setting Up NOWPayments Webhooks — The Full Guide",
+      "date": "2026-05-08T01:42:56.476Z",
+      "category": "Selling Digital Products",
+      "contentType": "guide",
+      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
+      "file": "posts/data/post-20260508-VHNZ.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260508-VHNZ.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260508-AGTH",
       "title": "How to How to Start Selling Digital Products with Crypto: The Complete Creator Guide — No PayPal Required",
       "date": "2026-05-08T01:32:13.399Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260506-TU9C.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260506-TU9C.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260506-XDUY",
-      "title": "The Complete Deep-Dive on How Kenyan Creators Get Paid Internationally for Serious Sellers",
-      "date": "2026-05-06T16:32:45.190Z",
-      "category": "Global Access",
-      "contentType": "deep-dive",
-      "excerpt": "Selling digital products from Nigeria, Ghana, Kenya, Pakistan, or Bangladesh is possible with crypto-native infrastructure that has no geographic restrictions.",
-      "file": "posts/data/post-20260506-XDUY.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260506-XDUY.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-08T01:32:13.418Z",
+  "lastUpdated": "2026-05-08T01:42:56.497Z",
   "totalPosts": 200
 }
