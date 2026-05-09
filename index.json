@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260509-F728",
+      "title": "Webhook-Driven Crypto Payment Fulfillment: What It Actually Is and How It Works — No PayPal Required",
+      "date": "2026-05-09T19:22:26.526Z",
+      "category": "Getting Paid",
+      "contentType": "breakdown",
+      "excerpt": "USDT, BTC, ETH, SOL, and 300+ coins. Get paid in seconds, convert locally, and keep 100% of your revenue minus network fees.",
+      "file": "posts/data/post-20260509-F728.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260509-F728.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260509-SI8X",
       "title": "Fixing Payment Gateways for Cameroon Digital Products: The Solution Blocked Creators Actually Use — The Full Guide",
       "date": "2026-05-09T19:12:34.877Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260508-55M7.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260508-55M7.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260508-KDSO",
-      "title": "The Real Difference Between Your Choices for Selling Plugins Without a Payment Processor — No PayPal Required",
-      "date": "2026-05-08T10:12:40.730Z",
-      "category": "Platform Restrictions",
-      "contentType": "comparison",
-      "excerpt": "PayPal and Stripe block creators in dozens of countries. Here is the infrastructure that works everywhere they don't.",
-      "file": "posts/data/post-20260508-KDSO.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260508-KDSO.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-09T19:12:34.881Z",
+  "lastUpdated": "2026-05-09T19:22:26.619Z",
   "totalPosts": 200
 }
