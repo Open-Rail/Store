@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260510-Z3QP",
+      "title": "Crypto Payments for Tanzanian Online Sellers: What It Actually Is and How It Works in 2025",
+      "date": "2026-05-09T22:42:12.686Z",
+      "category": "Global Access",
+      "contentType": "breakdown",
+      "excerpt": "Selling digital products from Nigeria, Ghana, Kenya, Pakistan, or Bangladesh is possible with crypto-native infrastructure that has no geographic restrictions.",
+      "file": "posts/data/post-20260510-Z3QP.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260510-Z3QP.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260510-48HU",
       "title": "Comparing Your Real Options for Selling Software Without a Stripe Account — No PayPal Required",
       "date": "2026-05-09T22:32:24.595Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260508-7ST0.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260508-7ST0.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260508-J919",
-      "title": "Webhook-Driven Crypto Payment Fulfillment: What It Actually Is and How It Works — No PayPal Required",
-      "date": "2026-05-08T13:32:51.603Z",
-      "category": "Getting Paid",
-      "contentType": "breakdown",
-      "excerpt": "USDT, BTC, ETH, SOL, and 300+ coins. Get paid in seconds, convert locally, and keep 100% of your revenue minus network fees.",
-      "file": "posts/data/post-20260508-J919.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260508-J919.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-09T22:32:24.658Z",
+  "lastUpdated": "2026-05-09T22:42:12.688Z",
   "totalPosts": 200
 }
