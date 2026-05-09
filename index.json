@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260509-FPCY",
+      "title": "Understanding Automated Digital Product Delivery with Crypto: A Plain-Language Breakdown — No PayPal Required",
+      "date": "2026-05-09T06:42:28.781Z",
+      "category": "Selling Digital Products",
+      "contentType": "breakdown",
+      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
+      "file": "posts/data/post-20260509-FPCY.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260509-FPCY.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260509-2F4O",
       "title": "Digital Product Payment Solutions in West Africa in One Afternoon: The Fast-Track Setup — No PayPal Required",
       "date": "2026-05-09T06:32:24.766Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260507-DPRY.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260507-DPRY.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260507-L3GU",
-      "title": "The Real Mechanics Behind Anonymous Crypto Payments for Digital Products — The Full Guide",
-      "date": "2026-05-07T21:32:35.512Z",
-      "category": "Selling Digital Products",
-      "contentType": "breakdown",
-      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
-      "file": "posts/data/post-20260507-L3GU.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-L3GU.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-09T06:32:24.767Z",
+  "lastUpdated": "2026-05-09T06:42:28.982Z",
   "totalPosts": 200
 }
