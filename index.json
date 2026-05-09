@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260510-54CN",
+      "title": "Selling Digital Art Without PayPal: An Honest Side-by-Side Breakdown — No PayPal Required",
+      "date": "2026-05-09T22:22:17.053Z",
+      "category": "Platform Restrictions",
+      "contentType": "comparison",
+      "excerpt": "PayPal and Stripe block creators in dozens of countries. Here is the infrastructure that works everywhere they don't.",
+      "file": "posts/data/post-20260510-54CN.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260510-54CN.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260510-WU55",
       "title": "How Deploying a Digital Store on GitHub Pages Works and How to Set It Up Today — No PayPal Required",
       "date": "2026-05-09T22:12:37.080Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260508-ZVDR.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260508-ZVDR.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260508-S5YW",
-      "title": "USDT Payment Gateways for Digital Products: What It Actually Is and How It Works — No PayPal Required",
-      "date": "2026-05-08T13:12:26.357Z",
-      "category": "Selling Digital Products",
-      "contentType": "breakdown",
-      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
-      "file": "posts/data/post-20260508-S5YW.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260508-S5YW.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-09T22:12:37.083Z",
+  "lastUpdated": "2026-05-09T22:22:17.069Z",
   "totalPosts": 200
 }
