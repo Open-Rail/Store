@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260510-0B8O",
+      "title": "The Real Mechanics Behind Real-Time Analytics for Crypto Product Stores — No PayPal Required",
+      "date": "2026-05-09T23:52:20.179Z",
+      "category": "Selling Digital Products",
+      "contentType": "breakdown",
+      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
+      "file": "posts/data/post-20260510-0B8O.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260510-0B8O.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260510-UBKI",
       "title": "10 Facts About Payment Solutions for Iranian Digital Sellers That Change How You Sell — The Full Guide",
       "date": "2026-05-09T23:42:41.422Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260508-98M3.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260508-98M3.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260508-2CMO",
-      "title": "Crypto Payment Gateways for Digital Products Explained for Digital Creators — No PayPal Required",
-      "date": "2026-05-08T14:42:37.841Z",
-      "category": "Selling Digital Products",
-      "contentType": "breakdown",
-      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
-      "file": "posts/data/post-20260508-2CMO.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260508-2CMO.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-09T23:42:41.424Z",
+  "lastUpdated": "2026-05-09T23:52:20.212Z",
   "totalPosts": 200
 }
