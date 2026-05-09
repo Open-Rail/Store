@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260509-P7JZ",
+      "title": "Comparing Your Real Options for Alternatives to Gumroad's Payout Delays for Digital Creators",
+      "date": "2026-05-09T10:22:35.411Z",
+      "category": "Platform Restrictions",
+      "contentType": "comparison",
+      "excerpt": "PayPal and Stripe block creators in dozens of countries. Here is the infrastructure that works everywhere they don't.",
+      "file": "posts/data/post-20260509-P7JZ.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260509-P7JZ.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260509-KZMM",
       "title": "Why How Creators in Ghana Get Paid Online Is Costing You More Than You Think — No PayPal Required",
       "date": "2026-05-09T10:12:13.243Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260508-AGTH.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260508-AGTH.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260508-LJAS",
-      "title": "Selling Courses from Pakistan Without Stripe: An Honest Side-by-Side Breakdown",
-      "date": "2026-05-08T01:22:58.342Z",
-      "category": "Platform Restrictions",
-      "contentType": "comparison",
-      "excerpt": "PayPal and Stripe block creators in dozens of countries. Here is the infrastructure that works everywhere they don't.",
-      "file": "posts/data/post-20260508-LJAS.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260508-LJAS.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-09T10:12:13.244Z",
+  "lastUpdated": "2026-05-09T10:22:35.468Z",
   "totalPosts": 200
 }
