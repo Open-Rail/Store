@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260510-UBKI",
+      "title": "10 Facts About Payment Solutions for Iranian Digital Sellers That Change How You Sell — The Full Guide",
+      "date": "2026-05-09T23:42:41.422Z",
+      "category": "Global Access",
+      "contentType": "listicle",
+      "excerpt": "Selling digital products from Nigeria, Ghana, Kenya, Pakistan, or Bangladesh is possible with crypto-native infrastructure that has no geographic restrictions.",
+      "file": "posts/data/post-20260510-UBKI.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260510-UBKI.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260510-HV0F",
       "title": "The Real Mechanics Behind Web3 Wallet Connect for Digital Sellers — No PayPal Required",
       "date": "2026-05-09T23:32:35.394Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260508-2CMO.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260508-2CMO.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260508-I7UX",
-      "title": "Alternatives to Gumroad's Payout Delays: What Nobody Tells You Before You Choose — No PayPal Required",
-      "date": "2026-05-08T14:32:38.930Z",
-      "category": "Platform Restrictions",
-      "contentType": "comparison",
-      "excerpt": "PayPal and Stripe block creators in dozens of countries. Here is the infrastructure that works everywhere they don't.",
-      "file": "posts/data/post-20260508-I7UX.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260508-I7UX.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-09T23:32:35.396Z",
+  "lastUpdated": "2026-05-09T23:42:41.424Z",
   "totalPosts": 200
 }
