@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260509-3RP6",
+      "title": "Everything You Need to Know About Transaction Logs for Digital Product Sales — No PayPal Required",
+      "date": "2026-05-09T13:02:20.344Z",
+      "category": "Selling Digital Products",
+      "contentType": "breakdown",
+      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
+      "file": "posts/data/post-20260509-3RP6.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260509-3RP6.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260509-WJU3",
       "title": "Payment Options for Ethiopian Digital Creators from First Principles: The Definitive Breakdown for Digital Creators",
       "date": "2026-05-09T12:52:14.526Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260508-R1MR.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260508-R1MR.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260508-BQBS",
-      "title": "Comparing Your Real Options for Selling Ebooks in Nigeria Without PayPal — No PayPal Required",
-      "date": "2026-05-08T04:02:21.598Z",
-      "category": "Platform Restrictions",
-      "contentType": "comparison",
-      "excerpt": "PayPal and Stripe block creators in dozens of countries. Here is the infrastructure that works everywhere they don't.",
-      "file": "posts/data/post-20260508-BQBS.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260508-BQBS.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-09T12:52:14.527Z",
+  "lastUpdated": "2026-05-09T13:02:20.346Z",
   "totalPosts": 200
 }
