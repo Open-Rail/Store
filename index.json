@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260509-AA1G",
+      "title": "The No-Nonsense Guide to Admin Dashboards for Crypto Digital Stores — No PayPal Required",
+      "date": "2026-05-09T00:02:07.579Z",
+      "category": "Store Setup",
+      "contentType": "guide",
+      "excerpt": "From zero to live crypto store in one afternoon. GitHub Pages hosting, Core Shop Engine, Web3 Wallet Connect, NOWPayments integration.",
+      "file": "posts/data/post-20260509-AA1G.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260509-AA1G.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260509-MFCS",
       "title": "The Real Difference Between Your Choices for Selling Ebooks in Nigeria Without PayPal — No PayPal Required",
       "date": "2026-05-08T23:52:28.521Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260507-WINZ.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260507-WINZ.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260507-BUOC",
-      "title": "Everything You Need to Know About Automated Digital Product Delivery with Crypto — No PayPal Required",
-      "date": "2026-05-07T14:52:23.122Z",
-      "category": "Selling Digital Products",
-      "contentType": "breakdown",
-      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
-      "file": "posts/data/post-20260507-BUOC.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-BUOC.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-08T23:52:28.542Z",
+  "lastUpdated": "2026-05-09T00:02:07.580Z",
   "totalPosts": 200
 }
