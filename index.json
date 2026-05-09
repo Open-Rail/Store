@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260509-PHMF",
+      "title": "Crypto Payment Gateways for Digital Products: What It Actually Is and How It Works — No PayPal Required",
+      "date": "2026-05-09T20:32:39.913Z",
+      "category": "Selling Digital Products",
+      "contentType": "breakdown",
+      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
+      "file": "posts/data/post-20260509-PHMF.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260509-PHMF.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260509-O413",
       "title": "Alternatives to Gumroad's Payout Delays: What Nobody Tells You Before You Choose — No PayPal Required",
       "date": "2026-05-09T20:22:34.485Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260508-EVOZ.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260508-EVOZ.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260508-FVLU",
-      "title": "How to Start Selling Digital Products with Crypto: A Step-by-Step Setup Guide: What You Need to Know",
-      "date": "2026-05-08T11:23:14.011Z",
-      "category": "Selling Digital Products",
-      "contentType": "guide",
-      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
-      "file": "posts/data/post-20260508-FVLU.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260508-FVLU.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-09T20:22:34.487Z",
+  "lastUpdated": "2026-05-09T20:32:39.923Z",
   "totalPosts": 200
 }
