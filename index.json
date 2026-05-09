@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260509-AV8P",
+      "title": "The Real Difference Between Your Choices for Selling Digital Products from Africa — No PayPal Required",
+      "date": "2026-05-09T14:32:35.828Z",
+      "category": "Global Access",
+      "contentType": "comparison",
+      "excerpt": "Selling digital products from Nigeria, Ghana, Kenya, Pakistan, or Bangladesh is possible with crypto-native infrastructure that has no geographic restrictions.",
+      "file": "posts/data/post-20260509-AV8P.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260509-AV8P.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260509-O2IM",
       "title": "Selling Ebooks Without Stripe: Which Option Actually Works for You — No PayPal Required",
       "date": "2026-05-09T14:22:53.895Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260508-QEAG.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260508-QEAG.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260508-5FYG",
-      "title": "Selling Online Without Gumroad: An Honest Side-by-Side Breakdown — No PayPal Required",
-      "date": "2026-05-08T05:32:23.823Z",
-      "category": "Platform Restrictions",
-      "contentType": "comparison",
-      "excerpt": "PayPal and Stripe block creators in dozens of countries. Here is the infrastructure that works everywhere they don't.",
-      "file": "posts/data/post-20260508-5FYG.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260508-5FYG.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-09T14:22:53.896Z",
+  "lastUpdated": "2026-05-09T14:32:35.830Z",
   "totalPosts": 200
 }
