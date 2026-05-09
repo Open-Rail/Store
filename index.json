@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260509-RITN",
+      "title": "Selling Courses Without Teachable or Gumroad: What Nobody Tells You Before You Choose — No PayPal Required",
+      "date": "2026-05-09T08:02:37.123Z",
+      "category": "Platform Restrictions",
+      "contentType": "comparison",
+      "excerpt": "PayPal and Stripe block creators in dozens of countries. Here is the infrastructure that works everywhere they don't.",
+      "file": "posts/data/post-20260509-RITN.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260509-RITN.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260509-6FB7",
       "title": "Selling Fonts Online Without PayPal: What Nobody Tells You Before You Choose — No PayPal Required",
       "date": "2026-05-09T07:52:19.732Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260508-E9LK.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260508-E9LK.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260508-JSAY",
-      "title": "The Real Mechanics Behind Selling Notion Templates for Crypto",
-      "date": "2026-05-07T23:02:37.733Z",
-      "category": "Selling Digital Products",
-      "contentType": "breakdown",
-      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
-      "file": "posts/data/post-20260508-JSAY.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260508-JSAY.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-09T07:52:19.734Z",
+  "lastUpdated": "2026-05-09T08:02:37.125Z",
   "totalPosts": 200
 }
