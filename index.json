@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260509-VU7B",
+      "title": "Anonymous Crypto Payments for Digital Products Explained for Digital Creators — No PayPal Required",
+      "date": "2026-05-09T13:12:30.910Z",
+      "category": "Selling Digital Products",
+      "contentType": "breakdown",
+      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
+      "file": "posts/data/post-20260509-VU7B.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260509-VU7B.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260509-3RP6",
       "title": "Everything You Need to Know About Transaction Logs for Digital Product Sales — No PayPal Required",
       "date": "2026-05-09T13:02:20.344Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260508-4970.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260508-4970.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260508-R1MR",
-      "title": "The No-Nonsense Guide to Admin Dashboards for Crypto Digital Stores — No PayPal Required",
-      "date": "2026-05-08T04:12:24.843Z",
-      "category": "Store Setup",
-      "contentType": "guide",
-      "excerpt": "From zero to live crypto store in one afternoon. GitHub Pages hosting, Core Shop Engine, Web3 Wallet Connect, NOWPayments integration.",
-      "file": "posts/data/post-20260508-R1MR.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260508-R1MR.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-09T13:02:20.346Z",
+  "lastUpdated": "2026-05-09T13:12:30.912Z",
   "totalPosts": 200
 }
