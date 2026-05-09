@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260509-N9IU",
+      "title": "Solana Payments for Digital Products Explained for Digital Creators — No PayPal Required",
+      "date": "2026-05-09T08:43:17.531Z",
+      "category": "Selling Digital Products",
+      "contentType": "breakdown",
+      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
+      "file": "posts/data/post-20260509-N9IU.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260509-N9IU.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260509-7CHG",
       "title": "Comparing Your Real Options for Solutions When PayPal and Stripe Ban Your Account — No PayPal Required",
       "date": "2026-05-09T08:32:37.765Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260508-OV0H.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260508-OV0H.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260508-YOPS",
-      "title": "How Bangladeshi Freelancers Accept International Payments: How One Creator Went from Zero to Live in 48 Hours — No PayPal Required",
-      "date": "2026-05-07T23:42:35.776Z",
-      "category": "Global Access",
-      "contentType": "case-study",
-      "excerpt": "Selling digital products from Nigeria, Ghana, Kenya, Pakistan, or Bangladesh is possible with crypto-native infrastructure that has no geographic restrictions.",
-      "file": "posts/data/post-20260508-YOPS.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260508-YOPS.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-09T08:32:37.792Z",
+  "lastUpdated": "2026-05-09T08:43:17.634Z",
   "totalPosts": 200
 }
