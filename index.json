@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260509-J1V9",
+      "title": "Bitcoin Payments for Digital Downloads: What It Actually Is and How It Works — No PayPal Required",
+      "date": "2026-05-09T01:02:07.251Z",
+      "category": "Selling Digital Products",
+      "contentType": "breakdown",
+      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
+      "file": "posts/data/post-20260509-J1V9.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260509-J1V9.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260509-ZR3N",
       "title": "Comparing Your Real Options for PayPal Alternatives for Nigerian Creators — No PayPal Required",
       "date": "2026-05-09T00:52:34.914Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260507-RZ1K.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260507-RZ1K.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260507-1VQK",
-      "title": "Comparing Your Real Options for Selling Digital Products Without PayPal — No PayPal Required",
-      "date": "2026-05-07T15:52:45.857Z",
-      "category": "Platform Restrictions",
-      "contentType": "comparison",
-      "excerpt": "PayPal and Stripe block creators in dozens of countries. Here is the infrastructure that works everywhere they don't.",
-      "file": "posts/data/post-20260507-1VQK.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-1VQK.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-09T00:52:34.935Z",
+  "lastUpdated": "2026-05-09T01:02:07.252Z",
   "totalPosts": 200
 }
