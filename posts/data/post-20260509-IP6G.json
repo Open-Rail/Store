@@ -1,0 +1,129 @@
+{
+  "id": "post-20260509-IP6G",
+  "title": "The No-Nonsense Guide to Setting Up NOWPayments Webhooks — No PayPal Required",
+  "date": "2026-05-09T07:24:22.888Z",
+  "category": "Selling Digital Products",
+  "contentType": "guide",
+  "author": "Unchained Commerce",
+  "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
+  "image": "https://open-rail.github.io/Store/posts/images/post-20260509-IP6G.jpg",
+  "imageSource": "picsum",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "You’re in Nigeria, Pakistan, or Venezuela, and PayPal just locked you out again. Stripe won’t touch your country. Gumroad’s fees eat your margins. You’ve got ebooks, courses, or templates to sell, but no way to collect payment. This guide solves that. Using NOWPayments and webhooks, you’ll build a crypto-only store that delivers digital products instantly—no KYC, no buyer accounts, no platform restrictions. By the end, you’ll have a system that works everywhere, even where banks fail. Let’s get your store live."
+    },
+    {
+      "type": "heading",
+      "text": "Why This Method Works When Everything Else Fails"
+    },
+    {
+      "type": "paragraph",
+      "text": "NOWPayments handles 300+ cryptocurrencies without requiring KYC or a bank account. Webhooks automate the process: when a payment hits your wallet, the system verifies it and delivers the product instantly. No middlemen, no platform bans. This setup bypasses geographic restrictions because it doesn’t rely on PayPal, Stripe, or local payment processors. For creators in restricted countries, it’s the only way to sell globally without friction. The Core Shop Engine ($49.99) integrates this seamlessly, so you don’t need to write a single line of code."
+    },
+    {
+      "type": "heading",
+      "text": "What You Need Before You Start"
+    },
+    {
+      "type": "paragraph",
+      "text": "First, a crypto wallet to receive payments—use NOWPayments’ dashboard to generate one or connect your existing wallet. Second, a hosting platform for your digital products (Google Drive, Dropbox, or your own server). Third, a domain or subdomain to host your store. If you’re using the Core Shop Engine, you’ll need to purchase it once ($49.99) for lifetime access. Lastly, basic familiarity with copy-pasting API keys—no coding required. If you can follow instructions, you can set this up in an afternoon."
+    },
+    {
+      "type": "heading",
+      "text": "Setting Up Your Payment and Delivery Pipeline"
+    },
+    {
+      "type": "paragraph",
+      "text": "Log into NOWPayments, create a new API key, and whitelist your domain. In the Core Shop Engine dashboard, paste this API key and your wallet address. Set your product prices in USD—the system converts them to crypto at checkout. Upload your digital product files and generate secure download links. Test the webhook by sending a small transaction to your wallet. If the system verifies the payment and delivers the test file, you’re ready to go live. The entire pipeline is automated, so you don’t need to monitor sales manually."
+    },
+    {
+      "type": "callout",
+      "text": "NOWPayments webhooks automate delivery, so you never lift a finger after setup."
+    },
+    {
+      "type": "heading",
+      "text": "Going Live and Making Your First Sale"
+    },
+    {
+      "type": "paragraph",
+      "text": "Deploy your store using the Core Shop Engine’s one-click deployment guide. Share your store link with your audience via social media, email, or forums. When a buyer pays, the system verifies the transaction, generates a PDF receipt, and emails the download link—all in seconds. Monitor your NOWPayments dashboard to track transactions. For your first sale, consider offering a discount to build trust. Once the system is live, focus on driving traffic, not managing payments."
+    },
+    {
+      "type": "heading",
+      "text": "Scaling Once the System Is Running"
+    },
+    {
+      "type": "paragraph",
+      "text": "Add more products to your store by uploading files and setting prices in the Core Shop Engine dashboard. Use the built-in analytics to track which products sell best. If you’re selling in high volumes, integrate the Admin Dashboard ($29.99) for advanced order management. For crypto-native buyers, add the Web3 Wallet Connect ($19.99) to let them pay directly from their wallets. Scale by expanding your product catalog, not by overcomplicating the system. Keep it simple, keep it global."
+    },
+    {
+      "type": "heading",
+      "text": "How do I sell an ebook online without PayPal?"
+    },
+    {
+      "type": "paragraph",
+      "text": "To sell an ebook without PayPal, use NOWPayments and the Core Shop Engine ($49.99). Set up a crypto wallet, upload your ebook, and generate a secure download link. When a buyer pays in crypto, the system automatically verifies the transaction and delivers the ebook. No PayPal, no fees, no geographic restrictions. This method works in any country and for any digital product—courses, templates, fonts, or presets."
+    },
+    {
+      "type": "callout",
+      "text": "Crypto payments bypass geographic restrictions—sell to anyone, anywhere."
+    },
+    {
+      "type": "heading",
+      "text": "Related: How Creators Like You Are Getting Paid"
+    },
+    {
+      "type": "paragraph",
+      "text": "If you’re selling notion templates, fonts, or beats for crypto, the Core Shop Engine ($49.99) is your backend solution. It automates delivery, verifies payments, and generates receipts—all without requiring a payment processor account. Pair it with NOWPayments for a fully crypto-native store. Start by purchasing the engine at https://unchained-commerce.github.io/Shop/index.html and follow this guide to set up webhooks."
+    },
+    {
+      "type": "heading",
+      "text": "Your Action Checklist"
+    },
+    {
+      "type": "paragraph",
+      "text": "Purchase the Core Shop Engine ($49.99) at https://unchained-commerce.github.io/Shop/index.html. Set up a NOWPayments account and generate an API key. Upload your digital products and generate secure download links. Paste your API key and wallet address into the engine’s dashboard. Test the webhook with a small transaction. Deploy your store using the provided guide. Share your store link with your audience. Monitor your NOWPayments dashboard for transactions. Make your first sale and track analytics."
+    },
+    {
+      "type": "callout",
+      "text": "One-time $49.99 fee for the Core Shop Engine gives you lifetime access, no subscriptions."
+    },
+    {
+      "type": "cta",
+      "text": "Core Shop Engine — $49.99. Full backend with bot engine, automated delivery, payment verification, and PDF receipts. No payment processor account required. Works everywhere.",
+      "url": "https://unchained-commerce.github.io/Shop/index.html",
+      "product": "Core Shop Engine",
+      "price": "$49.99"
+    }
+  ],
+  "related": [
+    "post-20260509-8ZL8",
+    "post-20260509-G18T",
+    "post-20260509-FPCY"
+  ],
+  "meta": {
+    "searchQuery": "nowpayments webhook setup tutorial",
+    "serpSource": "tavily",
+    "imageSource": "picsum",
+    "wordCount": 792,
+    "aiProvider": "cohere",
+    "aiModel": "command-a-03-2025",
+    "aiCallCount": 1,
+    "peopleAlsoAsk": [
+      "How do I sell an ebook online without PayPal?",
+      "What is the best platform to sell digital downloads without fees?",
+      "Can I sell templates and fonts without using Gumroad or Payhip?",
+      "How do independent creators sell courses without Stripe?"
+    ],
+    "relatedSearches": [
+      "sell ebook without paypal stripe gumroad",
+      "digital download store crypto only",
+      "sell notion templates for bitcoin",
+      "font designer accept usdt payment"
+    ],
+    "product": "Core Shop Engine",
+    "botVersion": "5.1",
+    "generatedAt": "2026-05-09T07:24:22.888Z"
+  }
+}
