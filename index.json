@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260509-O2IM",
+      "title": "Selling Ebooks Without Stripe: Which Option Actually Works for You — No PayPal Required",
+      "date": "2026-05-09T14:22:53.895Z",
+      "category": "Platform Restrictions",
+      "contentType": "comparison",
+      "excerpt": "PayPal and Stripe block creators in dozens of countries. Here is the infrastructure that works everywhere they don't.",
+      "file": "posts/data/post-20260509-O2IM.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260509-O2IM.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260509-T4AN",
       "title": "No-KYC Payment Gateways for Digital Sellers Explained for Digital Creators — No PayPal Required",
       "date": "2026-05-09T14:12:38.743Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260508-5FYG.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260508-5FYG.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260508-9KTE",
-      "title": "Selling Design Assets with Crypto Payments: What It Actually Is and How It Works: What You Need to Know",
-      "date": "2026-05-08T05:22:23.797Z",
-      "category": "Selling Digital Products",
-      "contentType": "breakdown",
-      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
-      "file": "posts/data/post-20260508-9KTE.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260508-9KTE.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-09T14:12:38.745Z",
+  "lastUpdated": "2026-05-09T14:22:53.896Z",
   "totalPosts": 200
 }
