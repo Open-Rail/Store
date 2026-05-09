@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260509-8ZL8",
+      "title": "How How to Start Selling Digital Products with Crypto Works and How to Set It Up Today",
+      "date": "2026-05-09T07:20:39.774Z",
+      "category": "Selling Digital Products",
+      "contentType": "guide",
+      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
+      "file": "posts/data/post-20260509-8ZL8.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260509-8ZL8.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260509-UJ3E",
       "title": "Selling Courses from Pakistan Without Stripe: Which Option Actually Works for You — No PayPal Required",
       "date": "2026-05-09T07:12:12.035Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260508-D43B.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260508-D43B.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260508-1I2O",
-      "title": "Real-Time Analytics for Crypto Product Stores Explained for Digital Creators — No PayPal Required",
-      "date": "2026-05-07T22:12:51.963Z",
-      "category": "Selling Digital Products",
-      "contentType": "breakdown",
-      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
-      "file": "posts/data/post-20260508-1I2O.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260508-1I2O.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-09T07:12:12.065Z",
+  "lastUpdated": "2026-05-09T07:20:39.781Z",
   "totalPosts": 200
 }
