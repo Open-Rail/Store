@@ -1,0 +1,129 @@
+{
+  "id": "post-20260509-GLDG",
+  "title": "Setting Up NOWPayments Webhooks: A Step-by-Step Setup Guide — No PayPal Required",
+  "date": "2026-05-09T17:22:26.129Z",
+  "category": "Selling Digital Products",
+  "contentType": "guide",
+  "author": "Unchained Commerce",
+  "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
+  "image": "https://open-rail.github.io/Store/posts/images/post-20260509-GLDG.jpg",
+  "imageSource": "picsum",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "You're from Nigeria, and you want to sell an ebook online, but your PayPal account is restricted due to geographic restrictions. Or, perhaps you're from Iran and can't use Stripe due to banking limitations. Whatever the reason, you're stuck, and every platform you try says 'no'. But what if I told you there's a way to bypass these restrictions, sell your digital products without fees, and get paid instantly?"
+    },
+    {
+      "type": "heading",
+      "text": "Why This Method Works When Everything Else Fails"
+    },
+    {
+      "type": "paragraph",
+      "text": "The reason most platforms turn you away is because they require you to comply with Know Your Customer (KYC) regulations. But what if I told you there's a way to sell digital downloads without KYC requirements? Enter NOWPayments, a payment processor that accepts 300+ coins and doesn't require you to create an account. With NOWPayments, you can sell your ebooks, courses, templates, and fonts without any restrictions. And, with Core Shop Engine, you can automate the entire payment and delivery process, ensuring you get paid instantly."
+    },
+    {
+      "type": "heading",
+      "text": "What You Need Before You Start"
+    },
+    {
+      "type": "paragraph",
+      "text": "Before you can start selling your digital products, you'll need to sign up for a Core Shop Engine account. This will give you access to the full backend, including the bot engine, automated delivery, payment verification, and PDF receipts. Don't worry about payment processor accounts; with NOWPayments and Core Shop Engine, you won't need one. You'll also need to generate a unique shop URL, which will serve as the gateway for your customers to purchase your digital products."
+    },
+    {
+      "type": "heading",
+      "text": "Setting Up Your Payment and Delivery Pipeline"
+    },
+    {
+      "type": "paragraph",
+      "text": "To set up your payment and delivery pipeline, you'll need to integrate NOWPayments into your Core Shop Engine account. This involves generating a webhook URL, which will be used to send payment notifications to your shop. You'll also need to configure your shop to automatically deliver digital products upon payment receipt. This is where Core Shop Engine's bot engine comes in – it will handle the entire delivery process for you, ensuring your customers receive their purchased products instantly."
+    },
+    {
+      "type": "callout",
+      "text": "Use NOWPayments to sell digital downloads without fees and get paid instantly, without the hassle of KYC requirements."
+    },
+    {
+      "type": "heading",
+      "text": "Going Live and Making Your First Sale"
+    },
+    {
+      "type": "paragraph",
+      "text": "Once you've set up your payment and delivery pipeline, it's time to go live and make your first sale. This involves testing your shop to ensure everything is working as it should. You can test your shop by purchasing a digital product yourself or by having a friend or family member test it for you. Once you're confident that your shop is working correctly, you can share your unique shop URL with the world and start selling your digital products."
+    },
+    {
+      "type": "heading",
+      "text": "Scaling Once the System Is Running"
+    },
+    {
+      "type": "paragraph",
+      "text": "Once your shop is up and running, it's time to scale. You can do this by promoting your shop on social media, reaching out to potential customers, and optimizing your shop for better conversions. You can also use Core Shop Engine's analytics to track your shop's performance and identify areas for improvement. With NOWPayments and Core Shop Engine, you can sell digital products without fees and get paid instantly, making it easier to scale your business and reach new heights."
+    },
+    {
+      "type": "heading",
+      "text": "How do I sell an ebook online without PayPal?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Can I sell templates and fonts without using Gumroad or Payhip? Yes, you can sell digital downloads without fees using NOWPayments and Core Shop Engine. Simply sign up for a Core Shop Engine account, integrate NOWPayments, and configure your shop to automatically deliver digital products upon payment receipt. With this method, you can sell ebooks, courses, templates, and fonts without any restrictions or fees."
+    },
+    {
+      "type": "callout",
+      "text": "Core Shop Engine automates the entire payment and delivery process, ensuring you get paid instantly and your customers receive their purchased products correctly."
+    },
+    {
+      "type": "heading",
+      "text": "Related: How Creators Like You Are Getting Paid"
+    },
+    {
+      "type": "paragraph",
+      "text": "If you're looking for a way to sell ebooks, courses, and digital products without fees, you're not alone. Many creatives struggle to find a platform that meets their needs, but Core Shop Engine and NOWPayments offer a solution. With Core Shop Engine, you can create a custom digital store that integrates seamlessly with NOWPayments, allowing you to sell your digital products without any restrictions. Visit our shop at https://unchained-commerce.github.io/Shop/index.html to learn more."
+    },
+    {
+      "type": "heading",
+      "text": "Your Action Checklist"
+    },
+    {
+      "type": "paragraph",
+      "text": "To set up NOWPayments webhooks, follow these steps: (1) sign up for a Core Shop Engine account and generate a unique shop URL; (2) integrate NOWPayments into your Core Shop Engine account; (3) configure your shop to automatically deliver digital products upon payment receipt; (4) test your shop to ensure everything is working as it should; and (5) go live and start selling your digital products. With these steps, you'll be up and running in no time, selling digital downloads without fees and getting paid instantly."
+    },
+    {
+      "type": "callout",
+      "text": "With NOWPayments and Core Shop Engine, you can sell ebooks, courses, templates, and fonts without any restrictions or fees, making it easier to scale your business and reach new heights."
+    },
+    {
+      "type": "cta",
+      "text": "Core Shop Engine — $49.99. Full backend with bot engine, automated delivery, payment verification, and PDF receipts. No payment processor account required. Works everywhere.",
+      "url": "https://unchained-commerce.github.io/Shop/index.html",
+      "product": "Core Shop Engine",
+      "price": "$49.99"
+    }
+  ],
+  "related": [
+    "post-20260509-TD52",
+    "post-20260509-N3ZZ",
+    "post-20260509-IDVO"
+  ],
+  "meta": {
+    "searchQuery": "nowpayments webhook setup tutorial",
+    "serpSource": "tavily",
+    "imageSource": "picsum",
+    "wordCount": 843,
+    "aiProvider": "cerebras",
+    "aiModel": "llama3.1-8b",
+    "aiCallCount": 1,
+    "peopleAlsoAsk": [
+      "How do I sell an ebook online without PayPal?",
+      "What is the best platform to sell digital downloads without fees?",
+      "Can I sell templates and fonts without using Gumroad or Payhip?",
+      "How do independent creators sell courses without Stripe?"
+    ],
+    "relatedSearches": [
+      "sell ebook without paypal stripe gumroad",
+      "digital download store crypto only",
+      "sell notion templates for bitcoin",
+      "font designer accept usdt payment"
+    ],
+    "product": "Core Shop Engine",
+    "botVersion": "5.1",
+    "generatedAt": "2026-05-09T17:22:26.129Z"
+  }
+}
