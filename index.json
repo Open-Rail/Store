@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260509-CCBM",
+      "title": "How to Venezuelan Creators Accepting Crypto Payments: The Complete Creator Guide for Digital Creators",
+      "date": "2026-05-09T03:32:35.634Z",
+      "category": "Global Access",
+      "contentType": "guide",
+      "excerpt": "Selling digital products from Nigeria, Ghana, Kenya, Pakistan, or Bangladesh is possible with crypto-native infrastructure that has no geographic restrictions.",
+      "file": "posts/data/post-20260509-CCBM.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260509-CCBM.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260509-DGYY",
       "title": "Anonymous Crypto Payments for Digital Products: What It Actually Is and How It Works — No PayPal Required",
       "date": "2026-05-09T03:22:16.657Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260507-8AUA.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260507-8AUA.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260507-EMZY",
-      "title": "Everything You Need to Know About Crypto Payment Integration for Static Sites — No PayPal Required",
-      "date": "2026-05-07T18:22:30.898Z",
-      "category": "Getting Paid",
-      "contentType": "breakdown",
-      "excerpt": "USDT, BTC, ETH, SOL, and 300+ coins. Get paid in seconds, convert locally, and keep 100% of your revenue minus network fees.",
-      "file": "posts/data/post-20260507-EMZY.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-EMZY.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-09T03:22:16.660Z",
+  "lastUpdated": "2026-05-09T03:32:35.673Z",
   "totalPosts": 200
 }
