@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260509-WJU3",
+      "title": "Payment Options for Ethiopian Digital Creators from First Principles: The Definitive Breakdown for Digital Creators",
+      "date": "2026-05-09T12:52:14.526Z",
+      "category": "Global Access",
+      "contentType": "deep-dive",
+      "excerpt": "Selling digital products from Nigeria, Ghana, Kenya, Pakistan, or Bangladesh is possible with crypto-native infrastructure that has no geographic restrictions.",
+      "file": "posts/data/post-20260509-WJU3.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260509-WJU3.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260509-I1KG",
       "title": "The No-Nonsense Guide to Crypto Payments for Tanzanian Online Sellers: What You Need to Know",
       "date": "2026-05-09T12:42:59.313Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260508-BQBS.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260508-BQBS.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260508-YA3Y",
-      "title": "Understanding Financial Sovereignty for Digital Creators: A Plain-Language Breakdown",
-      "date": "2026-05-08T03:52:53.267Z",
-      "category": "Selling Digital Products",
-      "contentType": "breakdown",
-      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
-      "file": "posts/data/post-20260508-YA3Y.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260508-YA3Y.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-09T12:42:59.322Z",
+  "lastUpdated": "2026-05-09T12:52:14.527Z",
   "totalPosts": 200
 }
