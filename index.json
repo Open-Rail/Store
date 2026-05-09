@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260509-TRGP",
+      "title": "Selling Design Assets with Crypto Payments Explained for Digital Creators — No PayPal Required",
+      "date": "2026-05-09T21:02:15.408Z",
+      "category": "Selling Digital Products",
+      "contentType": "breakdown",
+      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
+      "file": "posts/data/post-20260509-TRGP.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260509-TRGP.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260509-8LME",
       "title": "Bitcoin Payments for Digital Downloads: What It Actually Is and How It Works — No PayPal Required",
       "date": "2026-05-09T20:52:27.045Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260508-LWGL.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260508-LWGL.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260508-RCYB",
-      "title": "The Real Difference Between Your Choices for Selling Stock Photos Without PayPal — No PayPal Required",
-      "date": "2026-05-08T11:52:25.278Z",
-      "category": "Platform Restrictions",
-      "contentType": "comparison",
-      "excerpt": "PayPal and Stripe block creators in dozens of countries. Here is the infrastructure that works everywhere they don't.",
-      "file": "posts/data/post-20260508-RCYB.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260508-RCYB.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-09T20:52:27.046Z",
+  "lastUpdated": "2026-05-09T21:02:15.472Z",
   "totalPosts": 200
 }
