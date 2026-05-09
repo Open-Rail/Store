@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260509-6AWT",
+      "title": "Everything You Need to Know About PDF Receipt Generation for Crypto Stores — No PayPal Required",
+      "date": "2026-05-09T02:02:41.917Z",
+      "category": "Automation",
+      "contentType": "breakdown",
+      "excerpt": "Payment confirmed, receipt generated, download link sent — all within 30 seconds. The fully automated digital product pipeline.",
+      "file": "posts/data/post-20260509-6AWT.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260509-6AWT.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260509-XS0D",
       "title": "Tron USDT Payments for Digital Products: What It Actually Is and How It Works — No PayPal Required",
       "date": "2026-05-09T01:52:32.268Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260507-954Z.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260507-954Z.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260507-2PLR",
-      "title": "Comparing Your Real Options for Solutions When PayPal and Stripe Ban Your Account",
-      "date": "2026-05-07T16:52:42.179Z",
-      "category": "Platform Restrictions",
-      "contentType": "comparison",
-      "excerpt": "PayPal and Stripe block creators in dozens of countries. Here is the infrastructure that works everywhere they don't.",
-      "file": "posts/data/post-20260507-2PLR.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-2PLR.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-09T01:52:32.269Z",
+  "lastUpdated": "2026-05-09T02:02:41.919Z",
   "totalPosts": 200
 }
