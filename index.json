@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260509-YNCQ",
+      "title": "Web3 Wallet Connect for Digital Sellers: What It Actually Is and How It Works for Digital Creators",
+      "date": "2026-05-09T03:42:12.417Z",
+      "category": "Selling Digital Products",
+      "contentType": "breakdown",
+      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
+      "file": "posts/data/post-20260509-YNCQ.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260509-YNCQ.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260509-CCBM",
       "title": "How to Venezuelan Creators Accepting Crypto Payments: The Complete Creator Guide for Digital Creators",
       "date": "2026-05-09T03:32:35.634Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260507-BI3D.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260507-BI3D.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260507-8AUA",
-      "title": "How Creators in Ghana Get Paid Online in One Afternoon: The Fast-Track Setup",
-      "date": "2026-05-07T18:32:44.468Z",
-      "category": "Global Access",
-      "contentType": "quick-win",
-      "excerpt": "Selling digital products from Nigeria, Ghana, Kenya, Pakistan, or Bangladesh is possible with crypto-native infrastructure that has no geographic restrictions.",
-      "file": "posts/data/post-20260507-8AUA.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-8AUA.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-09T03:32:35.673Z",
+  "lastUpdated": "2026-05-09T03:42:12.418Z",
   "totalPosts": 200
 }
