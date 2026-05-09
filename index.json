@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260509-H2XV",
+      "title": "Understanding Crypto Payment Integration for Static Sites: A Plain-Language Breakdown — The Full Guide",
+      "date": "2026-05-09T10:02:30.701Z",
+      "category": "Getting Paid",
+      "contentType": "breakdown",
+      "excerpt": "USDT, BTC, ETH, SOL, and 300+ coins. Get paid in seconds, convert locally, and keep 100% of your revenue minus network fees.",
+      "file": "posts/data/post-20260509-H2XV.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260509-H2XV.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260509-9VFS",
       "title": "Admin Dashboards for Crypto Digital Stores: Everything You Need to Get Started — No PayPal Required",
       "date": "2026-05-09T09:52:25.474Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260508-KBVY.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260508-KBVY.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260508-V9LL",
-      "title": "Everything You Need to Know About Automated Ebook Delivery After Crypto Payment",
-      "date": "2026-05-08T01:02:43.741Z",
-      "category": "Selling Digital Products",
-      "contentType": "breakdown",
-      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
-      "file": "posts/data/post-20260508-V9LL.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260508-V9LL.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-09T09:52:25.475Z",
+  "lastUpdated": "2026-05-09T10:02:30.723Z",
   "totalPosts": 200
 }
