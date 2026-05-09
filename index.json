@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260509-V9W1",
+      "title": "Selling Digital Products Without PayPal: Which Option Actually Works for You — No PayPal Required",
+      "date": "2026-05-09T07:32:07.993Z",
+      "category": "Platform Restrictions",
+      "contentType": "comparison",
+      "excerpt": "PayPal and Stripe block creators in dozens of countries. Here is the infrastructure that works everywhere they don't.",
+      "file": "posts/data/post-20260509-V9W1.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260509-V9W1.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260509-IP6G",
       "title": "The No-Nonsense Guide to Setting Up NOWPayments Webhooks — No PayPal Required",
       "date": "2026-05-09T07:24:24.966Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260508-9ONQ.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260508-9ONQ.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260508-Q0VQ",
-      "title": "No-KYC Payment Gateways for Digital Sellers Explained for Digital Creators — No PayPal Required",
-      "date": "2026-05-07T22:32:56.492Z",
-      "category": "Selling Digital Products",
-      "contentType": "breakdown",
-      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
-      "file": "posts/data/post-20260508-Q0VQ.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260508-Q0VQ.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-09T07:24:24.998Z",
+  "lastUpdated": "2026-05-09T07:32:07.994Z",
   "totalPosts": 200
 }
