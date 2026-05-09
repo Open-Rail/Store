@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260509-LH7P",
+      "title": "Selling Presets Without Stripe: Which Option Actually Works for You — No PayPal Required",
+      "date": "2026-05-09T02:12:33.773Z",
+      "category": "Platform Restrictions",
+      "contentType": "comparison",
+      "excerpt": "PayPal and Stripe block creators in dozens of countries. Here is the infrastructure that works everywhere they don't.",
+      "file": "posts/data/post-20260509-LH7P.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260509-LH7P.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260509-6AWT",
       "title": "Everything You Need to Know About PDF Receipt Generation for Crypto Stores — No PayPal Required",
       "date": "2026-05-09T02:02:41.917Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260507-R7DC.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260507-R7DC.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260507-954Z",
-      "title": "Everything You Need to Know About Solana Payments for Digital Products — No PayPal Required",
-      "date": "2026-05-07T17:02:57.943Z",
-      "category": "Selling Digital Products",
-      "contentType": "breakdown",
-      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
-      "file": "posts/data/post-20260507-954Z.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260507-954Z.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-09T02:02:41.919Z",
+  "lastUpdated": "2026-05-09T02:12:33.778Z",
   "totalPosts": 200
 }
