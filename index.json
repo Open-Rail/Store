@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260509-FBBK",
+      "title": "The Real Difference Between Your Choices for Solutions When PayPal and Stripe Ban Your Account — No PayPal Required",
+      "date": "2026-05-09T18:32:36.042Z",
+      "category": "Platform Restrictions",
+      "contentType": "comparison",
+      "excerpt": "PayPal and Stripe block creators in dozens of countries. Here is the infrastructure that works everywhere they don't.",
+      "file": "posts/data/post-20260509-FBBK.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260509-FBBK.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260509-UW2Q",
       "title": "Understanding Selling Music Online and Accepting Bitcoin: A Plain-Language Breakdown — The Full Guide",
       "date": "2026-05-09T18:22:42.922Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260508-2FSK.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260508-2FSK.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260508-8S4D",
-      "title": "Fixing Payment Methods for Filipino Digital Creators: The Solution Blocked Creators Actually Use",
-      "date": "2026-05-08T09:22:32.267Z",
-      "category": "Global Access",
-      "contentType": "problem-solution",
-      "excerpt": "Selling digital products from Nigeria, Ghana, Kenya, Pakistan, or Bangladesh is possible with crypto-native infrastructure that has no geographic restrictions.",
-      "file": "posts/data/post-20260508-8S4D.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260508-8S4D.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-09T18:22:42.931Z",
+  "lastUpdated": "2026-05-09T18:32:36.111Z",
   "totalPosts": 200
 }
