@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260509-N3ZZ",
+      "title": "Everything You Need to Know About Automated Ebook Delivery After Crypto Payment — No PayPal Required",
+      "date": "2026-05-09T16:42:51.156Z",
+      "category": "Selling Digital Products",
+      "contentType": "breakdown",
+      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
+      "file": "posts/data/post-20260509-N3ZZ.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260509-N3ZZ.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260509-IDVO",
       "title": "Automated Digital Product Delivery with Crypto Explained for Digital Creators — No PayPal Required",
       "date": "2026-05-09T16:32:26.428Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260508-DK6F.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260508-DK6F.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260508-OIME",
-      "title": "Venezuelan Creators Accepting Crypto Payments: How One Creator Went from Zero to Live in 48 Hours — The Full Guide",
-      "date": "2026-05-08T07:32:25.287Z",
-      "category": "Global Access",
-      "contentType": "case-study",
-      "excerpt": "Selling digital products from Nigeria, Ghana, Kenya, Pakistan, or Bangladesh is possible with crypto-native infrastructure that has no geographic restrictions.",
-      "file": "posts/data/post-20260508-OIME.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260508-OIME.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-09T16:32:26.430Z",
+  "lastUpdated": "2026-05-09T16:42:51.192Z",
   "totalPosts": 200
 }
