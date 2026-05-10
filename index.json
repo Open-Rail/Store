@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260510-D3T3",
+      "title": "How Kenyan Creators Get Paid Internationally: A Step-by-Step Setup Guide",
+      "date": "2026-05-10T09:52:18.724Z",
+      "category": "Global Access",
+      "contentType": "guide",
+      "excerpt": "Selling digital products from Nigeria, Ghana, Kenya, Pakistan, or Bangladesh is possible with crypto-native infrastructure that has no geographic restrictions.",
+      "file": "posts/data/post-20260510-D3T3.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260510-D3T3.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260510-9QFQ",
       "title": "Understanding Real-Time Analytics for Crypto Product Stores: A Plain-Language Breakdown — No PayPal Required",
       "date": "2026-05-10T09:42:33.512Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260509-J1V9.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260509-J1V9.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260509-ZR3N",
-      "title": "Comparing Your Real Options for PayPal Alternatives for Nigerian Creators — No PayPal Required",
-      "date": "2026-05-09T00:52:34.914Z",
-      "category": "Platform Restrictions",
-      "contentType": "comparison",
-      "excerpt": "PayPal and Stripe block creators in dozens of countries. Here is the infrastructure that works everywhere they don't.",
-      "file": "posts/data/post-20260509-ZR3N.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260509-ZR3N.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-10T09:42:33.518Z",
+  "lastUpdated": "2026-05-10T09:52:18.725Z",
   "totalPosts": 200
 }
