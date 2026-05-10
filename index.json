@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260510-4JH2",
+      "title": "Selling Courses from Pakistan Without Stripe: An Honest Side-by-Side Breakdown — No PayPal Required",
+      "date": "2026-05-10T03:02:33.751Z",
+      "category": "Platform Restrictions",
+      "contentType": "comparison",
+      "excerpt": "PayPal and Stripe block creators in dozens of countries. Here is the infrastructure that works everywhere they don't.",
+      "file": "posts/data/post-20260510-4JH2.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260510-4JH2.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260510-X7MX",
       "title": "What Nobody Warns You About Payment Infrastructure for South Asian Creators",
       "date": "2026-05-10T02:52:37.297Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260508-PU66.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260508-PU66.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260508-FZVF",
-      "title": "Stop Losing to Payment Solutions for Iranian Digital Sellers — Here Is the Real Fix",
-      "date": "2026-05-08T17:52:17.996Z",
-      "category": "Global Access",
-      "contentType": "problem-solution",
-      "excerpt": "Selling digital products from Nigeria, Ghana, Kenya, Pakistan, or Bangladesh is possible with crypto-native infrastructure that has no geographic restrictions.",
-      "file": "posts/data/post-20260508-FZVF.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260508-FZVF.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-10T02:52:37.298Z",
+  "lastUpdated": "2026-05-10T03:02:33.753Z",
   "totalPosts": 200
 }
