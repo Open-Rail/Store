@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260510-8M8V",
+      "title": "How to Getting Paid in USDT for Digital Work: The Complete Creator Guide — No PayPal Required",
+      "date": "2026-05-10T04:12:13.214Z",
+      "category": "Getting Paid",
+      "contentType": "guide",
+      "excerpt": "USDT, BTC, ETH, SOL, and 300+ coins. Get paid in seconds, convert locally, and keep 100% of your revenue minus network fees.",
+      "file": "posts/data/post-20260510-8M8V.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260510-8M8V.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260510-WCV6",
       "title": "Selling Courses Without Teachable or Gumroad: An Honest Side-by-Side Breakdown — No PayPal Required",
       "date": "2026-05-10T04:02:35.371Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260508-SMDC.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260508-SMDC.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260508-BUHE",
-      "title": "The Real Mechanics Behind Digital Product Stores with No-KYC Payments — No PayPal Required",
-      "date": "2026-05-08T19:02:42.094Z",
-      "category": "Selling Digital Products",
-      "contentType": "breakdown",
-      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
-      "file": "posts/data/post-20260508-BUHE.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260508-BUHE.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-10T04:02:35.375Z",
+  "lastUpdated": "2026-05-10T04:12:13.217Z",
   "totalPosts": 200
 }
