@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260510-3FQU",
+      "title": "Digital Product Stores with No-KYC Payments: What It Actually Is and How It Works — The Full Guide",
+      "date": "2026-05-10T00:53:02.753Z",
+      "category": "Selling Digital Products",
+      "contentType": "breakdown",
+      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
+      "file": "posts/data/post-20260510-3FQU.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260510-3FQU.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260510-MLPX",
       "title": "Selling Notion Templates for Crypto Explained for Digital Creators — No PayPal Required",
       "date": "2026-05-10T00:42:28.599Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260508-DHFF.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260508-DHFF.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260508-KROO",
-      "title": "Selling PDF Guides Without Gumroad: Which Option Actually Works for You — No PayPal Required",
-      "date": "2026-05-08T15:42:24.380Z",
-      "category": "Platform Restrictions",
-      "contentType": "comparison",
-      "excerpt": "PayPal and Stripe block creators in dozens of countries. Here is the infrastructure that works everywhere they don't.",
-      "file": "posts/data/post-20260508-KROO.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260508-KROO.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-10T00:42:28.600Z",
+  "lastUpdated": "2026-05-10T00:53:02.762Z",
   "totalPosts": 200
 }
