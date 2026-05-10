@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260510-RK8T",
+      "title": "The Real Difference Between Your Choices for PayPal Alternatives for Nigerian Creators — No PayPal Required",
+      "date": "2026-05-10T06:42:12.670Z",
+      "category": "Platform Restrictions",
+      "contentType": "comparison",
+      "excerpt": "PayPal and Stripe block creators in dozens of countries. Here is the infrastructure that works everywhere they don't.",
+      "file": "posts/data/post-20260510-RK8T.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260510-RK8T.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260510-0W3R",
       "title": "Everything You Need to Know About Crypto Payment Gateways for Digital Products — No PayPal Required",
       "date": "2026-05-10T06:32:39.590Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260508-E4SZ.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260508-E4SZ.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260508-00KG",
-      "title": "Setting Up NOWPayments Webhooks: A Step-by-Step Setup Guide for Digital Creators",
-      "date": "2026-05-08T21:32:45.790Z",
-      "category": "Selling Digital Products",
-      "contentType": "guide",
-      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
-      "file": "posts/data/post-20260508-00KG.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260508-00KG.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-10T06:32:39.591Z",
+  "lastUpdated": "2026-05-10T06:42:12.672Z",
   "totalPosts": 200
 }
