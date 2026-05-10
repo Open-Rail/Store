@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260510-D1ZV",
+      "title": "Stop Losing to Selling Digital Downloads in Pakistan — Here Is the Real Fix",
+      "date": "2026-05-10T01:42:43.751Z",
+      "category": "Global Access",
+      "contentType": "problem-solution",
+      "excerpt": "Selling digital products from Nigeria, Ghana, Kenya, Pakistan, or Bangladesh is possible with crypto-native infrastructure that has no geographic restrictions.",
+      "file": "posts/data/post-20260510-D1ZV.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260510-D1ZV.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260510-OW35",
       "title": "The No-Nonsense Guide to Building a Crypto Store on GitHub Pages — No PayPal Required",
       "date": "2026-05-10T01:32:08.989Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260508-OR4L.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260508-OR4L.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260508-CDI6",
-      "title": "Selling Digital Art Without PayPal: Which Option Actually Works for You — No PayPal Required",
-      "date": "2026-05-08T16:32:40.727Z",
-      "category": "Platform Restrictions",
-      "contentType": "comparison",
-      "excerpt": "PayPal and Stripe block creators in dozens of countries. Here is the infrastructure that works everywhere they don't.",
-      "file": "posts/data/post-20260508-CDI6.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260508-CDI6.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-10T01:32:08.990Z",
+  "lastUpdated": "2026-05-10T01:42:43.752Z",
   "totalPosts": 200
 }
