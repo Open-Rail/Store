@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260510-TNES",
+      "title": "Comparing Your Real Options for How Bangladeshi Freelancers Accept International Payments",
+      "date": "2026-05-10T11:12:16.323Z",
+      "category": "Global Access",
+      "contentType": "comparison",
+      "excerpt": "Selling digital products from Nigeria, Ghana, Kenya, Pakistan, or Bangladesh is possible with crypto-native infrastructure that has no geographic restrictions.",
+      "file": "posts/data/post-20260510-TNES.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260510-TNES.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260510-S5ZE",
       "title": "Do Not Start With Payment Methods for Filipino Digital Creators Until You Read This — The Full Guide",
       "date": "2026-05-10T11:02:38.788Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260509-42XV.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260509-42XV.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260509-LH7P",
-      "title": "Selling Presets Without Stripe: Which Option Actually Works for You — No PayPal Required",
-      "date": "2026-05-09T02:12:33.773Z",
-      "category": "Platform Restrictions",
-      "contentType": "comparison",
-      "excerpt": "PayPal and Stripe block creators in dozens of countries. Here is the infrastructure that works everywhere they don't.",
-      "file": "posts/data/post-20260509-LH7P.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260509-LH7P.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-10T11:02:38.790Z",
+  "lastUpdated": "2026-05-10T11:12:16.325Z",
   "totalPosts": 200
 }
