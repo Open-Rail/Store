@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260510-OVPR",
+      "title": "The Real Difference Between Your Choices for Selling Plugins Without a Payment Processor — No PayPal Required",
+      "date": "2026-05-10T11:52:51.652Z",
+      "category": "Platform Restrictions",
+      "contentType": "comparison",
+      "excerpt": "PayPal and Stripe block creators in dozens of countries. Here is the infrastructure that works everywhere they don't.",
+      "file": "posts/data/post-20260510-OVPR.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260510-OVPR.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260510-KTTO",
       "title": "The No-Nonsense Guide to How to Sell Ebooks from Kenya — No PayPal Required",
       "date": "2026-05-10T11:42:21.365Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260509-II8G.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260509-II8G.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260509-Y4RK",
-      "title": "Crypto Payments for Tanzanian Online Sellers from First Principles: The Definitive Breakdown",
-      "date": "2026-05-09T02:52:36.614Z",
-      "category": "Global Access",
-      "contentType": "deep-dive",
-      "excerpt": "Selling digital products from Nigeria, Ghana, Kenya, Pakistan, or Bangladesh is possible with crypto-native infrastructure that has no geographic restrictions.",
-      "file": "posts/data/post-20260509-Y4RK.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260509-Y4RK.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-10T11:42:21.367Z",
+  "lastUpdated": "2026-05-10T11:52:51.667Z",
   "totalPosts": 200
 }
