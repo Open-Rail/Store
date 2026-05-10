@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260510-P0CT",
+      "title": "The Problem With Digital Product Payment Solutions in West Africa and How to Solve It — No PayPal Required",
+      "date": "2026-05-10T12:12:32.880Z",
+      "category": "Global Access",
+      "contentType": "problem-solution",
+      "excerpt": "Selling digital products from Nigeria, Ghana, Kenya, Pakistan, or Bangladesh is possible with crypto-native infrastructure that has no geographic restrictions.",
+      "file": "posts/data/post-20260510-P0CT.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260510-P0CT.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260510-K5RM",
       "title": "Accepting Bitcoin for Ebook Sales: Everything You Need to Get Started — No PayPal Required",
       "date": "2026-05-10T12:02:47.537Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260509-DGYY.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260509-DGYY.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260509-C7IX",
-      "title": "Everything You Need to Know About Transaction Logs for Digital Product Sales — No PayPal Required",
-      "date": "2026-05-09T03:12:37.090Z",
-      "category": "Selling Digital Products",
-      "contentType": "breakdown",
-      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
-      "file": "posts/data/post-20260509-C7IX.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260509-C7IX.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-10T12:02:47.548Z",
+  "lastUpdated": "2026-05-10T12:12:32.882Z",
   "totalPosts": 200
 }
