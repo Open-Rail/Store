@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260510-MLPX",
+      "title": "Selling Notion Templates for Crypto Explained for Digital Creators — No PayPal Required",
+      "date": "2026-05-10T00:42:28.599Z",
+      "category": "Selling Digital Products",
+      "contentType": "breakdown",
+      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
+      "file": "posts/data/post-20260510-MLPX.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260510-MLPX.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260510-4MUF",
       "title": "The Fastest Way to Set Up Selling Digital Products from Africa and Start Selling",
       "date": "2026-05-10T00:32:35.749Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260508-KROO.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260508-KROO.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260508-SF0V",
-      "title": "Payhip Alternatives for Restricted Countries: Which Option Actually Works for You — No PayPal Required",
-      "date": "2026-05-08T15:34:45.095Z",
-      "category": "Platform Restrictions",
-      "contentType": "comparison",
-      "excerpt": "PayPal and Stripe block creators in dozens of countries. Here is the infrastructure that works everywhere they don't.",
-      "file": "posts/data/post-20260508-SF0V.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260508-SF0V.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-10T00:32:35.751Z",
+  "lastUpdated": "2026-05-10T00:42:28.600Z",
   "totalPosts": 200
 }
