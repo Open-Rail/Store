@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260510-S5ZE",
+      "title": "Do Not Start With Payment Methods for Filipino Digital Creators Until You Read This — The Full Guide",
+      "date": "2026-05-10T11:02:38.788Z",
+      "category": "Global Access",
+      "contentType": "warning",
+      "excerpt": "Selling digital products from Nigeria, Ghana, Kenya, Pakistan, or Bangladesh is possible with crypto-native infrastructure that has no geographic restrictions.",
+      "file": "posts/data/post-20260510-S5ZE.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260510-S5ZE.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260510-MBMT",
       "title": "Everything You Need to Know About Selling Beats Online with Crypto Payments — No PayPal Required",
       "date": "2026-05-10T10:52:42.758Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260509-LH7P.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260509-LH7P.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260509-6AWT",
-      "title": "Everything You Need to Know About PDF Receipt Generation for Crypto Stores — No PayPal Required",
-      "date": "2026-05-09T02:02:41.917Z",
-      "category": "Automation",
-      "contentType": "breakdown",
-      "excerpt": "Payment confirmed, receipt generated, download link sent — all within 30 seconds. The fully automated digital product pipeline.",
-      "file": "posts/data/post-20260509-6AWT.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260509-6AWT.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-10T10:52:42.812Z",
+  "lastUpdated": "2026-05-10T11:02:38.790Z",
   "totalPosts": 200
 }
