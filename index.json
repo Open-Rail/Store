@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260510-D9QR",
+      "title": "The Real Difference Between Your Choices for Selling Stock Photos Without PayPal — No PayPal Required",
+      "date": "2026-05-10T03:42:35.661Z",
+      "category": "Platform Restrictions",
+      "contentType": "comparison",
+      "excerpt": "PayPal and Stripe block creators in dozens of countries. Here is the infrastructure that works everywhere they don't.",
+      "file": "posts/data/post-20260510-D9QR.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260510-D9QR.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260510-H2TM",
       "title": "Comparing Your Real Options for Selling Digital Products Without PayPal — No PayPal Required",
       "date": "2026-05-10T03:32:25.492Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260508-0R16.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260508-0R16.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260508-5BU6",
-      "title": "Comparing Your Real Options for Selling Ebooks Without Stripe — No PayPal Required",
-      "date": "2026-05-08T18:32:39.724Z",
-      "category": "Platform Restrictions",
-      "contentType": "comparison",
-      "excerpt": "PayPal and Stripe block creators in dozens of countries. Here is the infrastructure that works everywhere they don't.",
-      "file": "posts/data/post-20260508-5BU6.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260508-5BU6.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-10T03:32:25.493Z",
+  "lastUpdated": "2026-05-10T03:42:35.706Z",
   "totalPosts": 200
 }
