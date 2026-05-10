@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260510-G9KX",
+      "title": "Selling PDF Guides Without Gumroad: Which Option Actually Works for You — No PayPal Required",
+      "date": "2026-05-10T07:22:56.747Z",
+      "category": "Platform Restrictions",
+      "contentType": "comparison",
+      "excerpt": "PayPal and Stripe block creators in dozens of countries. Here is the infrastructure that works everywhere they don't.",
+      "file": "posts/data/post-20260510-G9KX.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260510-G9KX.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260510-B1OX",
       "title": "Payhip Alternatives for Restricted Countries: An Honest Side-by-Side Breakdown — No PayPal Required",
       "date": "2026-05-10T07:21:03.569Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260509-920R.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260509-920R.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260509-LFDM",
-      "title": "Getting Paid in USDT for Digital Work: A Step-by-Step Setup Guide — No PayPal Required",
-      "date": "2026-05-08T22:22:22.315Z",
-      "category": "Getting Paid",
-      "contentType": "guide",
-      "excerpt": "USDT, BTC, ETH, SOL, and 300+ coins. Get paid in seconds, convert locally, and keep 100% of your revenue minus network fees.",
-      "file": "posts/data/post-20260509-LFDM.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260509-LFDM.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-10T07:21:03.582Z",
+  "lastUpdated": "2026-05-10T07:22:56.755Z",
   "totalPosts": 200
 }
