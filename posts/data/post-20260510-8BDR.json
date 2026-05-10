@@ -1,0 +1,129 @@
+{
+  "id": "post-20260510-8BDR",
+  "title": "Deploying a Digital Store on GitHub Pages: A Step-by-Step Setup Guide — No PayPal Required",
+  "date": "2026-05-10T08:02:35.396Z",
+  "category": "Store Setup",
+  "contentType": "guide",
+  "author": "Unchained Commerce",
+  "excerpt": "From zero to live crypto store in one afternoon. GitHub Pages hosting, Core Shop Engine, Web3 Wallet Connect, NOWPayments integration.",
+  "image": "https://open-rail.github.io/Store/posts/images/post-20260510-8BDR.jpg",
+  "imageSource": "picsum",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "You're a digital creator in Nigeria, struggling to sell your ebooks and courses due to PayPal's restrictions on your country. You've tried using other platforms, but they either charge exorbitant fees or require KYC verification. You need a solution that's fast, secure, and hassle-free. That's where Unchained Commerce comes in – a simple, all-in-one platform that lets you accept crypto payments and deliver your products instantly, no matter where you're from. In this guide, we'll show you how to deploy a digital store on GitHub Pages using Unchained Commerce's Full Stack Bundle."
+    },
+    {
+      "type": "heading",
+      "text": "Why This Method Works When Everything Else Fails"
+    },
+    {
+      "type": "paragraph",
+      "text": "The beauty of using GitHub Pages and Unchained Commerce's Full Stack Bundle lies in its simplicity. You don't need to worry about setting up complex payment gateways, verifying identities, or dealing with pesky account restrictions. With Unchained Commerce, you can focus on creating and selling your digital products, while we take care of the heavy lifting. Our platform is designed to work seamlessly with GitHub Pages, ensuring that your store is up and running in no time."
+    },
+    {
+      "type": "heading",
+      "text": "What You Need Before You Start"
+    },
+    {
+      "type": "paragraph",
+      "text": "Before you begin, make sure you have the following: a GitHub account, a digital product to sell, and a basic understanding of HTML and CSS. You'll also need to sign up for Unchained Commerce's Full Stack Bundle, which includes everything you need to set up a fully functional digital store. Don't worry if you're new to coding – our step-by-step guide will walk you through the process."
+    },
+    {
+      "type": "heading",
+      "text": "Setting Up Your Payment and Delivery Pipeline"
+    },
+    {
+      "type": "paragraph",
+      "text": "The first step is to set up your payment and delivery pipeline using Unchained Commerce's Core Shop Engine and Web3 Wallet Connect. This involves integrating your GitHub Pages site with our payment gateway, configuring your product delivery settings, and testing your store to ensure that everything is working smoothly. Don't worry if this sounds intimidating – our documentation and support team are here to help."
+    },
+    {
+      "type": "callout",
+      "text": "You don't need to be a coding expert to set up a digital store on GitHub Pages with Unchained Commerce."
+    },
+    {
+      "type": "heading",
+      "text": "Going Live and Making Your First Sale"
+    },
+    {
+      "type": "paragraph",
+      "text": "NOWPayments is the payment processing layer that connects your buyers' crypto wallets to your revenue wallet. You create an account — no KYC required — configure your wallet addresses for each coin you want to accept, and generate an API key. This API key goes into your Core Shop Engine configuration. When a buyer initiates a payment, the engine calls the NOWPayments API to create a payment invoice and get the exact amount to request. When the payment confirms on-chain, NOWPayments fires the webhook to your engine. Your funds go directly to your configured wallet — NOWPayments does not hold your money. The integration is straightforward and the NOWPayments documentation covers every step. The Core Shop Engine deployment guide includes specific configuration instructions."
+    },
+    {
+      "type": "heading",
+      "text": "Scaling Once the System Is Running"
+    },
+    {
+      "type": "paragraph",
+      "text": "Testing your store before promoting it is not optional — it is the step that prevents you from discovering problems after real buyers encounter them. The testing sequence has four steps. First, deploy the Core Shop Engine and verify the webhook endpoint is reachable. Second, configure Web3 Wallet Connect and confirm the checkout interface displays correctly on both desktop and mobile. Third, complete a real mainnet transaction with a small amount — send actual crypto to your wallet address and confirm that the webhook fires, the engine processes it, and the delivery email arrives with a working download link. Fourth, check the Admin Dashboard to confirm the transaction appears in the log with the correct details. Only after all four steps confirm correctly should you promote your store."
+    },
+    {
+      "type": "heading",
+      "text": "How do I build a digital store that accepts crypto payments?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Yes, you can host a digital store on GitHub Pages for free. GitHub Pages is a free service that lets you host static sites, making it an ideal platform for digital stores. With Unchained Commerce's Full Stack Bundle, you can set up a fully functional digital store without paying a dime. Our platform is designed to work seamlessly with GitHub Pages, ensuring that your store is up and running in no time."
+    },
+    {
+      "type": "callout",
+      "text": "Our Full Stack Bundle includes everything you need to set up a fully functional digital store, from payment gateways to delivery pipelines."
+    },
+    {
+      "type": "heading",
+      "text": "Related: How Creators Like You Are Getting Paid"
+    },
+    {
+      "type": "paragraph",
+      "text": "If you're looking for more information on setting up a digital store on GitHub Pages, you might also want to check out our tutorial on integrating NOWPayments with your GitHub Pages site. Alternatively, you can try our Full Stack Bundle, which includes everything you need to set up a fully functional digital store. With Unchained Commerce, you can focus on creating and selling your digital products, while we take care of the technical details. For example, you can visit https://unchained-commerce.github.io/Shop/index.html to see our store in action."
+    },
+    {
+      "type": "heading",
+      "text": "Your Action Checklist"
+    },
+    {
+      "type": "paragraph",
+      "text": "To deploy a digital store on GitHub Pages using Unchained Commerce's Full Stack Bundle, follow these steps: Create a GitHub account and sign up for Unchained Commerce's Full Stack Bundle. Set up your payment and delivery pipeline using Unchained Commerce's Core Shop Engine and Web3 Wallet Connect. Deploy your GitHub Pages site and configure your store settings. Promote your products to your audience and start accepting payments. With Unchained Commerce, you can focus on marketing and sales, while we take care of the technical details."
+    },
+    {
+      "type": "callout",
+      "text": "With Unchained Commerce, you can focus on growing your business, while we handle the technical details."
+    },
+    {
+      "type": "cta",
+      "text": "Full Stack Bundle — $79.99. Everything — Core Engine, Wallet Connect, Dashboard — plus priority updates, Discord support, and deployment guide. Your complete store infrastructure, one payment.",
+      "url": "https://unchained-commerce.github.io/Shop/index.html",
+      "product": "Full Stack Bundle",
+      "price": "$79.99"
+    }
+  ],
+  "related": [
+    "post-20260510-Q633",
+    "post-20260510-OW35",
+    "post-20260510-WU55"
+  ],
+  "meta": {
+    "searchQuery": "deploy digital store github pages",
+    "serpSource": "tavily",
+    "imageSource": "picsum",
+    "wordCount": 936,
+    "aiProvider": "cerebras",
+    "aiModel": "llama3.1-8b",
+    "aiCallCount": 1,
+    "peopleAlsoAsk": [
+      "How do I build a digital store that accepts crypto payments?",
+      "What is the cheapest way to set up a digital product store?",
+      "Can I host a digital store on GitHub Pages for free?",
+      "How do I connect NOWPayments to my website?"
+    ],
+    "relatedSearches": [
+      "github pages digital store crypto payments",
+      "nowpayments integration static site tutorial",
+      "core shop engine setup guide",
+      "web3 wallet connect digital store"
+    ],
+    "product": "Full Stack Bundle",
+    "botVersion": "5.1",
+    "generatedAt": "2026-05-10T08:02:35.396Z"
+  }
+}
