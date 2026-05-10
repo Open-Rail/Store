@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "post-20260510-YYCE",
+      "title": "Understanding Web3 Wallet Connect for Digital Sellers: A Plain-Language Breakdown — No PayPal Required",
+      "date": "2026-05-10T09:22:36.104Z",
+      "category": "Selling Digital Products",
+      "contentType": "breakdown",
+      "excerpt": "Selling ebooks, courses, templates, fonts, and digital downloads with automated delivery and crypto payments — no platform middleman required.",
+      "file": "posts/data/post-20260510-YYCE.json",
+      "image": "https://open-rail.github.io/Store/posts/images/post-20260510-YYCE.jpg",
+      "imageSource": "picsum"
+    },
+    {
       "id": "post-20260510-A6ID",
       "title": "7 Things to Know About Venezuelan Creators Accepting Crypto Payments Before You Start",
       "date": "2026-05-10T09:12:41.696Z",
@@ -2188,19 +2199,8 @@
       "file": "posts/data/post-20260509-AFY0.json",
       "image": "https://open-rail.github.io/Store/posts/images/post-20260509-AFY0.jpg",
       "imageSource": "picsum"
-    },
-    {
-      "id": "post-20260509-LZLD",
-      "title": "5 Steps to Get How Creators in Ghana Get Paid Online Working for Your Store — The Full Guide",
-      "date": "2026-05-09T00:22:39.337Z",
-      "category": "Global Access",
-      "contentType": "listicle",
-      "excerpt": "Selling digital products from Nigeria, Ghana, Kenya, Pakistan, or Bangladesh is possible with crypto-native infrastructure that has no geographic restrictions.",
-      "file": "posts/data/post-20260509-LZLD.json",
-      "image": "https://open-rail.github.io/Store/posts/images/post-20260509-LZLD.jpg",
-      "imageSource": "picsum"
     }
   ],
-  "lastUpdated": "2026-05-10T09:12:41.698Z",
+  "lastUpdated": "2026-05-10T09:22:36.105Z",
   "totalPosts": 200
 }
